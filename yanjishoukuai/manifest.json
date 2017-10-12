@@ -1,0 +1,38 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/res/res.js",
+		"libs/modules/tween/tween.js"
+	],
+	"game": [
+		"bin-debug/utils/PopUp.js",
+		"bin-debug/SubmitView.js",
+		"bin-debug/game/LastTimeView.js",
+		"bin-debug/game/ManView.js",
+		"bin-debug/game/PropItemView.js",
+		"bin-debug/game/PropListView.js",
+		"bin-debug/GameView.js",
+		"bin-debug/HelpPop.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/LoadingUI1.js",
+		"bin-debug/LoginView.js",
+		"bin-debug/Main.js",
+		"bin-debug/Scanned.js",
+		"bin-debug/game/GameTipView.js",
+		"bin-debug/TipsView.js",
+		"bin-debug/utils/AssetsUtils.js",
+		"bin-debug/utils/CustomImage.js",
+		"bin-debug/utils/EventName.js",
+		"bin-debug/utils/EventObj.js",
+		"bin-debug/utils/GameDispatcher.js",
+		"bin-debug/utils/Global.js",
+		"bin-debug/utils/HttpService.js",
+		"bin-debug/utils/Message.js",
+		"bin-debug/utils/Middle.js",
+		"bin-debug/EndView.js",
+		"bin-debug/utils/SoundManager.js",
+		"bin-debug/utils/StageUtils.js"
+	]
+}

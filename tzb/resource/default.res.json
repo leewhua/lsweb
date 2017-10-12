@@ -1,0 +1,375 @@
+{
+	"groups": [
+		{
+			"keys": "loading_bar_png,loading_bar_bg_png",
+			"name": "loading"
+		},
+		{
+			"keys": "game1_face_png,game1_heart_png,game1_tips_png,game1_title_png,game1_bg_png,game1_lip_png",
+			"name": "game1"
+		},
+		{
+			"keys": "game_bg_png,sound_1_png,sound_2_png,sound_3_png,sound_no_png,game2_title_png,game2_tips_png,game_face_png,game2_btn_down_png,game2_btn_up_png,time_bg_png,time_0_png,time_1_png,time_2_png,time_3_png,time_4_png,time_5_png,time_6_png,time_7_png,time_8_png,time_9_png,game2_tips_2_png,sound_1_mp3,sound_2_mp3,sound_3_mp3,sound_4_mp3,sound_5_mp3,sound_6_mp3,sound_7_mp3,sound_8_mp3",
+			"name": "game2"
+		},
+		{
+			"keys": "game_bg_png,game3_tips_png,game3_title_png,game3_liefeng_png,game3_light_png,game3_light1_png,game3_yezi_png,btn_start_png,game3_bar_png,game3_bar_bg_png,game3_bg_light_png,game3_chuizi_png",
+			"name": "game3"
+		},
+		{
+			"keys": "btn_send_png,danmu_bg_png,danmu_line_png,danmu_bg1_png,btn_share_png,money_66600_png,money_100_png,money_233_png,money_666_png,btn_htlp_png,btn_close_png,btn_up_png,btn_weidian_png,btn_get_png,btn_ok_png,btn_400_png,btn_share_friend_png,btn_input_png",
+			"name": "danmu"
+		},
+		{
+			"keys": "btn_weidian_png,sound_1_png,sound_2_png,sound_3_png,sound_no_png,sound_1_mp3,sound_2_mp3,sound_3_mp3,sound_4_mp3,sound_5_mp3,sound_6_mp3,sound_7_mp3,sound_8_mp3",
+			"name": "share"
+		},
+		{
+			"name": "preload",
+			"keys": "limit_error_png"
+		}
+	],
+	"resources": [
+		{
+			"name": "loading_bar_png",
+			"type": "image",
+			"url": "assets/loading/loading_bar.png"
+		},
+		{
+			"name": "loading_bar_bg_png",
+			"type": "image",
+			"url": "assets/loading/loading_bar_bg.png"
+		},
+		{
+			"name": "game1_face_png",
+			"type": "image",
+			"url": "assets/game1/game1_face.png"
+		},
+		{
+			"name": "game1_heart_png",
+			"type": "image",
+			"url": "assets/game1/game1_heart.png"
+		},
+		{
+			"name": "game1_tips_png",
+			"type": "image",
+			"url": "assets/game1/game1_tips.png"
+		},
+		{
+			"name": "game1_title_png",
+			"type": "image",
+			"url": "assets/game1/game1_title.png"
+		},
+		{
+			"name": "game1_bg_png",
+			"type": "image",
+			"url": "assets/game1/game1_bg.png"
+		},
+		{
+			"name": "game1_lip_png",
+			"type": "image",
+			"url": "assets/game1/game1_lip.png"
+		},
+		{
+			"name": "btn_send_png",
+			"type": "image",
+			"url": "assets/danmu/btn_send.png"
+		},
+		{
+			"name": "danmu_bg_png",
+			"type": "image",
+			"url": "assets/danmu/danmu_bg.png"
+		},
+		{
+			"name": "danmu_line_png",
+			"type": "image",
+			"url": "assets/danmu/danmu_line.png"
+		},
+		{
+			"name": "danmu_bg1_png",
+			"scale9grid": "65,15,396,92",
+			"type": "image",
+			"url": "assets/danmu/danmu_bg1.png"
+		},
+		{
+			"name": "btn_share_png",
+			"type": "image",
+			"url": "assets/danmu/btn_share.png"
+		},
+		{
+			"name": "money_66600_png",
+			"type": "image",
+			"url": "assets/danmu/money_66600.png"
+		},
+		{
+			"name": "money_100_png",
+			"type": "image",
+			"url": "assets/danmu/money_100.png"
+		},
+		{
+			"name": "money_233_png",
+			"type": "image",
+			"url": "assets/danmu/money_233.png"
+		},
+		{
+			"name": "money_666_png",
+			"type": "image",
+			"url": "assets/danmu/money_666.png"
+		},
+		{
+			"name": "game_bg_png",
+			"type": "image",
+			"url": "assets/game_bg.png"
+		},
+		{
+			"name": "sound_1_png",
+			"type": "image",
+			"url": "assets/game2/sound_1.png"
+		},
+		{
+			"name": "sound_2_png",
+			"type": "image",
+			"url": "assets/game2/sound_2.png"
+		},
+		{
+			"name": "sound_3_png",
+			"type": "image",
+			"url": "assets/game2/sound_3.png"
+		},
+		{
+			"name": "sound_no_png",
+			"type": "image",
+			"url": "assets/game2/sound_no.png"
+		},
+		{
+			"name": "game2_title_png",
+			"type": "image",
+			"url": "assets/game2/game2_title.png"
+		},
+		{
+			"name": "game2_tips_png",
+			"type": "image",
+			"url": "assets/game2/game2_tips.png"
+		},
+		{
+			"name": "btn_htlp_png",
+			"type": "image",
+			"url": "assets/danmu/btn_htlp.png"
+		},
+		{
+			"name": "game_face_png",
+			"type": "image",
+			"url": "assets/game2/game_face.png"
+		},
+		{
+			"name": "game2_btn_down_png",
+			"type": "image",
+			"url": "assets/game2/game2_btn_down.png"
+		},
+		{
+			"name": "game2_btn_up_png",
+			"type": "image",
+			"url": "assets/game2/game2_btn_up.png"
+		},
+		{
+			"name": "time_bg_png",
+			"type": "image",
+			"url": "assets/game2/time_bg.png"
+		},
+		{
+			"name": "time_0_png",
+			"type": "image",
+			"url": "assets/game2/time_0.png"
+		},
+		{
+			"name": "time_1_png",
+			"type": "image",
+			"url": "assets/game2/time_1.png"
+		},
+		{
+			"name": "time_2_png",
+			"type": "image",
+			"url": "assets/game2/time_2.png"
+		},
+		{
+			"name": "time_3_png",
+			"type": "image",
+			"url": "assets/game2/time_3.png"
+		},
+		{
+			"name": "time_4_png",
+			"type": "image",
+			"url": "assets/game2/time_4.png"
+		},
+		{
+			"name": "time_5_png",
+			"type": "image",
+			"url": "assets/game2/time_5.png"
+		},
+		{
+			"name": "time_6_png",
+			"type": "image",
+			"url": "assets/game2/time_6.png"
+		},
+		{
+			"name": "time_7_png",
+			"type": "image",
+			"url": "assets/game2/time_7.png"
+		},
+		{
+			"name": "time_8_png",
+			"type": "image",
+			"url": "assets/game2/time_8.png"
+		},
+		{
+			"name": "time_9_png",
+			"type": "image",
+			"url": "assets/game2/time_9.png"
+		},
+		{
+			"name": "game2_tips_2_png",
+			"type": "image",
+			"url": "assets/game2/game2_tips_2.png"
+		},
+		{
+			"name": "sound_1_mp3",
+			"type": "sound",
+			"url": "assets/sound/sound_1.mp3"
+		},
+		{
+			"name": "sound_2_mp3",
+			"type": "sound",
+			"url": "assets/sound/sound_2.mp3"
+		},
+		{
+			"name": "sound_3_mp3",
+			"type": "sound",
+			"url": "assets/sound/sound_3.mp3"
+		},
+		{
+			"name": "sound_4_mp3",
+			"type": "sound",
+			"url": "assets/sound/sound_4.mp3"
+		},
+		{
+			"name": "game3_tips_png",
+			"type": "image",
+			"url": "assets/game3/game3_tips.png"
+		},
+		{
+			"name": "game3_title_png",
+			"type": "image",
+			"url": "assets/game3/game3_title.png"
+		},
+		{
+			"name": "game3_liefeng_png",
+			"type": "image",
+			"url": "assets/game3/game3_liefeng.png"
+		},
+		{
+			"name": "game3_light_png",
+			"type": "image",
+			"url": "assets/game3/game3_light.png"
+		},
+		{
+			"name": "game3_light1_png",
+			"type": "image",
+			"url": "assets/game3/game3_light1.png"
+		},
+		{
+			"name": "game3_yezi_png",
+			"type": "image",
+			"url": "assets/game3/game3_yezi.png"
+		},
+		{
+			"name": "btn_start_png",
+			"type": "image",
+			"url": "assets/game3/btn_start.png"
+		},
+		{
+			"name": "game3_bar_png",
+			"type": "image",
+			"url": "assets/game3/game3_bar.png"
+		},
+		{
+			"name": "game3_bar_bg_png",
+			"type": "image",
+			"url": "assets/game3/game3_bar_bg.png"
+		},
+		{
+			"name": "game3_bg_light_png",
+			"type": "image",
+			"url": "assets/game3/game3_bg_light.png"
+		},
+		{
+			"name": "game3_chuizi_png",
+			"type": "image",
+			"url": "assets/game3/game3_chuizi.png"
+		},
+		{
+			"name": "btn_close_png",
+			"type": "image",
+			"url": "assets/danmu/btn_close.png"
+		},
+		{
+			"name": "btn_up_png",
+			"type": "image",
+			"url": "assets/danmu/btn_up.png"
+		},
+		{
+			"name": "btn_weidian_png",
+			"type": "image",
+			"url": "assets/share/btn_weidian.png"
+		},
+		{
+			"name": "sound_5_mp3",
+			"type": "sound",
+			"url": "assets/sound/sound_5.mp3"
+		},
+		{
+			"name": "sound_6_mp3",
+			"type": "sound",
+			"url": "assets/sound/sound_6.mp3"
+		},
+		{
+			"name": "sound_7_mp3",
+			"type": "sound",
+			"url": "assets/sound/sound_7.mp3"
+		},
+		{
+			"name": "sound_8_mp3",
+			"type": "sound",
+			"url": "assets/sound/sound_8.mp3"
+		},
+		{
+			"name": "btn_get_png",
+			"type": "image",
+			"url": "assets/danmu/btn_get.png"
+		},
+		{
+			"name": "btn_ok_png",
+			"type": "image",
+			"url": "assets/danmu/btn_ok.png"
+		},
+		{
+			"name": "btn_400_png",
+			"type": "image",
+			"url": "assets/danmu/btn_400.png"
+		},
+		{
+			"name": "btn_share_friend_png",
+			"type": "image",
+			"url": "assets/danmu/btn_share_friend.png"
+		},
+		{
+			"name": "btn_input_png",
+			"type": "image",
+			"url": "assets/danmu/btn_input.png"
+		},
+		{
+			"name": "limit_error_png",
+			"type": "image",
+			"url": "assets/error/limit_error.png"
+		}
+	]
+}
