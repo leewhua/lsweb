@@ -1,0 +1,22 @@
+body,p,h1,h2,h3,h4,h5,h6,span,ul,ol,li,dl,dt,dd,table,tr,td{
+    margin: 0px;
+    padding:0px;
+    font-size: 100%;
+}
+body{overflow-x: hidden;}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: arial,'微软雅黑';
+}
+.container{ width: 100%; height: 100%; background: url(../images/loginbg.jpg) 50% 0 no-repeat; background-size: cover; }
+.container .form{width: 360px; height: 400px; position: absolute; top: 50%; left: 50%; margin-top: -200px; margin-left: -180px;background: rgba(255,255,255,0.15); padding: 0 20px; }
+.container .form p{text-align: center; padding: 28px 0 15px 0; font-size: 18px; color: #fff;}
+.container .form p.text{padding: 0 0 20px 0;}
+.form p span{ display: inline-block; width: 42px; height: 42px; }
+.form p img{ width: 100%; }
+.form .btn{ width: 100%; background: #de615d; color: #fff; }
+.help-block{font-size: 14px; color: #fff; display: none;}
+@media screen and (max-width: 768px) {
+	.container .form{width: 300px; height: 340px; margin-top: -170px; margin-left: -150px;}
+}

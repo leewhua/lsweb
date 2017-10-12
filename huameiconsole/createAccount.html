@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>经销商后台</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/createAccount.css">
+</head>
+<body>
+<div class="container">
+	<div class="accountbg">
+		<p>经销商登记及查询</p>
+	</div>
+	<div class="main clearfix">
+		<ul class="sidebar" id="sideBar">
+			<li class="active"><a href="javascript:;">登记</a></li>
+			<li><a href="javascript:;">查询</a></li>
+			<li><a href="javascript:;">下载清单</a></li>
+			<li><a href="javascript:;">激活撤销</a></li>
+		</ul>
+		<div class="form active">
+			<p>&nbsp; 基本信息</p>
+			<form class="form-horizontal fillIn">
+				<div class="form-group">
+					<label for="inputAccount" class="col-xs-4 col-sm-4 control-label">账号:</label>
+					<div class="col-xs-6 col-sm-6">
+						<input type="text" name="dealerName" class="form-control" id="inputAccount" placeholder="请输入账号">
+					</div>
+					<div class="col-sm-2 col-xs-2 tipsbox"><span class="tips">必填</span></div>
+					<!--<div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-4 ">-->
+						<!--<span id="helpBlock0" class="help-block"></span>-->
+					<!--</div>-->
+				</div>
+				<div class="form-group">
+					<label for="inputDealer" class="col-xs-4 col-sm-4 control-label">经销商名称:</label>
+					<div class="col-xs-6 col-sm-6">
+						<input type="text" name="dealerName" class="form-control" id="inputDealer" placeholder="请输入经销商名称">
+					</div>
+					<div class="col-sm-2 col-xs-2 tipsbox"><span class="tips">必填</span></div>
+					<!--<div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-4 ">-->
+						<!--<span id="helpBlock1" class="help-block"></span>-->
+					<!--</div>-->
+				</div>
+				<div class="form-group">
+					<label for="inputName" class="col-xs-4 col-sm-4 control-label">经销商联系人姓名:</label>
+					<div class="col-xs-6 col-sm-6">
+						<input type="text" name="name" class="form-control" id="inputName" placeholder="请输入姓名">
+					</div>
+					<div class="col-sm-2 col-xs-2 tipsbox"><span class="tips">必填</span></div>
+					<!--<div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-4">-->
+						<!--<span id="helpBlock2" class="help-block"></span>-->
+					<!--</div>-->
+				</div>
+				<div class="form-group">
+					<label for="inputPhone" class="col-xs-4 col-sm-4 control-label">联系方式:</label>
+					<div class="col-xs-6 col-sm-6">
+						<input type="text" name="phone" class="form-control" id="inputPhone" maxlength="11" placeholder="请输入联系方式">
+					</div>
+					<div class="col-sm-2 col-xs-2 tipsbox"><span class="tips">必填</span></div>
+					<!--<div class="col-xs-6 col-xs-offset-4 col-sm-8 col-sm-offset-4">-->
+						<!--<span id="helpBlock3" class="help-block"></span>-->
+					<!--</div>-->
+				</div>
+				<div class="form-group">
+					<label for="inputAdress" class="col-xs-4 col-sm-4 control-label">地址:</label>
+					<div class="col-xs-6 col-sm-6">
+						<input type="text" name="address" class="form-control" id="inputAdress" placeholder="请输入地址">
+					</div>
+					<div class="col-sm-2 col-xs-2 tipsbox"><span class="tips">必填</span></div>
+					<!--<div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-4">-->
+						<!--<span id="helpBlock4" class="help-block"></span>-->
+					<!--</div>-->
+				</div>
+				<div class="form-group">
+					<label for="inputEmail" class="col-xs-4 col-sm-4 control-label">邮箱:</label>
+					<div class="col-xs-6 col-sm-6">
+						<input type="email" name="email" class="form-control" id="inputEmail" placeholder="请输入邮箱">
+					</div>
+					<div class="col-sm-2 col-xs-2 tipsbox"><span class="tips">必填</span></div>
+					<!--<div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-4">-->
+						<!--<span id="helpBlock5" class="help-block"></span>-->
+					<!--</div>-->
+				</div>
+				<div class="col-xs-8 col-xs-offset-3 col-sm-8 col-sm-offset-4">
+					<span id="helpBlock6" class="help-block"></span>
+				</div>
+				<button type="button" class="btn btn-primary save" id="createAccount">保存</button>
+			</form>
+			<p>&nbsp; 领取码段</p>
+			<form class="form-horizontal ybq" id="setNum">
+				<div class="q1" id="fyjq">
+					<div class="form-group">
+						<div style="text-align: center; font-size: 16px; padding: 0 45px 5px 0;">序列号 </div>
+						<label class="col-xs-4 col-sm-4 control-label">福运金秋</label>
+						<div class="col-xs-8 col-sm-4">
+							<input type="text" name="fyjq" id="fyjq1" class="form-control" maxlength="6"> —
+							<input type="text" name="fyjq" id="fyjq2" class="form-control" maxlength="6">
+						</div>
+					</div>
+					<a href="javascript:;" class="add"><img src="images/add1.png" alt=""></a>
+				</div>
+				<!--addInput start-->
+				<div id="addInput" style="display: none;">
+					<div class="form-group">
+						<div class="col-xs-8 col-sm-4 col-sm-offset-4 col-xs-offset-4">
+							<input type="text" name="" class="form-control" maxlength="6"> —
+							<input type="text" name="" class="form-control" maxlength="6">
+						</div>
+					</div>
+				</div>
+				<!--addInput end-->
+				<div class="q1">
+					<div class="form-group">
+						<label class="col-xs-4 col-sm-4 control-label">蛋黄白莲蓉</label>
+						<div class="col-xs-8 col-sm-4">
+							<input type="text" name="dhb1" id="dhb1" class="form-control" maxlength="6"> —
+							<input type="text" name="dhb2" id="dhb2" class="form-control" maxlength="6">
+						</div>
+					</div>
+					<a href="javascript:;"><img src="images/add1.png" alt=""></a>
+				</div>
+				<div class="q1">
+					<div class="form-group">
+						<label class="col-xs-4 col-sm-4 control-label">华美双黄</label>
+						<div class="col-xs-8 col-sm-4">
+							<input type="text" name="hmsh1" id="hmsh1" class="form-control" maxlength="6"> —
+							<input type="text" name="hmsh2" id="hmsh2" class="form-control" maxlength="6">
+						</div>
+					</div>
+					<a href="javascript:;"><img src="images/add1.png" alt=""></a>
+				</div>
+				<div class="q1">
+					<div class="form-group">
+						<label class="col-xs-4 col-sm-4 control-label">流心奶黄</label>
+						<div class="col-xs-8 col-sm-4">
+							<input type="text" name="lxnh1" id="lxnh1" class="form-control" maxlength="6"> —
+							<input type="text" name="lxnh2" id="lxnh2" class="form-control" maxlength="6">
+						</div>
+					</div>
+					<a href="javascript:;"><img src="images/add1.png" alt=""></a>
+				</div>
+				<button type="button" class="btn btn-primary save" id="btn2">保存</button>
+
+			</form>
+	</div>
+		<!--查询 form-->
+	<div class="form">
+		<ul class="searchBar">
+			<li class="col-sm-4 col-xs-12">
+				<span>账号：</span>
+				<span><input type="text" id="account" class="form-control"></span>
+				<!--<a href="javascript:;" id="searchAcc"><img src="images/search.png" alt=""></a>-->
+			</li>
+			<li class="col-sm-4 col-xs-12">
+				<span>手机号：</span>
+				<span><input type="text" id="phone" class="form-control" maxlength="11"></span>
+				<!--<a href="javascript:;" id="searchPhone"><img src="images/search.png" alt=""></a>-->
+			</li>
+			<li class="col-sm-4 col-xs-12">
+				<!--<span>名称：</span>-->
+				<!--<span><input type="text" id="name" class="form-control"></span>-->
+				<a href="javascript:;" id="search"><img src="images/search.png" alt=""></a>
+			</li>
+		</ul>
+		<!--查询信息-->
+		<p>&nbsp; 基本信息</p>
+		<form class="form-horizontal" id="searchInfo">
+			<label id="ID" style="display: none;" para=""></label>
+			<div class="form-group">
+				<label for="showAcc" class="col-xs-4 col-sm-4 control-label">账号:</label>
+				<div class="col-xs-6 col-sm-6">
+					<input type="text" name="showAcc" id="showAcc" class="form-control" value="" >
+				</div>
+				<div class="col-sm-2 col-xs-2 tipsbox">
+					<span class="tips">
+						<button class="btn btn-primary change" type="button">修改</button>
+					</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="showdealerName" class="col-xs-4 col-sm-4 control-label">经销商名称:</label>
+				<div class="col-xs-8 col-sm-6">
+					<input type="text" class="form-control" name="showdealerName" id="showdealerName" value="" >
+				</div>
+				<div class="col-sm-2 col-xs-2 tipsbox">
+					<span class="tips">
+						<button class="btn btn-primary change" type="button">修改</button>
+					</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="showName" class="col-xs-4 col-sm-4 control-label">经销商联系人姓名:</label>
+				<div class="col-xs-8 col-sm-6">
+					<input type="text" class="form-control" name="showName" id="showName" value="" >
+				</div>
+				<div class="col-sm-2 col-xs-2 tipsbox">
+					<span class="tips">
+						<button class="btn btn-primary change"  type="button">修改</button>
+					</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="showPhone" class="col-xs-4 col-sm-4 control-label">联系方式:</label>
+				<div class="col-xs-8 col-sm-6">
+					<input type="text" class="form-control" name="showPhone" id="showPhone" value="" maxlength="11" >
+				</div>
+				<div class="col-sm-2 col-xs-2 tipsbox">
+					<span class="tips">
+						<button class="btn btn-primary change"  type="button">修改</button>
+					</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="showAddress" class="col-xs-4 col-sm-4 control-label">地址:</label>
+				<div class="col-xs-8 col-sm-6">
+					<input type="text" class="form-control" name="showAddress" id="showAddress" value="" >
+				</div>
+				<div class="col-sm-2 col-xs-2 tipsbox">
+					<span class="tips">
+						<button class="btn btn-primary change"  type="button">修改</button>
+					</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="showMail" class="col-xs-4 col-sm-4 control-label">邮箱:</label>
+				<div class="col-xs-8 col-sm-6">
+					<input type="email" class="form-control" name="showMail" id="showMail" value="" >
+				</div>
+				<div class="col-sm-2 col-xs-2 tipsbox">
+					<span class="tips">
+						<button class="btn btn-primary change"  type="button">修改</button>
+					</span>
+				</div>
+			</div>
+			<button type="button" class="btn btn-primary save" id="btn3">保存</button>
+		</form>
+		<p>&nbsp; 码段</p>
+		<form class="form-horizontal ybq" id="searchYbq">
+			<label id="numID" para=""></label>
+			<div class="y1">
+
+				<div class="form-group">
+					<div style="text-align: center; font-size: 16px; padding: 0 45px 5px 0;">序列号 </div>
+					<label class="col-xs-4 col-sm-4 control-label">福运金秋</label>
+					<div class="col-xs-6 col-sm-4">
+						<input type="text" id="showFy1" class="form-control" maxlength="6" > —
+						<input type="text" id="showFy2" class="form-control" maxlength="6" >
+						<input type="hidden" value="">
+					</div>
+					<span><button class="btn btn-primary change" type="button">修改</button></span>
+				</div>
+				<div class="y1add"></div>
+			</div>
+			<!--input add-->
+			<div class="addYbq" id="addYbq" style="display: none;">
+				<div class="form-group">
+					<div class="col-xs-6 col-sm-4 col-sm-offset-4 " para="">
+						<input type="text" id="showAdd1" class="form-control" maxlength="6" > —
+						<input type="text" id="showAdd2" class="form-control" maxlength="6" >
+						<input type="hidden" value="">
+					</div>
+					<span><button class="btn btn-primary change" type="button">修改</button></span>
+				</div>
+			</div>
+			<!--input add end-->
+			<div class="y2">
+
+				<div class="form-group">
+					<label class="col-xs-4 col-sm-4 control-label">蛋黄白莲蓉</label>
+					<div class="col-xs-6 col-sm-4 ">
+						<input type="text" id="showLR1" class="form-control" maxlength="6" > —
+						<input type="text" id="showLR2" class="form-control" maxlength="6" >
+						<input type="hidden" value="">
+					</div>
+					<span><button class="btn btn-primary change" type="button">修改</button></span>
+				</div>
+				<div class="y1add"></div>
+			</div>
+			<div class="y3">
+
+				<div class="form-group">
+					<label class="col-xs-4 col-sm-4 control-label">华美双黄</label>
+					<div class="col-xs-6 col-sm-4">
+						<input type="text" id="showHM1" class="form-control" maxlength="6" > —
+						<input type="text" id="showHM2" class="form-control" maxlength="6" >
+						<input type="hidden" value="">
+					</div>
+					<span><button class="btn btn-primary change" type="button">修改</button></span>
+				</div>
+				<div class="y1add"></div>
+			</div>
+			<div class="y4">
+
+				<div class="form-group">
+					<label class="col-xs-4 col-sm-4 control-label">流心奶黄</label>
+					<div class="col-xs-6 col-sm-4">
+						<input type="text" id="showLX1" class="form-control" maxlength="6" > —
+						<input type="text" id="showLX2" class="form-control" maxlength="6" >
+						<input type="hidden" value="">
+					</div>
+					<span><button class="btn btn-primary change" type="button">修改</button></span>
+				</div>
+				<div class="y1add"></div>
+			</div>
+			<button class="btn btn-primary save" id="btn4" type="button">保存</button>
+
+		</form>
+	</div>
+		<!--发送清单-->
+		<div class="form">
+			<div class="mailTo" id="mailTo">
+				<!--<span class="mail">邮箱：</span>-->
+				<!--<span><input type="text" class="form-control"></span>-->
+				<span><a href="javascript:;" target="_blank" id="mailBtn">下载最新统计报表</a></span><br>
+				<div>注：表格每日更新时间，早上06:00；中午12:00；下午04:00</div>
+			</div>
+		</div>
+		<!--激活注销-->
+		<div class="form">
+			<p>&nbsp; 激活码段</p>
+			<form class="form-horizontal ybq" id="jh">
+				<div class="jh1">
+					<div class="form-group">
+						<div style="text-align: center; font-size: 16px; padding: 0 45px 5px 0;">序列号 </div>
+						<label class="col-xs-4 col-sm-4 control-label">福运金秋</label>
+						<div class="col-xs-6 col-sm-4">
+							<input type="text" class="form-control" maxlength="6"> —
+							<input type="text" class="form-control" maxlength="6" >
+						</div>
+						<span><button class="btn btn-primary change" type="button">激活</button></span>
+					</div>
+				</div>
+				<!--<div class="form-group">-->
+					<!--<div class="col-xs-6 col-sm-4 col-sm-offset-4" style="margin-bottom: 20px;">-->
+						<!--<input type="text" class="form-control" maxlength="6" > —-->
+						<!--<input type="text" class="form-control" maxlength="6" >-->
+					<!--</div>-->
+					<!--<span><button class="btn btn-primary change" type="button">激活</button></span>-->
+				<!--</div>-->
+				<div class="jh2">
+					<div class="form-group">
+						<label class="col-xs-4 col-sm-4 control-label">蛋黄白莲蓉</label>
+						<div class="col-xs-6 col-sm-4">
+							<input type="text" class="form-control" maxlength="6" > —
+							<input type="text" class="form-control" maxlength="6" >
+						</div>
+						<span><button class="btn btn-primary change" type="button">激活</button></span>
+					</div>
+				</div>
+				<div class="jh3">
+					<div class="form-group">
+						<label class="col-xs-4 col-sm-4 control-label">华美双黄</label>
+						<div class="col-xs-6 col-sm-4">
+							<input type="text" class="form-control" maxlength="6" > —
+							<input type="text" class="form-control" maxlength="6" >
+						</div>
+						<span><button class="btn btn-primary change" type="button">激活</button></span>
+					</div>
+				</div>
+				<div class="jh4">
+					<div class="form-group">
+						<label class="col-xs-4 col-sm-4 control-label">流心奶黄</label>
+						<div class="col-xs-6 col-sm-4">
+							<input type="text" class="form-control" maxlength="6" > —
+							<input type="text" class="form-control" maxlength="6" >
+						</div>
+						<span><button class="btn btn-primary change" type="button">激活</button></span>
+					</div>
+				</div>
+				<!--<button class="btn btn-primary save" id="btn5" type="button">保存</button>-->
+			</form>
+			<p>&nbsp; 撤销码段</p>
+			<form class="form-horizontal ybq" id="zx">
+				<div class="zx1">
+					<div class="form-group">
+						<div style="text-align: center; font-size: 16px; padding: 0 45px 5px 0;">序列号 </div>
+						<label class="col-xs-4 col-sm-4 control-label">福运金秋</label>
+						<div class="col-xs-6 col-sm-4">
+							<input type="text" class="form-control" maxlength="6" > —
+							<input type="text" class="form-control" maxlength="6" >
+						</div>
+						<span><button class="btn btn-primary change" type="button">撤销</button></span>
+					</div>
+				</div>
+				<!--<div class="form-group">-->
+					<!--<div class="col-xs-6 col-sm-4 col-sm-offset-4" style="margin-bottom: 20px;">-->
+						<!--<input type="text" class="form-control" maxlength="6" > —-->
+						<!--<input type="text" class="form-control" maxlength="6" >-->
+					<!--</div>-->
+					<!--<span><button class="btn btn-primary change" type="button">注销</button></span>-->
+				<!--</div>-->
+				<div class="zx2">
+					<div class="form-group">
+						<label class="col-xs-4 col-sm-4 control-label">蛋黄白莲蓉</label>
+						<div class="col-xs-6 col-sm-4">
+							<input type="text" class="form-control" maxlength="6" > —
+							<input type="text" class="form-control" maxlength="6" >
+						</div>
+						<span><button class="btn btn-primary change" type="button">撤销</button></span>
+					</div>
+				</div>
+				<div class="zx3">
+					<div class="form-group">
+						<label class="col-xs-4 col-sm-4 control-label">华美双黄</label>
+						<div class="col-xs-6 col-sm-4">
+							<input type="text" class="form-control" maxlength="6" > —
+							<input type="text" class="form-control" maxlength="6" >
+						</div>
+						<span><button class="btn btn-primary change" type="button">撤销</button></span>
+					</div>
+				</div>
+				<div class="zx4">
+					<div class="form-group">
+						<label class="col-xs-4 col-sm-4 control-label">流心奶黄</label>
+						<div class="col-xs-6 col-sm-4">
+							<input type="text" class="form-control" maxlength="6" > —
+							<input type="text" class="form-control" maxlength="6" >
+						</div>
+						<span><button class="btn btn-primary change" type="button">撤销</button></span>
+					</div>
+				</div>
+				<!--<button class="btn btn-primary save" id="btn5" type="button">保存</button>-->
+			</form>
+		</div>
+	</div>
+	<!--<button id="test">test</button>-->
+</div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/aes.js"></script>
+<script type="text/javascript" src="js/jsencrypt.js"></script>
+<script type="text/javascript" src="js/AesUtil.js"></script>
+<script type="text/javascript" src="js/pbkdf2.js"></script>
+<script type="text/javascript" src="js/powers.js"></script>
+<script type="text/javascript" src="js/createAcc.js"></script>
+</html>

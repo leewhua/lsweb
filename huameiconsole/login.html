@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+<div class="container">
+	<div class="form">
+		<p><span><img src="images/login.png"></span></p>
+		<p class="text">华美登录</p>
+		<form action="">
+			<div class="form-group col-xs-12 col-md-12">
+				<input type="text" name="username" class="form-control" id="username" placeholder="用户名">
+				<span id="helpBlock1" class="help-block"></span>
+			</div>
+			<div class="form-group col-xs-12 col-md-12">
+				<input type="password" name="password" class="form-control" id="password" placeholder="密码">
+				<span id="helpBlock2" class="help-block"></span>
+			</div>
+			<div class="col-xs-12 col-md-12">
+				<span id="helpBlock3" class="help-block"></span>
+			</div>
+			<div class="col-xs-12 col-md-12">
+				<button type="button" class="btn" id="btn">登 录</button>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/aes.js"></script>
+<script type="text/javascript" src="js/jsencrypt.js"></script>
+<script type="text/javascript" src="js/AesUtil.js"></script>
+<script type="text/javascript" src="js/pbkdf2.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+</html>
