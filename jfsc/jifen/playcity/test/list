@@ -1,0 +1,75 @@
+{
+list:[
+{
+"pid":123,
+"name":"限量版电车",
+"price":5000,
+"description":"",
+"cover":"images/list/1.jpg",
+"images":[
+"images/other/cover.png",
+"images/other/cover.png",
+"images/other/cover.png"
+],
+"status":{"type":0},
+"total_count": 15,
+"rest_count": 8,
+"favourite_count": 8,
+"favorited": false,
+"exchanged": false
+},{
+"pid":123,
+"name":"限量版山地车",
+"price":3000,
+"description":"",
+"cover":"images/list/2.jpg",
+"images":[
+"images/other/cover.png",
+"images/other/cover.png",
+"images/other/cover.png"
+],
+"status":{"type":0},
+"total_count": 15,
+"rest_count": 8,
+"favourite_count": 8,
+"favorited": false,
+"exchanged": false
+},
+{
+"pid":123,
+"name":"篮球",
+"price":100,
+"description":"",
+"cover":"images/list/3.jpg",
+"images":[
+"images/other/cover.png",
+"images/other/cover.png",
+"images/other/cover.png"
+],
+"status":{"type":0},
+"total_count": 15,
+"rest_count": 8,
+"favourite_count": 8,
+"favorited": false,
+"exchanged": false
+},
+{
+"pid":123,
+"name":"罗志祥限量版时尚",
+"price":1000,
+"description":"",
+"cover":"images/list/4.jpg",
+"images":[
+"images/other/cover.png",
+"images/other/cover.png",
+"images/other/cover.png"
+],
+"status":{"type":0},
+"total_count": 15,
+"rest_count": 8,
+"favourite_count": 8,
+"favorited": false,
+"exchanged": false
+}
+]
+}

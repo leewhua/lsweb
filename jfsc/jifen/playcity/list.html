@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta charset="UTF-8">
+	<title>商品列表</title>
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/iscroll.js"></script>
+	<script type="text/javascript" src="js/action.js"></script>
+	<script type="text/javascript" src="js/ls.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body>
+<div id="list" class="main list-page">
+	<div class="header">
+		<div class="wapper">
+			<div class="point">当前积分<span class="number">1000</span></div>
+			<div class="back-but">返回首页</div>
+			<div class="order_list_but">兑换记录</div>
+		</div>
+
+	</div>
+		<div class="content">
+			<div id="list-scroller" class="scroller">
+				<div class="wapper">
+					<div class="goods">
+						<div class="cover"><img src="images/other/cover.png"></div>
+						<div class="info">
+							<div class="name">罗志祥限量版时尚t</div>
+							<div class="price">所需积分<span class="number">4500</span></div>
+							<div class="exchange_now"><img src="images/base/exchange_now.png"></div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+</div>
+</body>
+<script>
+    $('.point .number').text(sessionStorage.getItem("credit"));
+    getTicket();
+	var loadUser=function(){
+		loadData(api,{ticket: userTicket},function(data){
+			$('.main').show();
+			console.log(data);
+			if(data.items.length > 0){
+				run();
+				run=null;
+			}
+		});
+	};
+
+	var list=[];
+		var run=function(){
+			loadData(api,{ticket: userTicket},function(data){
+			    var credit = sessionStorage.getItem("credit");
+				if(data.items){
+					$('.content .wapper').empty();
+					list=data.items;
+					for(var i=0;i<data.items.length;i++){
+						var obj=data.items[i];
+						/////
+						obj.type=1;
+						/////
+						var goods=$('<div class="goods">');
+						var cover=$('<div class="cover"><img src="'+resetUrl(obj.img)+'"></div>');
+						var info=$('<div class="info">');
+						var name=$('<div class="name">'+decodeURI(obj.name)+'</div>');
+						var price=$('<div class="price">所需积分<span class="number">'+obj.pts+'</span></div>');
+						var exchange_now;
+						console.log(credit,obj.pts);
+						if(0 || parseInt(credit)>=parseInt(obj.pts)){
+							exchange_now=$('<div class="exchange_now" pid="'+obj.id+'" type="'+obj.status+'"><img src="images/base/exchange_now.png"></div>');
+						}else{
+							exchange_now=$('<div class="exchange_not" pid="'+obj.id+'" type="'+obj.status+'"><img src="images/base/exchange_now.png"></div>');
+						}
+						//exchange_now
+						info.append(name);
+						info.append(price);
+						info.append(exchange_now);
+						goods.append(cover);
+						goods.append(info);
+						$('.content .wapper').append(goods);
+					}
+					$('#list-scroller').each(function(){
+						mainScroll = new IScroll('#list-scroller', { scrolly: true, freeScroll: true });
+					});
+//,.exchange_not
+					$(".exchange_now").bind('touchstart',function(){
+						var itemid=$(this).attr('pid');
+						var amount=$(this).attr('type');
+
+						window.location.href="exchange.html?"+ sessionStorage.getItem("exchange") +"&itemid="+itemid+"&amount=1";
+//						window.location.href="exchange.html?"+ sessionStorage.getItem("exchange");
+						//exchange.htmml
+					});
+				}
+				console.log("list:"+data.items);
+			});
+
+
+		};
+
+</script>
+</html>
