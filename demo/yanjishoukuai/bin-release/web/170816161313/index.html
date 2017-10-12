@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>眼疾手快</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+		.wx{
+	    	display: none;
+	    	position: absolute;
+	    	top: 0px;
+	    	bottom: 0px;
+	    	left: 0px;
+	    	right: 0px;
+	    	width:100%;
+	    	height:100%;
+	    	text-align: center;
+	    	vertical-align: middle;
+	    	background-size: cover;
+    	}
+    	.wx>img{
+    		width:100%;height:100%; text-align:center; vertical-align:middle;
+    	}
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <script egret="lib" src="libs/jquery.js"></script>
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script src="main.min.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="portrait"
+         data-scale-mode="exactFit"
+         data-frame-rate="30"
+         data-content-width="640"
+         data-content-height="1130"
+         data-show-paint-rect="false"
+         data-multi-fingered="99"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+	<div class="wx">
+    	<img src="resource/assets/wx.png" />
+    </div>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script>
+
+		$('.wx').click(function()
+		{
+			$('.wx').hide();
+		});
+
+        $.product_type="tk";
+    	$.product_name="体可";
+
+        // var link="http://0k6.cn/a/gotoplaycity";
+    	// var imgUrl="http://res.leasiondata.cn/lstatic/a/share/"+$.product_type+".jpg";
+    	
+    	// var copy="我在这里参加了“"+$.product_name+"”欧洲杯抽奖活动，快来扫码和我一起赢大奖吧！";
+    	// $.wxConfig=null;
+		// $.initWx=function(){
+    	// if(wx && $.wxConfig){
+		//     wx.ready(function() {
+		//     	wx.onMenuShareTimeline({
+		// 	    	title: copy,
+		// 	    	link:link,
+		// 	    	imgUrl:imgUrl,
+		// 	    	success: function () { 
+			    	
+		// 	    	},
+		// 	    	cancel: function () { 
+		// 	    	// 用户取消分享后执行的回调函数
+		// 	    	}
+		//     	});
+		//     	wx.onMenuShareAppMessage({
+		// 	    	title:copy,
+		// 	    	desc: '',
+		// 	    	link:link,
+		// 	    	imgUrl:imgUrl,
+		// 	    	success: function () { 
+			    	
+		// 	    	}, 
+		// 	    	cancel: function () { 
+			    	
+		// 	    	}
+		//     	});
+		//     });
+		//     wx.config({
+		//     	debug: false,
+		//     	appId: $.wxConfig.appId,
+		//     	timestamp:$.wxConfig.timestamp,
+		//     	nonceStr:$.wxConfig.nonceStr,
+		//     	signature:$.wxConfig.signature,
+		//     	jsApiList: ["onMenuShareTimeline","onMenuShareAppMessage","onMenuShareQQ"]
+		//     	});
+	    // 	}
+    	// }
+
+
+		function onBridgeReady() 
+		{
+        	WeixinJSBridge.call('hideOptionMenu');
+		}
+
+		if(typeof WeixinJSBridge == "undefined") 
+		{
+			if(document.addEventListener) 
+			{
+				document.addEventListener('WeixinJSBridgeReady',onBridgeReady,false);
+			} else if(document.attachEvent) 
+			{
+				document.attachEvent('WeixinJSBridgeReady',onBridgeReady);
+				document.attachEvent('onWeixinJSBridgeReady',onBridgeReady);
+			}
+		} else {
+			onBridgeReady();
+		}
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * }
+         **/
+        egret.runEgret({renderMode:"canvas", audioType:0});
+		
+    </script>
+</body>
+</html>

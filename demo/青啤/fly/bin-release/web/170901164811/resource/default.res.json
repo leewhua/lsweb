@@ -1,0 +1,480 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,config_json,logo_png,share-bg_png,share_jpg,share_png,count_font_fnt,count_font_png,help_png,win_bg_png,1_png,2_png,3_png,bg2_jpg,c-guan_png,copy_png,count-down_png,count-number_png,fly_json,fly_png,g-guan_png,game_again_png,game_end_png,game_lost_bg_png,game_over_png,game_pro_png,game_share_png,game_star_png,game_tip_png,jia1_png,lost-copy_png,m-ico_png,mobile_png,noexit_jpg,p1_png,p10_png,p11_png,p12_png,p13_png,p2_png,p3_png,p4_png,p5_png,p6_png,p7_png,p8_png,p9_png,ready_png,s-c_png,scanded_jpg,start_png,face_mask_png,help_bg_jpg,help_close_png,help_copy_png,help_title_png,mask_png,share_face_y_png,share_k_y_png,share_line_png,share_logo_png,out_png,slog_png,luck_bg_jpg,receive_png,win_bar_png,face_png,fly-mini_png,game-but_png,game-but2_png,map-bg_jpg,map-bg2_jpg,map-bian-j_png,map-bian-t_png,map-bian-y_png,map-hongbao_png,map-line-gary_png,map-line-red_png,map-share_png,map-yinzhang_png,map_road_png,mini-fly1_json,mini-fly1_png,mini-fly2_json,mini-fly2_png,mini-fly3_json,mini-fly3_png,pro-mini_png,code_bg_jpg,code_c_png,code_g_png,code_ok_jpg",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "config_json",
+			"type": "json",
+			"url": "config.json"
+		},
+		{
+			"name": "logo_png",
+			"type": "image",
+			"url": "logo.png"
+		},
+		{
+			"name": "share-bg_png",
+			"type": "image",
+			"url": "share-bg.png"
+		},
+		{
+			"name": "share_jpg",
+			"type": "image",
+			"url": "share.jpg"
+		},
+		{
+			"name": "share_png",
+			"type": "image",
+			"url": "share.png"
+		},
+		{
+			"name": "count_font_fnt",
+			"type": "font",
+			"url": "base/count_font.fnt"
+		},
+		{
+			"name": "count_font_png",
+			"type": "image",
+			"url": "base/count_font.png"
+		},
+		{
+			"name": "help_png",
+			"type": "image",
+			"url": "base/help.png"
+		},
+		{
+			"name": "win_bg_png",
+			"type": "image",
+			"url": "base/win_bg.png"
+		},
+		{
+			"name": "1_png",
+			"type": "image",
+			"url": "game/1.png"
+		},
+		{
+			"name": "2_png",
+			"type": "image",
+			"url": "game/2.png"
+		},
+		{
+			"name": "3_png",
+			"type": "image",
+			"url": "game/3.png"
+		},
+		{
+			"name": "bg2_jpg",
+			"type": "image",
+			"url": "game/bg.jpg"
+		},
+		{
+			"name": "c-guan_png",
+			"type": "image",
+			"url": "game/c-guan.png"
+		},
+		{
+			"name": "copy_png",
+			"type": "image",
+			"url": "game/copy.png"
+		},
+		{
+			"name": "count-down_png",
+			"type": "image",
+			"url": "game/count-down.png"
+		},
+		{
+			"name": "count-number_png",
+			"type": "image",
+			"url": "game/count-number.png"
+		},
+		{
+			"name": "fly_json",
+			"type": "json",
+			"url": "game/fly.json"
+		},
+		{
+			"name": "fly_png",
+			"type": "image",
+			"url": "game/fly.png"
+		},
+		{
+			"name": "g-guan_png",
+			"type": "image",
+			"url": "game/g-guan.png"
+		},
+		{
+			"name": "game_again_png",
+			"type": "image",
+			"url": "game/game_again.png"
+		},
+		{
+			"name": "game_end_png",
+			"type": "image",
+			"url": "game/game_end.png"
+		},
+		{
+			"name": "game_lost_bg_png",
+			"type": "image",
+			"url": "game/game_lost_bg.png"
+		},
+		{
+			"name": "game_over_png",
+			"type": "image",
+			"url": "game/game_over.png"
+		},
+		{
+			"name": "game_pro_png",
+			"type": "image",
+			"url": "game/game_pro.png"
+		},
+		{
+			"name": "game_share_png",
+			"type": "image",
+			"url": "game/game_share.png"
+		},
+		{
+			"name": "game_star_png",
+			"type": "image",
+			"url": "game/game_star.png"
+		},
+		{
+			"name": "game_tip_png",
+			"type": "image",
+			"url": "game/game_tip.png"
+		},
+		{
+			"name": "jia1_png",
+			"type": "image",
+			"url": "game/jia1.png"
+		},
+		{
+			"name": "lost-copy_png",
+			"type": "image",
+			"url": "game/lost-copy.png"
+		},
+		{
+			"name": "m-ico_png",
+			"type": "image",
+			"url": "game/m-ico.png"
+		},
+		{
+			"name": "mobile_png",
+			"type": "image",
+			"url": "game/mobile.png"
+		},
+		{
+			"name": "noexit_jpg",
+			"type": "image",
+			"url": "game/noexit.jpg"
+		},
+		{
+			"name": "p1_png",
+			"type": "image",
+			"url": "game/p1.png"
+		},
+		{
+			"name": "p10_png",
+			"type": "image",
+			"url": "game/p10.png"
+		},
+		{
+			"name": "p11_png",
+			"type": "image",
+			"url": "game/p11.png"
+		},
+		{
+			"name": "p12_png",
+			"type": "image",
+			"url": "game/p12.png"
+		},
+		{
+			"name": "p13_png",
+			"type": "image",
+			"url": "game/p13.png"
+		},
+		{
+			"name": "p2_png",
+			"type": "image",
+			"url": "game/p2.png"
+		},
+		{
+			"name": "p3_png",
+			"type": "image",
+			"url": "game/p3.png"
+		},
+		{
+			"name": "p4_png",
+			"type": "image",
+			"url": "game/p4.png"
+		},
+		{
+			"name": "p5_png",
+			"type": "image",
+			"url": "game/p5.png"
+		},
+		{
+			"name": "p6_png",
+			"type": "image",
+			"url": "game/p6.png"
+		},
+		{
+			"name": "p7_png",
+			"type": "image",
+			"url": "game/p7.png"
+		},
+		{
+			"name": "p8_png",
+			"type": "image",
+			"url": "game/p8.png"
+		},
+		{
+			"name": "p9_png",
+			"type": "image",
+			"url": "game/p9.png"
+		},
+		{
+			"name": "ready_png",
+			"type": "image",
+			"url": "game/ready.png"
+		},
+		{
+			"name": "s-c_png",
+			"type": "image",
+			"url": "game/s-c.png"
+		},
+		{
+			"name": "scanded_jpg",
+			"type": "image",
+			"url": "game/scanded.jpg"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "game/start.png"
+		},
+		{
+			"name": "face_mask_png",
+			"type": "image",
+			"url": "help/face_mask.png"
+		},
+		{
+			"name": "help_bg_jpg",
+			"type": "image",
+			"url": "help/help_bg.jpg"
+		},
+		{
+			"name": "help_close_png",
+			"type": "image",
+			"url": "help/help_close.png"
+		},
+		{
+			"name": "help_copy_png",
+			"type": "image",
+			"url": "help/help_copy.png"
+		},
+		{
+			"name": "help_title_png",
+			"type": "image",
+			"url": "help/help_title.png"
+		},
+		{
+			"name": "mask_png",
+			"type": "image",
+			"url": "help/mask.png"
+		},
+		{
+			"name": "share_face_y_png",
+			"type": "image",
+			"url": "help/share_face_y.png"
+		},
+		{
+			"name": "share_k_y_png",
+			"type": "image",
+			"url": "help/share_k_y.png"
+		},
+		{
+			"name": "share_line_png",
+			"type": "image",
+			"url": "help/share_line.png"
+		},
+		{
+			"name": "share_logo_png",
+			"type": "image",
+			"url": "help/share_logo.png"
+		},
+		{
+			"name": "out_png",
+			"type": "image",
+			"url": "loading/out.png"
+		},
+		{
+			"name": "slog_png",
+			"type": "image",
+			"url": "loading/slog.png"
+		},
+		{
+			"name": "luck_bg_jpg",
+			"type": "image",
+			"url": "luck/luck_bg.jpg"
+		},
+		{
+			"name": "receive_png",
+			"type": "image",
+			"url": "luck/receive.png"
+		},
+		{
+			"name": "win_bar_png",
+			"type": "image",
+			"url": "luck/win_bar.png"
+		},
+		{
+			"name": "face_png",
+			"type": "image",
+			"url": "map/face.png"
+		},
+		{
+			"name": "fly-mini_png",
+			"type": "image",
+			"url": "map/fly-mini.png"
+		},
+		{
+			"name": "game-but_png",
+			"type": "image",
+			"url": "map/game-but.png"
+		},
+		{
+			"name": "game-but2_png",
+			"type": "image",
+			"url": "map/game-but2.png"
+		},
+		{
+			"name": "map-bg_jpg",
+			"type": "image",
+			"url": "map/map-bg.jpg"
+		},
+		{
+			"name": "map-bg2_jpg",
+			"type": "image",
+			"url": "map/map-bg2.jpg"
+		},
+		{
+			"name": "map-bian-j_png",
+			"type": "image",
+			"url": "map/map-bian-j.png"
+		},
+		{
+			"name": "map-bian-t_png",
+			"type": "image",
+			"url": "map/map-bian-t.png"
+		},
+		{
+			"name": "map-bian-y_png",
+			"type": "image",
+			"url": "map/map-bian-y.png"
+		},
+		{
+			"name": "map-hongbao_png",
+			"type": "image",
+			"url": "map/map-hongbao.png"
+		},
+		{
+			"name": "map-line-gary_png",
+			"type": "image",
+			"url": "map/map-line-gary.png"
+		},
+		{
+			"name": "map-line-red_png",
+			"type": "image",
+			"url": "map/map-line-red.png"
+		},
+		{
+			"name": "map-share_png",
+			"type": "image",
+			"url": "map/map-share.png"
+		},
+		{
+			"name": "map-yinzhang_png",
+			"type": "image",
+			"url": "map/map-yinzhang.png"
+		},
+		{
+			"name": "map_road_png",
+			"type": "image",
+			"url": "map/map_road.png"
+		},
+		{
+			"name": "mini-fly1_json",
+			"type": "json",
+			"url": "map/mini-fly1.json"
+		},
+		{
+			"name": "mini-fly1_png",
+			"type": "image",
+			"url": "map/mini-fly1.png"
+		},
+		{
+			"name": "mini-fly2_json",
+			"type": "json",
+			"url": "map/mini-fly2.json"
+		},
+		{
+			"name": "mini-fly2_png",
+			"type": "image",
+			"url": "map/mini-fly2.png"
+		},
+		{
+			"name": "mini-fly3_json",
+			"type": "json",
+			"url": "map/mini-fly3.json"
+		},
+		{
+			"name": "mini-fly3_png",
+			"type": "image",
+			"url": "map/mini-fly3.png"
+		},
+		{
+			"name": "pro-mini_png",
+			"type": "image",
+			"url": "map/pro-mini.png"
+		},
+		{
+			"name": "code_bg_jpg",
+			"type": "image",
+			"url": "other/code_bg.jpg"
+		},
+		{
+			"name": "code_c_png",
+			"type": "image",
+			"url": "other/code_c.png"
+		},
+		{
+			"name": "code_g_png",
+			"type": "image",
+			"url": "other/code_g.png"
+		},
+		{
+			"name": "code_ok_jpg",
+			"type": "image",
+			"url": "other/code_ok.jpg"
+		}
+	]
+}

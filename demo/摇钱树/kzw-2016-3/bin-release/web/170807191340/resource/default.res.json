@@ -1,0 +1,792 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,copy_png,g0_png,g1_png,g2_png,g3_png,g4_png,g5_png,g6_png,g7_png,g8_png,guang_png,lingjiang_png,over-bar_png,over_png,p1_png,p2_png,sc_png,start_png,title_png,w0_png,w1_png,w2_png,w3_png,w4_png,w5_png,w6_png,w7_png,w8_png",
+			"name": "sc"
+		},
+		{
+			"name": "preload",
+			"keys": "config_json,bv_json,d1_json,d1_png,d2_json,d2_png,font_json,guang_json,guang2_png,h321_json,hb_json,help-but_png,help_png,out_json,qr-copy_png,s-font_png,sc_json,title2_png,tk_json,to-city_png,tree1_json,tree1_png,wx_png,yd_json,1_jpg,10_jpg,11_jpg,12_jpg,13_jpg,14_jpg,15_jpg,16_jpg,17_jpg,18_jpg,19_jpg,2_jpg,20_jpg,3_jpg,4_jpg,5_jpg,6_jpg,7_jpg,8_jpg,9_jpg,1_png,10_png,11_png,12_png,13_png,14_png,15_png,16_png,17_png,18_png,19_png,2_png,20_png,3_png,4_png,5_png,6_png,7_png,8_png,9_png,mark_png,happyhome_00024_png,happyhome_00025_png,happyhome_00026_png,happyhome_00027_png,happyhome_00028_png,happyhome_00029_png,happyhome_00030_png,happyhome_00031_png,happyhome_00032_png,happyhome_00033_png,happyhome_00034_png,happyhome_00035_png,happyhome_00036_png,happyhome_00037_png,happyhome_00038_png,happyhome_00039_png,happyhome_00040_png,happyhome_00041_png,happyhome_00042_png,happyhome_00043_png,happyhome_00044_png,happyhome_00045_png,happyhome_00046_png,happyhome_00047_png,happyhome_00048_png,happyhome_00049_png,happyhome_00050_png,happyhome_00051_png,happyhome_00052_png,happyhome_00053_png,happyhome_00054_png,happyhome_00055_png,happyhome_00056_png,happyhome_00057_png,happyhome_00058_png,happyhome_00059_png,happyhome_00060_png,happyhome_00061_png,happyhome_00062_png,happyhome_00063_png,happyhome_00064_png,happyhome_00065_png,happyhome_00066_png,happyhome_00067_png,happyhome_00068_png,happyhome_00069_png,happyhome_00070_png,happyhome_00071_png,happyhome_00072_png,happyhome_00073_png,happyhome_00074_png,happyhome_00075_png,happyhome_00076_png,happyhome_00077_png,happyhome_00078_png,happyhome_00079_png,happyhome_00080_png,happyhome_00081_png,happyhome_00082_png,happyhome_00083_png"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/bg.jpg"
+		},
+		{
+			"name": "copy_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/copy.png"
+		},
+		{
+			"name": "g0_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/g0.png"
+		},
+		{
+			"name": "g1_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/g1.png"
+		},
+		{
+			"name": "g2_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/g2.png"
+		},
+		{
+			"name": "g3_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/g3.png"
+		},
+		{
+			"name": "g4_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/g4.png"
+		},
+		{
+			"name": "g5_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/g5.png"
+		},
+		{
+			"name": "g6_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/g6.png"
+		},
+		{
+			"name": "g7_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/g7.png"
+		},
+		{
+			"name": "g8_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/g8.png"
+		},
+		{
+			"name": "guang_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/guang.png"
+		},
+		{
+			"name": "lingjiang_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/lingjiang.png"
+		},
+		{
+			"name": "over-bar_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/over-bar.png"
+		},
+		{
+			"name": "over_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/over.png"
+		},
+		{
+			"name": "p1_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/p1.png"
+		},
+		{
+			"name": "p2_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/p2.png"
+		},
+		{
+			"name": "sc_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/sc.png"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/start.png"
+		},
+		{
+			"name": "title_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/title.png"
+		},
+		{
+			"name": "w0_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/w0.png"
+		},
+		{
+			"name": "w1_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/w1.png"
+		},
+		{
+			"name": "w2_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/w2.png"
+		},
+		{
+			"name": "w3_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/w3.png"
+		},
+		{
+			"name": "w4_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/w4.png"
+		},
+		{
+			"name": "w5_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/w5.png"
+		},
+		{
+			"name": "w6_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/w6.png"
+		},
+		{
+			"name": "w7_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/w7.png"
+		},
+		{
+			"name": "w8_png",
+			"type": "image",
+			"url": "Library/WebServer/Documents/kzw/game/resource/assets/w8.png"
+		},
+		{
+			"name": "config_json",
+			"type": "json",
+			"url": "config.json"
+		},
+		{
+			"name": "bv_json",
+			"type": "sheet",
+			"url": "assets/bv.json",
+			"subkeys": "logo-blue,logo-white,logo-white2,pro"
+		},
+		{
+			"name": "d1_json",
+			"type": "json",
+			"url": "assets/d1.json"
+		},
+		{
+			"name": "d1_png",
+			"type": "image",
+			"url": "assets/d1.png"
+		},
+		{
+			"name": "d2_json",
+			"type": "json",
+			"url": "assets/d2.json"
+		},
+		{
+			"name": "d2_png",
+			"type": "image",
+			"url": "assets/d2.png"
+		},
+		{
+			"name": "font_json",
+			"type": "sheet",
+			"url": "assets/font.json",
+			"subkeys": "b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10"
+		},
+		{
+			"name": "guang_json",
+			"type": "json",
+			"url": "assets/guang.json"
+		},
+		{
+			"name": "guang2_png",
+			"type": "image",
+			"url": "assets/guang.png"
+		},
+		{
+			"name": "h321_json",
+			"type": "sheet",
+			"url": "assets/h321.json",
+			"subkeys": "h1,h2,h3,icon"
+		},
+		{
+			"name": "hb_json",
+			"type": "sheet",
+			"url": "assets/hb.json",
+			"subkeys": "p-down,p-m,p-up"
+		},
+		{
+			"name": "help-but_png",
+			"type": "image",
+			"url": "assets/help-but.png"
+		},
+		{
+			"name": "help_png",
+			"type": "image",
+			"url": "assets/help.png"
+		},
+		{
+			"name": "out_json",
+			"type": "sheet",
+			"url": "assets/out.json",
+			"subkeys": "luck-copy_png,out-c0_jpg,out-c1_jpg,out-c2_jpg,out_jpg"
+		},
+		{
+			"name": "qr-copy_png",
+			"type": "image",
+			"url": "assets/qr-copy.png"
+		},
+		{
+			"name": "s-font_png",
+			"type": "image",
+			"url": "assets/s-font.png"
+		},
+		{
+			"name": "sc_json",
+			"type": "sheet",
+			"url": "assets/sc.json",
+			"subkeys": "jf-copy,jf,luck-copy,to-qr,sound,bottom,clound,g,yuan"
+		},
+		{
+			"name": "title2_png",
+			"type": "image",
+			"url": "assets/title.png"
+		},
+		{
+			"name": "tk_json",
+			"type": "sheet",
+			"url": "assets/tk.json",
+			"subkeys": "logo-white2,logo-blue,logo-white,pro"
+		},
+		{
+			"name": "to-city_png",
+			"type": "image",
+			"url": "assets/to-city.png"
+		},
+		{
+			"name": "tree1_json",
+			"type": "json",
+			"url": "assets/tree1.json"
+		},
+		{
+			"name": "tree1_png",
+			"type": "image",
+			"url": "assets/tree1.png"
+		},
+		{
+			"name": "wx_png",
+			"type": "image",
+			"url": "assets/wx.png"
+		},
+		{
+			"name": "yd_json",
+			"type": "sheet",
+			"url": "assets/yd.json",
+			"subkeys": "logo-white,pro,logo-blue"
+		},
+		{
+			"name": "1_jpg",
+			"type": "image",
+			"url": "loading/bg/1.jpg"
+		},
+		{
+			"name": "10_jpg",
+			"type": "image",
+			"url": "loading/bg/10.jpg"
+		},
+		{
+			"name": "11_jpg",
+			"type": "image",
+			"url": "loading/bg/11.jpg"
+		},
+		{
+			"name": "12_jpg",
+			"type": "image",
+			"url": "loading/bg/12.jpg"
+		},
+		{
+			"name": "13_jpg",
+			"type": "image",
+			"url": "loading/bg/13.jpg"
+		},
+		{
+			"name": "14_jpg",
+			"type": "image",
+			"url": "loading/bg/14.jpg"
+		},
+		{
+			"name": "15_jpg",
+			"type": "image",
+			"url": "loading/bg/15.jpg"
+		},
+		{
+			"name": "16_jpg",
+			"type": "image",
+			"url": "loading/bg/16.jpg"
+		},
+		{
+			"name": "17_jpg",
+			"type": "image",
+			"url": "loading/bg/17.jpg"
+		},
+		{
+			"name": "18_jpg",
+			"type": "image",
+			"url": "loading/bg/18.jpg"
+		},
+		{
+			"name": "19_jpg",
+			"type": "image",
+			"url": "loading/bg/19.jpg"
+		},
+		{
+			"name": "2_jpg",
+			"type": "image",
+			"url": "loading/bg/2.jpg"
+		},
+		{
+			"name": "20_jpg",
+			"type": "image",
+			"url": "loading/bg/20.jpg"
+		},
+		{
+			"name": "3_jpg",
+			"type": "image",
+			"url": "loading/bg/3.jpg"
+		},
+		{
+			"name": "4_jpg",
+			"type": "image",
+			"url": "loading/bg/4.jpg"
+		},
+		{
+			"name": "5_jpg",
+			"type": "image",
+			"url": "loading/bg/5.jpg"
+		},
+		{
+			"name": "6_jpg",
+			"type": "image",
+			"url": "loading/bg/6.jpg"
+		},
+		{
+			"name": "7_jpg",
+			"type": "image",
+			"url": "loading/bg/7.jpg"
+		},
+		{
+			"name": "8_jpg",
+			"type": "image",
+			"url": "loading/bg/8.jpg"
+		},
+		{
+			"name": "9_jpg",
+			"type": "image",
+			"url": "loading/bg/9.jpg"
+		},
+		{
+			"name": "1_png",
+			"type": "image",
+			"url": "loading/copy/1.png"
+		},
+		{
+			"name": "10_png",
+			"type": "image",
+			"url": "loading/copy/10.png"
+		},
+		{
+			"name": "11_png",
+			"type": "image",
+			"url": "loading/copy/11.png"
+		},
+		{
+			"name": "12_png",
+			"type": "image",
+			"url": "loading/copy/12.png"
+		},
+		{
+			"name": "13_png",
+			"type": "image",
+			"url": "loading/copy/13.png"
+		},
+		{
+			"name": "14_png",
+			"type": "image",
+			"url": "loading/copy/14.png"
+		},
+		{
+			"name": "15_png",
+			"type": "image",
+			"url": "loading/copy/15.png"
+		},
+		{
+			"name": "16_png",
+			"type": "image",
+			"url": "loading/copy/16.png"
+		},
+		{
+			"name": "17_png",
+			"type": "image",
+			"url": "loading/copy/17.png"
+		},
+		{
+			"name": "18_png",
+			"type": "image",
+			"url": "loading/copy/18.png"
+		},
+		{
+			"name": "19_png",
+			"type": "image",
+			"url": "loading/copy/19.png"
+		},
+		{
+			"name": "2_png",
+			"type": "image",
+			"url": "loading/copy/2.png"
+		},
+		{
+			"name": "20_png",
+			"type": "image",
+			"url": "loading/copy/20.png"
+		},
+		{
+			"name": "3_png",
+			"type": "image",
+			"url": "loading/copy/3.png"
+		},
+		{
+			"name": "4_png",
+			"type": "image",
+			"url": "loading/copy/4.png"
+		},
+		{
+			"name": "5_png",
+			"type": "image",
+			"url": "loading/copy/5.png"
+		},
+		{
+			"name": "6_png",
+			"type": "image",
+			"url": "loading/copy/6.png"
+		},
+		{
+			"name": "7_png",
+			"type": "image",
+			"url": "loading/copy/7.png"
+		},
+		{
+			"name": "8_png",
+			"type": "image",
+			"url": "loading/copy/8.png"
+		},
+		{
+			"name": "9_png",
+			"type": "image",
+			"url": "loading/copy/9.png"
+		},
+		{
+			"name": "mark_png",
+			"type": "image",
+			"url": "loading/mark.png"
+		},
+		{
+			"name": "happyhome_00024_png",
+			"type": "image",
+			"url": "mov/happyhome_00024.png"
+		},
+		{
+			"name": "happyhome_00025_png",
+			"type": "image",
+			"url": "mov/happyhome_00025.png"
+		},
+		{
+			"name": "happyhome_00026_png",
+			"type": "image",
+			"url": "mov/happyhome_00026.png"
+		},
+		{
+			"name": "happyhome_00027_png",
+			"type": "image",
+			"url": "mov/happyhome_00027.png"
+		},
+		{
+			"name": "happyhome_00028_png",
+			"type": "image",
+			"url": "mov/happyhome_00028.png"
+		},
+		{
+			"name": "happyhome_00029_png",
+			"type": "image",
+			"url": "mov/happyhome_00029.png"
+		},
+		{
+			"name": "happyhome_00030_png",
+			"type": "image",
+			"url": "mov/happyhome_00030.png"
+		},
+		{
+			"name": "happyhome_00031_png",
+			"type": "image",
+			"url": "mov/happyhome_00031.png"
+		},
+		{
+			"name": "happyhome_00032_png",
+			"type": "image",
+			"url": "mov/happyhome_00032.png"
+		},
+		{
+			"name": "happyhome_00033_png",
+			"type": "image",
+			"url": "mov/happyhome_00033.png"
+		},
+		{
+			"name": "happyhome_00034_png",
+			"type": "image",
+			"url": "mov/happyhome_00034.png"
+		},
+		{
+			"name": "happyhome_00035_png",
+			"type": "image",
+			"url": "mov/happyhome_00035.png"
+		},
+		{
+			"name": "happyhome_00036_png",
+			"type": "image",
+			"url": "mov/happyhome_00036.png"
+		},
+		{
+			"name": "happyhome_00037_png",
+			"type": "image",
+			"url": "mov/happyhome_00037.png"
+		},
+		{
+			"name": "happyhome_00038_png",
+			"type": "image",
+			"url": "mov/happyhome_00038.png"
+		},
+		{
+			"name": "happyhome_00039_png",
+			"type": "image",
+			"url": "mov/happyhome_00039.png"
+		},
+		{
+			"name": "happyhome_00040_png",
+			"type": "image",
+			"url": "mov/happyhome_00040.png"
+		},
+		{
+			"name": "happyhome_00041_png",
+			"type": "image",
+			"url": "mov/happyhome_00041.png"
+		},
+		{
+			"name": "happyhome_00042_png",
+			"type": "image",
+			"url": "mov/happyhome_00042.png"
+		},
+		{
+			"name": "happyhome_00043_png",
+			"type": "image",
+			"url": "mov/happyhome_00043.png"
+		},
+		{
+			"name": "happyhome_00044_png",
+			"type": "image",
+			"url": "mov/happyhome_00044.png"
+		},
+		{
+			"name": "happyhome_00045_png",
+			"type": "image",
+			"url": "mov/happyhome_00045.png"
+		},
+		{
+			"name": "happyhome_00046_png",
+			"type": "image",
+			"url": "mov/happyhome_00046.png"
+		},
+		{
+			"name": "happyhome_00047_png",
+			"type": "image",
+			"url": "mov/happyhome_00047.png"
+		},
+		{
+			"name": "happyhome_00048_png",
+			"type": "image",
+			"url": "mov/happyhome_00048.png"
+		},
+		{
+			"name": "happyhome_00049_png",
+			"type": "image",
+			"url": "mov/happyhome_00049.png"
+		},
+		{
+			"name": "happyhome_00050_png",
+			"type": "image",
+			"url": "mov/happyhome_00050.png"
+		},
+		{
+			"name": "happyhome_00051_png",
+			"type": "image",
+			"url": "mov/happyhome_00051.png"
+		},
+		{
+			"name": "happyhome_00052_png",
+			"type": "image",
+			"url": "mov/happyhome_00052.png"
+		},
+		{
+			"name": "happyhome_00053_png",
+			"type": "image",
+			"url": "mov/happyhome_00053.png"
+		},
+		{
+			"name": "happyhome_00054_png",
+			"type": "image",
+			"url": "mov/happyhome_00054.png"
+		},
+		{
+			"name": "happyhome_00055_png",
+			"type": "image",
+			"url": "mov/happyhome_00055.png"
+		},
+		{
+			"name": "happyhome_00056_png",
+			"type": "image",
+			"url": "mov/happyhome_00056.png"
+		},
+		{
+			"name": "happyhome_00057_png",
+			"type": "image",
+			"url": "mov/happyhome_00057.png"
+		},
+		{
+			"name": "happyhome_00058_png",
+			"type": "image",
+			"url": "mov/happyhome_00058.png"
+		},
+		{
+			"name": "happyhome_00059_png",
+			"type": "image",
+			"url": "mov/happyhome_00059.png"
+		},
+		{
+			"name": "happyhome_00060_png",
+			"type": "image",
+			"url": "mov/happyhome_00060.png"
+		},
+		{
+			"name": "happyhome_00061_png",
+			"type": "image",
+			"url": "mov/happyhome_00061.png"
+		},
+		{
+			"name": "happyhome_00062_png",
+			"type": "image",
+			"url": "mov/happyhome_00062.png"
+		},
+		{
+			"name": "happyhome_00063_png",
+			"type": "image",
+			"url": "mov/happyhome_00063.png"
+		},
+		{
+			"name": "happyhome_00064_png",
+			"type": "image",
+			"url": "mov/happyhome_00064.png"
+		},
+		{
+			"name": "happyhome_00065_png",
+			"type": "image",
+			"url": "mov/happyhome_00065.png"
+		},
+		{
+			"name": "happyhome_00066_png",
+			"type": "image",
+			"url": "mov/happyhome_00066.png"
+		},
+		{
+			"name": "happyhome_00067_png",
+			"type": "image",
+			"url": "mov/happyhome_00067.png"
+		},
+		{
+			"name": "happyhome_00068_png",
+			"type": "image",
+			"url": "mov/happyhome_00068.png"
+		},
+		{
+			"name": "happyhome_00069_png",
+			"type": "image",
+			"url": "mov/happyhome_00069.png"
+		},
+		{
+			"name": "happyhome_00070_png",
+			"type": "image",
+			"url": "mov/happyhome_00070.png"
+		},
+		{
+			"name": "happyhome_00071_png",
+			"type": "image",
+			"url": "mov/happyhome_00071.png"
+		},
+		{
+			"name": "happyhome_00072_png",
+			"type": "image",
+			"url": "mov/happyhome_00072.png"
+		},
+		{
+			"name": "happyhome_00073_png",
+			"type": "image",
+			"url": "mov/happyhome_00073.png"
+		},
+		{
+			"name": "happyhome_00074_png",
+			"type": "image",
+			"url": "mov/happyhome_00074.png"
+		},
+		{
+			"name": "happyhome_00075_png",
+			"type": "image",
+			"url": "mov/happyhome_00075.png"
+		},
+		{
+			"name": "happyhome_00076_png",
+			"type": "image",
+			"url": "mov/happyhome_00076.png"
+		},
+		{
+			"name": "happyhome_00077_png",
+			"type": "image",
+			"url": "mov/happyhome_00077.png"
+		},
+		{
+			"name": "happyhome_00078_png",
+			"type": "image",
+			"url": "mov/happyhome_00078.png"
+		},
+		{
+			"name": "happyhome_00079_png",
+			"type": "image",
+			"url": "mov/happyhome_00079.png"
+		},
+		{
+			"name": "happyhome_00080_png",
+			"type": "image",
+			"url": "mov/happyhome_00080.png"
+		},
+		{
+			"name": "happyhome_00081_png",
+			"type": "image",
+			"url": "mov/happyhome_00081.png"
+		},
+		{
+			"name": "happyhome_00082_png",
+			"type": "image",
+			"url": "mov/happyhome_00082.png"
+		},
+		{
+			"name": "happyhome_00083_png",
+			"type": "image",
+			"url": "mov/happyhome_00083.png"
+		}
+	]
+}

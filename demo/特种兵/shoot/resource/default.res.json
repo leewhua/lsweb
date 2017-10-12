@@ -1,0 +1,891 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,shoot_json,1_jpg,10_jpg,11_jpg,12_jpg,13_jpg,14_jpg,15_jpg,16_jpg,17_jpg,18_jpg,19_jpg,2_jpg,20_jpg,21_jpg,22_jpg,23_jpg,24_jpg,25_jpg,26_jpg,27_jpg,28_jpg,29_jpg,3_jpg,30_jpg,31_jpg,32_jpg,33_jpg,34_jpg,35_jpg,36_jpg,37_jpg,38_jpg,39_jpg,4_jpg,40_jpg,41_jpg,42_jpg,43_jpg,44_jpg,45_jpg,46_jpg,47_jpg,48_jpg,49_jpg,5_jpg,50_jpg,51_jpg,52_jpg,53_jpg,54_jpg,55_jpg,56_jpg,57_jpg,58_jpg,59_jpg,6_jpg,60_jpg,7_jpg,8_jpg,9_jpg,bg2_jpg,bullet0_png,buy_g0_png,buy_g1_png,buy_g2_png,buy_g3_png,buy_g4_png,buy_g5_png,buy_jf_png,buy_line_png,buy_lost_png,buy_ok_png,buy_star1_png,buy_star2_png,buy_store_bg_png,buy_store_name_png,c_bg_png,c_m_png,face_bg_png,fly_png,g0_png,g1_png,g2_png,g3_png,g4_png,g5_png,gun_name1_png,gun_name2_png,gun_name3_png,gun_name4_png,logo_png,pop_bg_png,p_bg_jpg,p_line_png,p_line_bg_png,p_road_png,p_shoot_png,p_thunder_png,p_tip_png,r0_png,r0_mc_json,r0_mc_png,r0_stand_png,r1_png,r1_mc_json,r1_mc_png,r1_stand_png,r1_w_json,r2_png,r2_mc_json,r2_mc_png,r2_stand_png,r3_json,r3_png,r_bg_png,r_black_png,r_g0_json,r_g0_png,r_g1_json,r_g1_png,r_g2_json,r_g2_png,r_g3_json,r_g3_png,r_g4_json,r_g4_png,r_grenade_json,r_grenade_png,r_pop_bg_png,r_s_png,r_s_tip_png,setting_level0_png,setting_level0_title_png,setting_level1_png,setting_level10_png,setting_level1_title_png,setting_level2_png,setting_level2_title_png,setting_level3_png,setting_level3_title_png,setting_level4_png,setting_level4_title_png,setting_level5_png,setting_level5_title_png,setting_level6_png,setting_level6_title_png,setting_level7_png,setting_level7_title_png,setting_level8_png,setting_level8_title_png,setting_level9_png,setting_level9_title_png,settting_my_png,start_png,s_a_png,s_bg_png,title_png,to_back2_png,to_buy_png,to_buy2_png,to_cancel_png,to_city_png,to_close_buy_png,to_jf_png,to_ok_png,to_play_png,to_share_png,to_shop_png,win_copy_png,win_jf_copy_png,win_jf_copy2_png,win_lq_copy_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "shoot_json",
+			"type": "json",
+			"url": "shoot.json"
+		},
+		{
+			"name": "1_jpg",
+			"type": "image",
+			"url": "face/1.jpg"
+		},
+		{
+			"name": "10_jpg",
+			"type": "image",
+			"url": "face/10.jpg"
+		},
+		{
+			"name": "11_jpg",
+			"type": "image",
+			"url": "face/11.jpg"
+		},
+		{
+			"name": "12_jpg",
+			"type": "image",
+			"url": "face/12.jpg"
+		},
+		{
+			"name": "13_jpg",
+			"type": "image",
+			"url": "face/13.jpg"
+		},
+		{
+			"name": "14_jpg",
+			"type": "image",
+			"url": "face/14.jpg"
+		},
+		{
+			"name": "15_jpg",
+			"type": "image",
+			"url": "face/15.jpg"
+		},
+		{
+			"name": "16_jpg",
+			"type": "image",
+			"url": "face/16.jpg"
+		},
+		{
+			"name": "17_jpg",
+			"type": "image",
+			"url": "face/17.jpg"
+		},
+		{
+			"name": "18_jpg",
+			"type": "image",
+			"url": "face/18.jpg"
+		},
+		{
+			"name": "19_jpg",
+			"type": "image",
+			"url": "face/19.jpg"
+		},
+		{
+			"name": "2_jpg",
+			"type": "image",
+			"url": "face/2.jpg"
+		},
+		{
+			"name": "20_jpg",
+			"type": "image",
+			"url": "face/20.jpg"
+		},
+		{
+			"name": "21_jpg",
+			"type": "image",
+			"url": "face/21.jpg"
+		},
+		{
+			"name": "22_jpg",
+			"type": "image",
+			"url": "face/22.jpg"
+		},
+		{
+			"name": "23_jpg",
+			"type": "image",
+			"url": "face/23.jpg"
+		},
+		{
+			"name": "24_jpg",
+			"type": "image",
+			"url": "face/24.jpg"
+		},
+		{
+			"name": "25_jpg",
+			"type": "image",
+			"url": "face/25.jpg"
+		},
+		{
+			"name": "26_jpg",
+			"type": "image",
+			"url": "face/26.jpg"
+		},
+		{
+			"name": "27_jpg",
+			"type": "image",
+			"url": "face/27.jpg"
+		},
+		{
+			"name": "28_jpg",
+			"type": "image",
+			"url": "face/28.jpg"
+		},
+		{
+			"name": "29_jpg",
+			"type": "image",
+			"url": "face/29.jpg"
+		},
+		{
+			"name": "3_jpg",
+			"type": "image",
+			"url": "face/3.jpg"
+		},
+		{
+			"name": "30_jpg",
+			"type": "image",
+			"url": "face/30.jpg"
+		},
+		{
+			"name": "31_jpg",
+			"type": "image",
+			"url": "face/31.jpg"
+		},
+		{
+			"name": "32_jpg",
+			"type": "image",
+			"url": "face/32.jpg"
+		},
+		{
+			"name": "33_jpg",
+			"type": "image",
+			"url": "face/33.jpg"
+		},
+		{
+			"name": "34_jpg",
+			"type": "image",
+			"url": "face/34.jpg"
+		},
+		{
+			"name": "35_jpg",
+			"type": "image",
+			"url": "face/35.jpg"
+		},
+		{
+			"name": "36_jpg",
+			"type": "image",
+			"url": "face/36.jpg"
+		},
+		{
+			"name": "37_jpg",
+			"type": "image",
+			"url": "face/37.jpg"
+		},
+		{
+			"name": "38_jpg",
+			"type": "image",
+			"url": "face/38.jpg"
+		},
+		{
+			"name": "39_jpg",
+			"type": "image",
+			"url": "face/39.jpg"
+		},
+		{
+			"name": "4_jpg",
+			"type": "image",
+			"url": "face/4.jpg"
+		},
+		{
+			"name": "40_jpg",
+			"type": "image",
+			"url": "face/40.jpg"
+		},
+		{
+			"name": "41_jpg",
+			"type": "image",
+			"url": "face/41.jpg"
+		},
+		{
+			"name": "42_jpg",
+			"type": "image",
+			"url": "face/42.jpg"
+		},
+		{
+			"name": "43_jpg",
+			"type": "image",
+			"url": "face/43.jpg"
+		},
+		{
+			"name": "44_jpg",
+			"type": "image",
+			"url": "face/44.jpg"
+		},
+		{
+			"name": "45_jpg",
+			"type": "image",
+			"url": "face/45.jpg"
+		},
+		{
+			"name": "46_jpg",
+			"type": "image",
+			"url": "face/46.jpg"
+		},
+		{
+			"name": "47_jpg",
+			"type": "image",
+			"url": "face/47.jpg"
+		},
+		{
+			"name": "48_jpg",
+			"type": "image",
+			"url": "face/48.jpg"
+		},
+		{
+			"name": "49_jpg",
+			"type": "image",
+			"url": "face/49.jpg"
+		},
+		{
+			"name": "5_jpg",
+			"type": "image",
+			"url": "face/5.jpg"
+		},
+		{
+			"name": "50_jpg",
+			"type": "image",
+			"url": "face/50.jpg"
+		},
+		{
+			"name": "51_jpg",
+			"type": "image",
+			"url": "face/51.jpg"
+		},
+		{
+			"name": "52_jpg",
+			"type": "image",
+			"url": "face/52.jpg"
+		},
+		{
+			"name": "53_jpg",
+			"type": "image",
+			"url": "face/53.jpg"
+		},
+		{
+			"name": "54_jpg",
+			"type": "image",
+			"url": "face/54.jpg"
+		},
+		{
+			"name": "55_jpg",
+			"type": "image",
+			"url": "face/55.jpg"
+		},
+		{
+			"name": "56_jpg",
+			"type": "image",
+			"url": "face/56.jpg"
+		},
+		{
+			"name": "57_jpg",
+			"type": "image",
+			"url": "face/57.jpg"
+		},
+		{
+			"name": "58_jpg",
+			"type": "image",
+			"url": "face/58.jpg"
+		},
+		{
+			"name": "59_jpg",
+			"type": "image",
+			"url": "face/59.jpg"
+		},
+		{
+			"name": "6_jpg",
+			"type": "image",
+			"url": "face/6.jpg"
+		},
+		{
+			"name": "60_jpg",
+			"type": "image",
+			"url": "face/60.jpg"
+		},
+		{
+			"name": "7_jpg",
+			"type": "image",
+			"url": "face/7.jpg"
+		},
+		{
+			"name": "8_jpg",
+			"type": "image",
+			"url": "face/8.jpg"
+		},
+		{
+			"name": "9_jpg",
+			"type": "image",
+			"url": "face/9.jpg"
+		},
+		{
+			"name": "bg2_jpg",
+			"type": "image",
+			"url": "shoot/bg.jpg"
+		},
+		{
+			"name": "bullet0_png",
+			"type": "image",
+			"url": "shoot/bullet0.png"
+		},
+		{
+			"name": "buy_g0_png",
+			"type": "image",
+			"url": "shoot/buy_g0.png"
+		},
+		{
+			"name": "buy_g1_png",
+			"type": "image",
+			"url": "shoot/buy_g1.png"
+		},
+		{
+			"name": "buy_g2_png",
+			"type": "image",
+			"url": "shoot/buy_g2.png"
+		},
+		{
+			"name": "buy_g3_png",
+			"type": "image",
+			"url": "shoot/buy_g3.png"
+		},
+		{
+			"name": "buy_g4_png",
+			"type": "image",
+			"url": "shoot/buy_g4.png"
+		},
+		{
+			"name": "buy_g5_png",
+			"type": "image",
+			"url": "shoot/buy_g5.png"
+		},
+		{
+			"name": "buy_jf_png",
+			"type": "image",
+			"url": "shoot/buy_jf.png"
+		},
+		{
+			"name": "buy_line_png",
+			"type": "image",
+			"url": "shoot/buy_line.png"
+		},
+		{
+			"name": "buy_lost_png",
+			"type": "image",
+			"url": "shoot/buy_lost.png"
+		},
+		{
+			"name": "buy_ok_png",
+			"type": "image",
+			"url": "shoot/buy_ok.png"
+		},
+		{
+			"name": "buy_star1_png",
+			"type": "image",
+			"url": "shoot/buy_star1.png"
+		},
+		{
+			"name": "buy_star2_png",
+			"type": "image",
+			"url": "shoot/buy_star2.png"
+		},
+		{
+			"name": "buy_store_bg_png",
+			"type": "image",
+			"url": "shoot/buy_store_bg.png"
+		},
+		{
+			"name": "buy_store_name_png",
+			"type": "image",
+			"url": "shoot/buy_store_name.png"
+		},
+		{
+			"name": "c_bg_png",
+			"type": "image",
+			"url": "shoot/c_bg.png"
+		},
+		{
+			"name": "c_m_png",
+			"type": "image",
+			"url": "shoot/c_m.png"
+		},
+		{
+			"name": "face_bg_png",
+			"type": "image",
+			"url": "shoot/face_bg.png"
+		},
+		{
+			"name": "fly_png",
+			"type": "image",
+			"url": "shoot/fly.png"
+		},
+		{
+			"name": "g0_png",
+			"type": "image",
+			"url": "shoot/g0.png"
+		},
+		{
+			"name": "g1_png",
+			"type": "image",
+			"url": "shoot/g1.png"
+		},
+		{
+			"name": "g2_png",
+			"type": "image",
+			"url": "shoot/g2.png"
+		},
+		{
+			"name": "g3_png",
+			"type": "image",
+			"url": "shoot/g3.png"
+		},
+		{
+			"name": "g4_png",
+			"type": "image",
+			"url": "shoot/g4.png"
+		},
+		{
+			"name": "g5_png",
+			"type": "image",
+			"url": "shoot/g5.png"
+		},
+		{
+			"name": "gun_name1_png",
+			"type": "image",
+			"url": "shoot/gun_name1.png"
+		},
+		{
+			"name": "gun_name2_png",
+			"type": "image",
+			"url": "shoot/gun_name2.png"
+		},
+		{
+			"name": "gun_name3_png",
+			"type": "image",
+			"url": "shoot/gun_name3.png"
+		},
+		{
+			"name": "gun_name4_png",
+			"type": "image",
+			"url": "shoot/gun_name4.png"
+		},
+		{
+			"name": "logo_png",
+			"type": "image",
+			"url": "shoot/logo.png"
+		},
+		{
+			"name": "pop_bg_png",
+			"type": "image",
+			"url": "shoot/pop_bg.png"
+		},
+		{
+			"name": "p_bg_jpg",
+			"type": "image",
+			"url": "shoot/p_bg.jpg"
+		},
+		{
+			"name": "p_line_png",
+			"type": "image",
+			"url": "shoot/p_line.png"
+		},
+		{
+			"name": "p_line_bg_png",
+			"type": "image",
+			"url": "shoot/p_line_bg.png"
+		},
+		{
+			"name": "p_road_png",
+			"type": "image",
+			"url": "shoot/p_road.png"
+		},
+		{
+			"name": "p_shoot_png",
+			"type": "image",
+			"url": "shoot/p_shoot.png"
+		},
+		{
+			"name": "p_thunder_png",
+			"type": "image",
+			"url": "shoot/p_thunder.png"
+		},
+		{
+			"name": "p_tip_png",
+			"type": "image",
+			"url": "shoot/p_tip.png"
+		},
+		{
+			"name": "r0_png",
+			"type": "image",
+			"url": "shoot/r0.png"
+		},
+		{
+			"name": "r0_mc_json",
+			"type": "json",
+			"url": "shoot/r0_mc.json"
+		},
+		{
+			"name": "r0_mc_png",
+			"type": "image",
+			"url": "shoot/r0_mc.png"
+		},
+		{
+			"name": "r0_stand_png",
+			"type": "image",
+			"url": "shoot/r0_stand.png"
+		},
+		{
+			"name": "r1_png",
+			"type": "image",
+			"url": "shoot/r1.png"
+		},
+		{
+			"name": "r1_mc_json",
+			"type": "json",
+			"url": "shoot/r1_mc.json"
+		},
+		{
+			"name": "r1_mc_png",
+			"type": "image",
+			"url": "shoot/r1_mc.png"
+		},
+		{
+			"name": "r1_stand_png",
+			"type": "image",
+			"url": "shoot/r1_stand.png"
+		},
+		{
+			"name": "r1_w_json",
+			"type": "sheet",
+			"url": "shoot/r1_w.json",
+			"subkeys": "r1_gun0,r1_gun1,r1_gun2,r1_gun3,r1_gun4,r1_stand"
+		},
+		{
+			"name": "r2_png",
+			"type": "image",
+			"url": "shoot/r2.png"
+		},
+		{
+			"name": "r2_mc_json",
+			"type": "json",
+			"url": "shoot/r2_mc.json"
+		},
+		{
+			"name": "r2_mc_png",
+			"type": "image",
+			"url": "shoot/r2_mc.png"
+		},
+		{
+			"name": "r2_stand_png",
+			"type": "image",
+			"url": "shoot/r2_stand.png"
+		},
+		{
+			"name": "r3_json",
+			"type": "json",
+			"url": "shoot/r3.json"
+		},
+		{
+			"name": "r3_png",
+			"type": "image",
+			"url": "shoot/r3.png"
+		},
+		{
+			"name": "r_bg_png",
+			"type": "image",
+			"url": "shoot/r_bg.png"
+		},
+		{
+			"name": "r_black_png",
+			"type": "image",
+			"url": "shoot/r_black.png"
+		},
+		{
+			"name": "r_g0_json",
+			"type": "json",
+			"url": "shoot/r_g0.json"
+		},
+		{
+			"name": "r_g0_png",
+			"type": "image",
+			"url": "shoot/r_g0.png"
+		},
+		{
+			"name": "r_g1_json",
+			"type": "json",
+			"url": "shoot/r_g1.json"
+		},
+		{
+			"name": "r_g1_png",
+			"type": "image",
+			"url": "shoot/r_g1.png"
+		},
+		{
+			"name": "r_g2_json",
+			"type": "json",
+			"url": "shoot/r_g2.json"
+		},
+		{
+			"name": "r_g2_png",
+			"type": "image",
+			"url": "shoot/r_g2.png"
+		},
+		{
+			"name": "r_g3_json",
+			"type": "json",
+			"url": "shoot/r_g3.json"
+		},
+		{
+			"name": "r_g3_png",
+			"type": "image",
+			"url": "shoot/r_g3.png"
+		},
+		{
+			"name": "r_g4_json",
+			"type": "json",
+			"url": "shoot/r_g4.json"
+		},
+		{
+			"name": "r_g4_png",
+			"type": "image",
+			"url": "shoot/r_g4.png"
+		},
+		{
+			"name": "r_grenade_json",
+			"type": "json",
+			"url": "shoot/r_grenade.json"
+		},
+		{
+			"name": "r_grenade_png",
+			"type": "image",
+			"url": "shoot/r_grenade.png"
+		},
+		{
+			"name": "r_pop_bg_png",
+			"type": "image",
+			"url": "shoot/r_pop_bg.png"
+		},
+		{
+			"name": "r_s_png",
+			"type": "image",
+			"url": "shoot/r_s.png"
+		},
+		{
+			"name": "r_s_tip_png",
+			"type": "image",
+			"url": "shoot/r_s_tip.png"
+		},
+		{
+			"name": "setting_level0_png",
+			"type": "image",
+			"url": "shoot/setting_level0.png"
+		},
+		{
+			"name": "setting_level0_title_png",
+			"type": "image",
+			"url": "shoot/setting_level0_title.png"
+		},
+		{
+			"name": "setting_level1_png",
+			"type": "image",
+			"url": "shoot/setting_level1.png"
+		},
+		{
+			"name": "setting_level10_png",
+			"type": "image",
+			"url": "shoot/setting_level10.png"
+		},
+		{
+			"name": "setting_level1_title_png",
+			"type": "image",
+			"url": "shoot/setting_level1_title.png"
+		},
+		{
+			"name": "setting_level2_png",
+			"type": "image",
+			"url": "shoot/setting_level2.png"
+		},
+		{
+			"name": "setting_level2_title_png",
+			"type": "image",
+			"url": "shoot/setting_level2_title.png"
+		},
+		{
+			"name": "setting_level3_png",
+			"type": "image",
+			"url": "shoot/setting_level3.png"
+		},
+		{
+			"name": "setting_level3_title_png",
+			"type": "image",
+			"url": "shoot/setting_level3_title.png"
+		},
+		{
+			"name": "setting_level4_png",
+			"type": "image",
+			"url": "shoot/setting_level4.png"
+		},
+		{
+			"name": "setting_level4_title_png",
+			"type": "image",
+			"url": "shoot/setting_level4_title.png"
+		},
+		{
+			"name": "setting_level5_png",
+			"type": "image",
+			"url": "shoot/setting_level5.png"
+		},
+		{
+			"name": "setting_level5_title_png",
+			"type": "image",
+			"url": "shoot/setting_level5_title.png"
+		},
+		{
+			"name": "setting_level6_png",
+			"type": "image",
+			"url": "shoot/setting_level6.png"
+		},
+		{
+			"name": "setting_level6_title_png",
+			"type": "image",
+			"url": "shoot/setting_level6_title.png"
+		},
+		{
+			"name": "setting_level7_png",
+			"type": "image",
+			"url": "shoot/setting_level7.png"
+		},
+		{
+			"name": "setting_level7_title_png",
+			"type": "image",
+			"url": "shoot/setting_level7_title.png"
+		},
+		{
+			"name": "setting_level8_png",
+			"type": "image",
+			"url": "shoot/setting_level8.png"
+		},
+		{
+			"name": "setting_level8_title_png",
+			"type": "image",
+			"url": "shoot/setting_level8_title.png"
+		},
+		{
+			"name": "setting_level9_png",
+			"type": "image",
+			"url": "shoot/setting_level9.png"
+		},
+		{
+			"name": "setting_level9_title_png",
+			"type": "image",
+			"url": "shoot/setting_level9_title.png"
+		},
+		{
+			"name": "settting_my_png",
+			"type": "image",
+			"url": "shoot/settting_my.png"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "shoot/start.png"
+		},
+		{
+			"name": "s_a_png",
+			"type": "image",
+			"url": "shoot/s_a.png"
+		},
+		{
+			"name": "s_bg_png",
+			"type": "image",
+			"url": "shoot/s_bg.png"
+		},
+		{
+			"name": "title_png",
+			"type": "image",
+			"url": "shoot/title.png"
+		},
+		{
+			"name": "to_back2_png",
+			"type": "image",
+			"url": "shoot/to_back2.png"
+		},
+		{
+			"name": "to_buy_png",
+			"type": "image",
+			"url": "shoot/to_buy.png"
+		},
+		{
+			"name": "to_buy2_png",
+			"type": "image",
+			"url": "shoot/to_buy2.png"
+		},
+		{
+			"name": "to_cancel_png",
+			"type": "image",
+			"url": "shoot/to_cancel.png"
+		},
+		{
+			"name": "to_city_png",
+			"type": "image",
+			"url": "shoot/to_city.png"
+		},
+		{
+			"name": "to_close_buy_png",
+			"type": "image",
+			"url": "shoot/to_close_buy.png"
+		},
+		{
+			"name": "to_jf_png",
+			"type": "image",
+			"url": "shoot/to_jf.png"
+		},
+		{
+			"name": "to_ok_png",
+			"type": "image",
+			"url": "shoot/to_ok.png"
+		},
+		{
+			"name": "to_play_png",
+			"type": "image",
+			"url": "shoot/to_play.png"
+		},
+		{
+			"name": "to_share_png",
+			"type": "image",
+			"url": "shoot/to_share.png"
+		},
+		{
+			"name": "to_shop_png",
+			"type": "image",
+			"url": "shoot/to_shop.png"
+		},
+		{
+			"name": "win_copy_png",
+			"type": "image",
+			"url": "shoot/win_copy.png"
+		},
+		{
+			"name": "win_jf_copy_png",
+			"type": "image",
+			"url": "shoot/win_jf_copy.png"
+		},
+		{
+			"name": "win_jf_copy2_png",
+			"type": "image",
+			"url": "shoot/win_jf_copy2.png"
+		},
+		{
+			"name": "win_lq_copy_png",
+			"type": "image",
+			"url": "shoot/win_lq_copy.png"
+		}
+	]
+}

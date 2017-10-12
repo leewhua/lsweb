@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<meta charset="UTF-8">
+	<title>真橙意够桔气</title>
+	<script>
+		var phoneW =  parseInt(window.screen.width),phoneScale = phoneW/640,ua = navigator.userAgent;
+		if (/Android (\d+\.\d+)/.test(ua)){
+			var version = parseFloat(RegExp.$1);
+			if(version>2.3){
+				document.write('<meta name="viewport" content="width=640, initial-scale='+phoneScale+', minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+			}else{
+				document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+			}
+		} else {document.write(
+				'<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+		}
+
+	</script>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.transform2d.js"></script>
+	<script src="js/swiper.jquery.min.js"></script>
+	<script src="js/iscroll.js"></script>
+	<!--<script src="js/ls.js"></script>-->
+	<script src="js/global.js"></script>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/global.css" />
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body>
+	<div id="warning" class="main">
+		<div class="outerbox" style="">
+			<div class="innerbox-half"  style="">
+					<div style="position: absolute;left:50%;top:50%;margin-top:-140px ;margin-left:-190px ;width: 381px;height: 281px;">
+						<img src="images/warning_title.png">
+					</div>
+			</div>
+			<div class="innerbox-half"  style="">
+				<div style="position: absolute;left:50%;top:38%;margin-left:-228px;margin-top:-110px ;width: 456px;height: 220px;">
+					<img src="images/wating.png">
+				</div>
+			</div>
+		</div>
+		<div class="help-but3">
+			<img src="images/help.png" alt=""/>
+		</div>
+
+		<div class="logo">
+			<img src="images/logo.png" alt=""/>
+		</div>
+		<div class="right-logo">
+			<img src="images/right_logo.png" alt=""/>
+		</div>
+	</div>
+	<div class="help-pop">
+		<div class="pop-bar"  mov="zoom-in"  duration="400" delay="300">
+			<div class="close">
+				<img src="images/help_close.png" alt=""/>
+			</div>
+			<div class="wapper">
+				<div class="title">
+					<img src="images/help_title.png" alt=""/>
+				</div>
+				<div class="copy" id="copy-scroll">
+					<div style="position: absolute;width: 456px;height: 1473px;">
+						<img src="images/help_copy.png" width="456" height="1473" alt=""/>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+<script>
+
+</script>
+</html>

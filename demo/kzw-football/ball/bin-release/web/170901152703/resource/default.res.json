@@ -1,0 +1,608 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,config_json,1_png,2_png,3_png,99_png,ball-flash_png,ball-shade_png,ball_png,ball2_png,flash_png,help-btn_png,help_png,lost-copy_png,lost_png,max-lost_png,max_png,men_png,ok_png,p-10_png,play-tip_png,point_json,point_png,scanned_png,start_png,to-city_png,wang1_png,wang2_png,wang3_png,wang4_png,win-bar_png,win-copy_png,bv-bg_jpg,bv-dengdai_json,bv-dengdai_png,bv-home-title_png,bv-huanhu_json,bv-huanhu_png,bv-left-lost_json,bv-left-lost_png,bv-left_json,bv-left_png,bv-lost_png,bv-right-lost_json,bv-right-lost_png,bv-right_json,bv-right_png,bv-shemen_json,bv-shemen_png,tk-bg_jpg,tk-dengdai_json,tk-dengdai_png,tk-home-title_png,tk-huanhu_json,tk-huanhu_png,tk-left-lost_json,tk-left-lost_png,tk-left_json,tk-left_png,tk-lost_png,tk-right-lost_json,tk-right-lost_png,tk-right_json,tk-right_png,tk-shemen_json,tk-shemen_png,yd-bg_jpg,yd-dengdai_json,yd-dengdai_png,yd-home-title_png,yd-huanhu_json,yd-huanhu_png,yd-left-lost_json,yd-left-lost_png,yd-left_json,yd-left_png,yd-lost_png,yd-right-lost_json,yd-right-lost_png,yd-right_json,yd-right_png,yd-shemen_json,yd-shemen_png,bv_json,bv_copy_json,1_jpg,12_png,10_jpg,10_png,11_jpg,11_png,12_jpg,122_png,13_jpg,13_png,14_jpg,14_png,2_jpg,22_png,3_jpg,32_png,4_jpg,4_png,5_jpg,5_png,6_jpg,6_png,7_jpg,7_png,8_jpg,8_png,9_jpg,9_png,tk_json,tk_copy_json,yd_json,yd_copy_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "config_json",
+			"type": "json",
+			"url": "config.json"
+		},
+		{
+			"name": "1_png",
+			"type": "image",
+			"url": "assets/1.png"
+		},
+		{
+			"name": "2_png",
+			"type": "image",
+			"url": "assets/2.png"
+		},
+		{
+			"name": "3_png",
+			"type": "image",
+			"url": "assets/3.png"
+		},
+		{
+			"name": "99_png",
+			"type": "image",
+			"url": "assets/99.png"
+		},
+		{
+			"name": "ball-flash_png",
+			"type": "image",
+			"url": "assets/ball-flash.png"
+		},
+		{
+			"name": "ball-shade_png",
+			"type": "image",
+			"url": "assets/ball-shade.png"
+		},
+		{
+			"name": "ball_png",
+			"type": "image",
+			"url": "assets/ball.png"
+		},
+		{
+			"name": "ball2_png",
+			"type": "image",
+			"url": "assets/ball2.png"
+		},
+		{
+			"name": "flash_png",
+			"type": "image",
+			"url": "assets/flash.png"
+		},
+		{
+			"name": "help-btn_png",
+			"type": "image",
+			"url": "assets/help-btn.png"
+		},
+		{
+			"name": "help_png",
+			"type": "image",
+			"url": "assets/help.png"
+		},
+		{
+			"name": "lost-copy_png",
+			"type": "image",
+			"url": "assets/lost-copy.png"
+		},
+		{
+			"name": "lost_png",
+			"type": "image",
+			"url": "assets/lost.png"
+		},
+		{
+			"name": "max-lost_png",
+			"type": "image",
+			"url": "assets/max-lost.png"
+		},
+		{
+			"name": "max_png",
+			"type": "image",
+			"url": "assets/max.png"
+		},
+		{
+			"name": "men_png",
+			"type": "image",
+			"url": "assets/men.png"
+		},
+		{
+			"name": "ok_png",
+			"type": "image",
+			"url": "assets/ok.png"
+		},
+		{
+			"name": "p-10_png",
+			"type": "image",
+			"url": "assets/p-10.png"
+		},
+		{
+			"name": "play-tip_png",
+			"type": "image",
+			"url": "assets/play-tip.png"
+		},
+		{
+			"name": "point_json",
+			"type": "json",
+			"url": "assets/point.json"
+		},
+		{
+			"name": "point_png",
+			"type": "image",
+			"url": "assets/point.png"
+		},
+		{
+			"name": "scanned_png",
+			"type": "image",
+			"url": "assets/scanned.png"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "assets/start.png"
+		},
+		{
+			"name": "to-city_png",
+			"type": "image",
+			"url": "assets/to-city.png"
+		},
+		{
+			"name": "wang1_png",
+			"type": "image",
+			"url": "assets/wang1.png"
+		},
+		{
+			"name": "wang2_png",
+			"type": "image",
+			"url": "assets/wang2.png"
+		},
+		{
+			"name": "wang3_png",
+			"type": "image",
+			"url": "assets/wang3.png"
+		},
+		{
+			"name": "wang4_png",
+			"type": "image",
+			"url": "assets/wang4.png"
+		},
+		{
+			"name": "win-bar_png",
+			"type": "image",
+			"url": "assets/win-bar.png"
+		},
+		{
+			"name": "win-copy_png",
+			"type": "image",
+			"url": "assets/win-copy.png"
+		},
+		{
+			"name": "bv-bg_jpg",
+			"type": "image",
+			"url": "assets/bv/bv-bg.jpg"
+		},
+		{
+			"name": "bv-dengdai_json",
+			"type": "json",
+			"url": "assets/bv/bv-dengdai.json"
+		},
+		{
+			"name": "bv-dengdai_png",
+			"type": "image",
+			"url": "assets/bv/bv-dengdai.png"
+		},
+		{
+			"name": "bv-home-title_png",
+			"type": "image",
+			"url": "assets/bv/bv-home-title.png"
+		},
+		{
+			"name": "bv-huanhu_json",
+			"type": "json",
+			"url": "assets/bv/bv-huanhu.json"
+		},
+		{
+			"name": "bv-huanhu_png",
+			"type": "image",
+			"url": "assets/bv/bv-huanhu.png"
+		},
+		{
+			"name": "bv-left-lost_json",
+			"type": "json",
+			"url": "assets/bv/bv-left-lost.json"
+		},
+		{
+			"name": "bv-left-lost_png",
+			"type": "image",
+			"url": "assets/bv/bv-left-lost.png"
+		},
+		{
+			"name": "bv-left_json",
+			"type": "json",
+			"url": "assets/bv/bv-left.json"
+		},
+		{
+			"name": "bv-left_png",
+			"type": "image",
+			"url": "assets/bv/bv-left.png"
+		},
+		{
+			"name": "bv-lost_png",
+			"type": "image",
+			"url": "assets/bv/bv-lost.png"
+		},
+		{
+			"name": "bv-right-lost_json",
+			"type": "json",
+			"url": "assets/bv/bv-right-lost.json"
+		},
+		{
+			"name": "bv-right-lost_png",
+			"type": "image",
+			"url": "assets/bv/bv-right-lost.png"
+		},
+		{
+			"name": "bv-right_json",
+			"type": "json",
+			"url": "assets/bv/bv-right.json"
+		},
+		{
+			"name": "bv-right_png",
+			"type": "image",
+			"url": "assets/bv/bv-right.png"
+		},
+		{
+			"name": "bv-shemen_json",
+			"type": "json",
+			"url": "assets/bv/bv-shemen.json"
+		},
+		{
+			"name": "bv-shemen_png",
+			"type": "image",
+			"url": "assets/bv/bv-shemen.png"
+		},
+		{
+			"name": "tk-bg_jpg",
+			"type": "image",
+			"url": "assets/tk/tk-bg.jpg"
+		},
+		{
+			"name": "tk-dengdai_json",
+			"type": "json",
+			"url": "assets/tk/tk-dengdai.json"
+		},
+		{
+			"name": "tk-dengdai_png",
+			"type": "image",
+			"url": "assets/tk/tk-dengdai.png"
+		},
+		{
+			"name": "tk-home-title_png",
+			"type": "image",
+			"url": "assets/tk/tk-home-title.png"
+		},
+		{
+			"name": "tk-huanhu_json",
+			"type": "json",
+			"url": "assets/tk/tk-huanhu.json"
+		},
+		{
+			"name": "tk-huanhu_png",
+			"type": "image",
+			"url": "assets/tk/tk-huanhu.png"
+		},
+		{
+			"name": "tk-left-lost_json",
+			"type": "json",
+			"url": "assets/tk/tk-left-lost.json"
+		},
+		{
+			"name": "tk-left-lost_png",
+			"type": "image",
+			"url": "assets/tk/tk-left-lost.png"
+		},
+		{
+			"name": "tk-left_json",
+			"type": "json",
+			"url": "assets/tk/tk-left.json"
+		},
+		{
+			"name": "tk-left_png",
+			"type": "image",
+			"url": "assets/tk/tk-left.png"
+		},
+		{
+			"name": "tk-lost_png",
+			"type": "image",
+			"url": "assets/tk/tk-lost.png"
+		},
+		{
+			"name": "tk-right-lost_json",
+			"type": "json",
+			"url": "assets/tk/tk-right-lost.json"
+		},
+		{
+			"name": "tk-right-lost_png",
+			"type": "image",
+			"url": "assets/tk/tk-right-lost.png"
+		},
+		{
+			"name": "tk-right_json",
+			"type": "json",
+			"url": "assets/tk/tk-right.json"
+		},
+		{
+			"name": "tk-right_png",
+			"type": "image",
+			"url": "assets/tk/tk-right.png"
+		},
+		{
+			"name": "tk-shemen_json",
+			"type": "json",
+			"url": "assets/tk/tk-shemen.json"
+		},
+		{
+			"name": "tk-shemen_png",
+			"type": "image",
+			"url": "assets/tk/tk-shemen.png"
+		},
+		{
+			"name": "yd-bg_jpg",
+			"type": "image",
+			"url": "assets/yd/yd-bg.jpg"
+		},
+		{
+			"name": "yd-dengdai_json",
+			"type": "json",
+			"url": "assets/yd/yd-dengdai.json"
+		},
+		{
+			"name": "yd-dengdai_png",
+			"type": "image",
+			"url": "assets/yd/yd-dengdai.png"
+		},
+		{
+			"name": "yd-home-title_png",
+			"type": "image",
+			"url": "assets/yd/yd-home-title.png"
+		},
+		{
+			"name": "yd-huanhu_json",
+			"type": "json",
+			"url": "assets/yd/yd-huanhu.json"
+		},
+		{
+			"name": "yd-huanhu_png",
+			"type": "image",
+			"url": "assets/yd/yd-huanhu.png"
+		},
+		{
+			"name": "yd-left-lost_json",
+			"type": "json",
+			"url": "assets/yd/yd-left-lost.json"
+		},
+		{
+			"name": "yd-left-lost_png",
+			"type": "image",
+			"url": "assets/yd/yd-left-lost.png"
+		},
+		{
+			"name": "yd-left_json",
+			"type": "json",
+			"url": "assets/yd/yd-left.json"
+		},
+		{
+			"name": "yd-left_png",
+			"type": "image",
+			"url": "assets/yd/yd-left.png"
+		},
+		{
+			"name": "yd-lost_png",
+			"type": "image",
+			"url": "assets/yd/yd-lost.png"
+		},
+		{
+			"name": "yd-right-lost_json",
+			"type": "json",
+			"url": "assets/yd/yd-right-lost.json"
+		},
+		{
+			"name": "yd-right-lost_png",
+			"type": "image",
+			"url": "assets/yd/yd-right-lost.png"
+		},
+		{
+			"name": "yd-right_json",
+			"type": "json",
+			"url": "assets/yd/yd-right.json"
+		},
+		{
+			"name": "yd-right_png",
+			"type": "image",
+			"url": "assets/yd/yd-right.png"
+		},
+		{
+			"name": "yd-shemen_json",
+			"type": "json",
+			"url": "assets/yd/yd-shemen.json"
+		},
+		{
+			"name": "yd-shemen_png",
+			"type": "image",
+			"url": "assets/yd/yd-shemen.png"
+		},
+		{
+			"name": "bv_json",
+			"type": "sheet",
+			"url": "loading/bv.json",
+			"subkeys": "logo-blue,logo-white,logo-white2,pro"
+		},
+		{
+			"name": "bv_copy_json",
+			"type": "json",
+			"url": "loading/bv_copy.json"
+		},
+		{
+			"name": "1_jpg",
+			"type": "image",
+			"url": "loading/copy/1.jpg"
+		},
+		{
+			"name": "12_png",
+			"type": "image",
+			"url": "loading/copy/1.png"
+		},
+		{
+			"name": "10_jpg",
+			"type": "image",
+			"url": "loading/copy/10.jpg"
+		},
+		{
+			"name": "10_png",
+			"type": "image",
+			"url": "loading/copy/10.png"
+		},
+		{
+			"name": "11_jpg",
+			"type": "image",
+			"url": "loading/copy/11.jpg"
+		},
+		{
+			"name": "11_png",
+			"type": "image",
+			"url": "loading/copy/11.png"
+		},
+		{
+			"name": "12_jpg",
+			"type": "image",
+			"url": "loading/copy/12.jpg"
+		},
+		{
+			"name": "122_png",
+			"type": "image",
+			"url": "loading/copy/12.png"
+		},
+		{
+			"name": "13_jpg",
+			"type": "image",
+			"url": "loading/copy/13.jpg"
+		},
+		{
+			"name": "13_png",
+			"type": "image",
+			"url": "loading/copy/13.png"
+		},
+		{
+			"name": "14_jpg",
+			"type": "image",
+			"url": "loading/copy/14.jpg"
+		},
+		{
+			"name": "14_png",
+			"type": "image",
+			"url": "loading/copy/14.png"
+		},
+		{
+			"name": "2_jpg",
+			"type": "image",
+			"url": "loading/copy/2.jpg"
+		},
+		{
+			"name": "22_png",
+			"type": "image",
+			"url": "loading/copy/2.png"
+		},
+		{
+			"name": "3_jpg",
+			"type": "image",
+			"url": "loading/copy/3.jpg"
+		},
+		{
+			"name": "32_png",
+			"type": "image",
+			"url": "loading/copy/3.png"
+		},
+		{
+			"name": "4_jpg",
+			"type": "image",
+			"url": "loading/copy/4.jpg"
+		},
+		{
+			"name": "4_png",
+			"type": "image",
+			"url": "loading/copy/4.png"
+		},
+		{
+			"name": "5_jpg",
+			"type": "image",
+			"url": "loading/copy/5.jpg"
+		},
+		{
+			"name": "5_png",
+			"type": "image",
+			"url": "loading/copy/5.png"
+		},
+		{
+			"name": "6_jpg",
+			"type": "image",
+			"url": "loading/copy/6.jpg"
+		},
+		{
+			"name": "6_png",
+			"type": "image",
+			"url": "loading/copy/6.png"
+		},
+		{
+			"name": "7_jpg",
+			"type": "image",
+			"url": "loading/copy/7.jpg"
+		},
+		{
+			"name": "7_png",
+			"type": "image",
+			"url": "loading/copy/7.png"
+		},
+		{
+			"name": "8_jpg",
+			"type": "image",
+			"url": "loading/copy/8.jpg"
+		},
+		{
+			"name": "8_png",
+			"type": "image",
+			"url": "loading/copy/8.png"
+		},
+		{
+			"name": "9_jpg",
+			"type": "image",
+			"url": "loading/copy/9.jpg"
+		},
+		{
+			"name": "9_png",
+			"type": "image",
+			"url": "loading/copy/9.png"
+		},
+		{
+			"name": "tk_json",
+			"type": "sheet",
+			"url": "loading/tk.json",
+			"subkeys": "logo-white2,logo-blue,logo-white,pro"
+		},
+		{
+			"name": "tk_copy_json",
+			"type": "json",
+			"url": "loading/tk_copy.json"
+		},
+		{
+			"name": "yd_json",
+			"type": "sheet",
+			"url": "loading/yd.json",
+			"subkeys": "logo-white,pro,logo-blue"
+		},
+		{
+			"name": "yd_copy_json",
+			"type": "json",
+			"url": "loading/yd_copy.json"
+		}
+	]
+}

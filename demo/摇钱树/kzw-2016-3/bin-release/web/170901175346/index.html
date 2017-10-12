@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>摇钱树</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #fff;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    	.wx{
+    		display: none;
+    		position: absolute;
+	    	top: 0px;
+	    	bottom: 0px;
+	    	left: 0px;
+	    	right: 0px;
+    		width:100%;
+    		height:100%;
+	    	text-align: center;
+	    	vertical-align: middle;
+    		
+    	}
+    	.wx>img{
+    		width:100%; text-align:center; vertical-align:middle;
+    	}
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+	<script egret="lib" src="libs/jquery.js"></script>
+	<script egret="lib" src="libs/shake.js"></script>
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script src="main.min.js"></script>
+	<!--game_files_end-->
+	<script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
+	<!--script type="text/javascript" src="https://api.thinkpage.cn/v3/weather/now.json?location=beijing&ts=1443079775&ttl=30&uid=U4AD18EC5F&sig=your_signature&callback=showWeather"></<script-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="portrait"
+         data-scale-mode="exactFit"
+         data-frame-rate="30"
+         data-content-width="640"
+         data-content-height="1040"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+    <div class="wx">
+    	<img style="ext-align:center; vertical-align:middle;" src="resource/assets/wx.png" width="100%" />
+    </div>
+   <script> 
+   		$.product_type="bv";
+        egret.runEgret();
+    	function onBridgeReady() {
+	    	WeixinJSBridge.call('hideOptionMenu');
+	    }
+	    	
+	    if(typeof WeixinJSBridge == "undefined") {
+	    	if(document.addEventListener) {
+	    		document.addEventListener('WeixinJSBridgeReady',onBridgeReady,false);
+	    	} else if(document.attachEvent) {
+		    	document.attachEvent('WeixinJSBridgeReady',onBridgeReady);
+		    	document.attachEvent('onWeixinJSBridgeReady',onBridgeReady);
+	    	}
+	    } else {
+	    	onBridgeReady();
+	    }
+    </script>
+</body>
+</html>
