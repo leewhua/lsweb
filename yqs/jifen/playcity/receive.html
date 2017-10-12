@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta charset="UTF-8">
+	<title>积分商城</title>
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/iscroll.js"></script>
+	<script type="text/javascript" src="js/action.js"></script>
+	<!--<script type="text/javascript" src="js/ls.js"></script>-->
+	<script type="text/javascript" src="js/area.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body>
+<div id="exchange" class="main personal-page">
+	<div class="header">
+		<div class="info">
+			<div class="profile"><img src=""></div>
+			<div class="name"></div>
+		</div>
+
+	</div>
+	<div class="status-bar">
+		<div class="point">当前积分<span class="number">1000</span></div>
+		<div class="personal_but">
+			<img src="images/base/personal_but.png">
+		</div>
+	</div>
+	<div class="content">
+		<div class="mobile-block">
+			<div class="mobile-in"><div class="ico"><img src="images/base/mobile_ico.png"></div><input placeholder="手机号码"  type="text" name="mobile" maxlength="12"/></div>
+			<div class="re-mobile-in"><div class="ico"><img src="images/base/re_mobile_ico.png"></div><input placeholder="号码验证"  type="text" name="re-mobile" maxlength="12"/></div>
+			<div class="sub-but">提交</div>
+		</div>
+		<div class="address-block">
+			<div class="name-in"><div class="ico"><img src="images/base/mobile_ico.png"></div><input placeholder="姓名" type="text" name="name" maxlength="12"/></div>
+			<div class="mobile-in"><div class="ico"><img src="images/base/re_mobile_ico.png"></div><input placeholder="手机"  type="text" name="mobile" maxlength="12"/></div>
+			<div class="area-in">
+				<div class="province">
+					<select id="province">
+						<option value ="1日">省份</option>
+					</select>
+				</div>
+				<div class="city">
+					<select id="city">
+						<option value ="1日">城市</option>
+					</select>
+				</div>
+				<div class="district">
+					<select id="district">
+						<option value ="1日">地区</option>
+					</select>
+				</div>
+			</div>
+			<div class="detail-in"><textarea placeholder="详细地址"  id="detail" rows="3" cols="3" maxlength="80"></textarea></div>
+			<div class="comments-in"><textarea  placeholder="备注选填"  id="comments" rows="3" cols="3" maxlength="80"></textarea></div>
+			<div class="sub-but">提交</div>
+		</div>
+	</div>
+</div>
+</body>
+<script>
+	var type=parseInt(getQueryString('type'));
+	var oid=getQueryString('oid');
+	if(!type){
+		type=0;
+	}
+	init_area();
+	var loadUser=function(){
+		loadData("user_info",{},function(data){
+			user.name=data.name;
+			user.uid=data.uid;
+			user.profile=data.profile_image_url;
+			$('.point .number').text(data.point);
+			$('.info .profile img').attr('src',user.profile);
+			$('.info .name').text(data.name);
+			if(type==1){
+				$('.address-block').remove();
+			}else{
+				$('.mobile-block').remove();
+			}
+			$('.main').show();
+			console.log(data);
+		});
+	};
+
+
+	$('.sub-but').bind('touchstart',function(){
+		console.log('sub-but');
+		if(type==0){
+		var name=$('.address-block .name-in input').val();
+		var mobile=$('.address-block .mobile-in input').val();
+		var province=$('#province').val();
+		var city=$('#city').val();
+		var district=$('#district').val();
+		var detail=$('#detail').val();
+		var comments=$('#comments').val();
+		if(name.length<1){
+			alert("请填写姓名。");
+			return;
+		}
+		if(checkMobile(mobile)){
+			alert("请填写正确的手机号码。");
+			return;
+		}
+		if(province=="身份" || city=="城市" || district=="地区"){
+			alert("请选择正确的地区");
+			return;
+		}
+		if(detail.length<2){
+			alert("请填写详细的地址.");
+			return;
+		}
+
+		loadData("update",{type:type,oid:oid,number:1,name:name,mobile:mobile,province:province,city:city,district:district,detail:detail,comments:comments},function(data){
+			console.log(data);
+			if(data.orders){
+				alert("请填写完整的收货地址。");
+			}else if(data.response==1){
+				window.location.href="order_list.html?token="+user.token;
+			}else if(data.response){
+				alert(data.message);
+			}
+		});
+		}else if(type==1){
+			var mobile=$('.mobile-block .mobile-in input').val();
+			var remobile=$('.mobile-block .re-mobile-in input').val();
+			if(checkMobile(mobile)){
+				alert("请填写正确的手机号码。");
+				return;
+			}
+			if(mobile!=remobile){
+				alert("请再输入一次电话号码。");
+				return;
+			}
+			loadData("update",{oid:oid,mobile:mobile},function(data){
+				console.log(data);
+				if(data.orders){
+					alert("请填写正确的手机号码。");
+				}else if(data.response==1){
+					window.location.href="order_list.html?token="+user.token;
+				}else if(data.response){
+					alert(data.message);
+				}
+			});
+		}
+	});
+
+</script>
+</html>

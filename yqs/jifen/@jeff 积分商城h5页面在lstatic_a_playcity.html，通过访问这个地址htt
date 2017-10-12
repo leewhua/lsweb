@@ -1,0 +1,7 @@
+@jeff 积分商城h5页面在lstatic/a/playcity.html，通过访问这个地址http://0k6.cn/a/gotoplaycity，会跳到playcity.html?token=一串字符，把这个token post到play.leasiondata.cn/lsplaycity/user_infot到play.leasiondata.cn/lsplaycity/user_infot到play.leasiondata.cn/lsplaycity/user_info就可以取到用户信息了，以上接口都已部署生效了
+
+
+
+@jeff 乐工已经充好值了，thinkpage的天气接口可以调了，用第一个ticket调接口返回的json格式在原来的基础上增加了"weather":{"city":"上海", "text":"多云", "code":"4","temperature":"20"}  其中city和text的值都需要decodeURIComponent()，如果没从thinkpage取到数据，他们的值都是减号“-”。
+
+@jeff 天气信息如果取不到，值为unknown

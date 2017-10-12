@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta charset="UTF-8">
+	<title>订单列表</title>
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/iscroll.js"></script>
+	<script type="text/javascript" src="js/action.js"></script>
+	<script type="text/javascript" src="js/ls.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body>
+<div id="orders" class="main list-page">
+	<div class="header">
+		<div class="wapper">
+			<div class="point">当前积分<span class="number">1000</span></div>
+			<div class="back-but">返回首页</div>
+		</div>
+
+	</div>
+	<div class="content">
+		<div id="list-scroller" class="scroller">
+			<div class="wapper">
+				<!--div class="goods">
+					<div class="goods-wapper">
+						<div class="cover"><img src="images/other/cover.png"></div>
+						<div class="info">
+							<div class="name">罗志祥限量版时尚t</div>
+							<div class="tracking">订单号：<span class="number">329712319239</span></div>
+							<div class="date">兑换日期：<span class="number">2016.04.28</span></div>
+						</div>
+					</div>
+					<div class="status">订单状态：已发货</div>
+				</div>
+				<div class="goods">
+					<div class="goods-wapper">
+						<div class="cover"><img src="images/other/cover.png"></div>
+						<div class="info">
+							<div class="name">罗志祥限量版时尚t</div>
+							<div class="tracking">订单号：<span class="number">329712319239</span></div>
+							<div class="date">兑换日期：<span class="number">2016.04.28</span></div>
+						</div>
+					</div>
+					<div class="status">订单状态：已发货</div>
+				</div-->
+			</div>
+
+		</div>
+	</div>
+</div>
+</body>
+<script>
+	var orders=[];
+	var loadUser=function(){
+		loadData("user_info",{},function(data){
+			user.name=data.name;
+			user.uid=data.uid;
+			user.profile=data.profile_image_url;
+			$('.point .number').text(data.point);
+			$('.main').show();
+			console.log(data);
+			if(run){
+				run();
+				run=null;
+			}
+		});
+	};
+
+	var run=function(){
+		loadData("exchange",{},function(data){
+			if(data.orders){
+				console.log("data.orders:",data.orders);
+				//$('.content .wapper').empty();
+				orders=data.orders;
+				for(var i=0;i<data.orders.length;i++){
+					var obj=data.orders[i];
+					/////
+					obj.type=0;
+					/////
+					var goods=$('<div class="goods">');
+					var wapper=$('<div class="goods-wapper">');
+					var cover=$('<div class="cover"><img src="'+resetUrl(obj.cover)+'"></div>');
+					var info=$('<div class="info">');
+					var name=$('<div class="name">'+obj.name+'</div>');
+					var tracking=$('<div class="tracking">订单号：<span class="number">'+obj.oid+'</span></div>');
+					var date=$('<div class="date">兑换日期：<span class="number">'+obj.exchange_at+'</span></div>');
+					var status=null;
+					var operate=null;
+					var ss=decodeURIComponent(obj.status.desc);
+					console.log(ss);
+					if(obj.status.type==0){
+						if(ss=="处理中"){
+							operate=$('<div class="operate" type="0" oid="'+obj.oid+'">填写收货地址</div>');
+							operate.bind('touchstart',function(){
+								var oid=$(this).attr('oid');
+								var type=$(this).attr('type');
+								window.location.href="receive.html?token="+user.token+"&oid="+oid+"&type="+type;
+							});
+					}
+					}else if(obj.status.type==1){
+						if(ss=="处理中"){
+							operate=$('<div class="operate" type="1" oid="'+obj.oid+'">立刻充值</div>');
+							operate.bind('touchstart',function(){
+								var oid=$(this).attr('oid');
+								var type=$(this).attr('type');
+								window.location.href="receive.html?token="+user.token+"&oid="+oid+"&type="+type;
+							});
+						}
+
+					}
+					status=$('<div class="status">订单状态:'+ss+'</div>');
+					//exchange_now
+					info.append(name);
+					info.append(tracking);
+					info.append(date);
+					if(operate){
+						info.append(operate);
+					}
+					if(obj.express){
+						var express=$('<div class="tracking">快递公司:'+obj.express+'</div>');
+						info.append(express);
+					}
+					if(obj.awb){
+						var awb=$('<div class="tracking">快递单号:'+obj.awb+'</div>');
+						info.append(awb);
+					}
+					wapper.append(cover);
+					wapper.append(info);
+					goods.append(wapper);
+					goods.append(status);
+					$('.content .wapper').append(goods);
+				}
+
+				if(data.orders.length<=0){
+					var goods=$('<div class="goods">');
+					var status=$('<div class="status">没有兑换记录</div>');
+					goods.append(status);
+					$('.content .wapper').append(goods);
+				}
+				$('#list-scroller').each(function(){
+					mainScroll = new IScroll('#list-scroller', { scrolly: true, freeScroll: true });
+				});
+
+				$(".exchange_now").bind('touchstart',function(){
+					var pid=$(this).attr('pid');
+					var type=$(this).attr('type');
+
+					window.location.href="exchange.html?token="+user.token+"&pid="+pid+"&type="+type;
+					//exchange.htmml
+				});
+			}
+
+		});
+	};
+
+
+
+</script>
+</html>

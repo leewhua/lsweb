@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta charset="UTF-8">
+	<title>积分商城</title>
+	<link rel="stylesheet" href="playcity/css/stylesheet.css" type="text/css" />
+	<link rel="stylesheet" href="playcity/css/swiper.min.css" type="text/css" />
+	<script src="playcity/js/jquery.min.js"></script>
+	<script src="playcity/js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="playcity/js/iscroll.js"></script>
+	<script type="text/javascript" src="playcity/js/action.js"></script>
+	<script type="text/javascript" src="playcity/js/ls.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body>
+<div id="home" class="main">
+	<div class="banner">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><a href="http://kzwsc.weiyianwds.com/?did=0"><img src="playcity/images/banner/banner.jpg"></a></div>
+			<div class="swiper-slide"><a href="http://kzwsc.weiyianwds.com/?did=0"><img src="playcity/images/banner/banner2.jpg"></a></div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<div class="personal">
+		<div class="point"><div>当前积分<span class="number">1000</span></div>
+			<div class="to-follow"><img src="playcity/images/base/follow.png"></div>
+		</div>
+
+		<div class="profile"><img src=""></div>
+		<div class="home_personal_but">
+			<img src="playcity/images/base/personal_but.png">
+		</div>
+	</div>
+	<!--<div class="to-aj" style="height:68px;margin: 20px auto 6px;"><img src="playcity/images/other/to-aj.png"></div>-->
+	<div class="nav">
+		<div class="home_luck_but">
+			<img src="playcity/images/base/luck_but.png">
+		</div>
+		<div class="home_exchange_but">
+			<img src="playcity/images/base/exchange_but.png">
+		</div>
+	</div>
+	
+</div>
+<div class="wx">
+	<div><img src="playcity/images/other/info.png"></div>
+	<div class="qr-close"><img src="playcity/images/other/qr-close.png"></div>
+</div>
+<div class="wx2">
+	<div><img src="playcity/images/other/follow-copy.png"></div>
+	<div><img src="playcity/images/other/qr.jpg"></div>
+	<div><img src="playcity/images/other/follow-copy2.png"></div>
+	<div class="qr-close2"><img src="playcity/images/other/qr-close.png"></div>
+</div>
+</body>
+<script>
+	var share=parseInt(getQueryString('share'));
+	//api="playcity/test/";
+	$(window).load(function() {
+		setTimeout(function(){
+			new Swiper('.banner', {
+				direction: 'horizontal',
+				autoplay: 4000,
+				initialSlide: 0,
+				pagination: '.swiper-pagination',
+				autoplayDisableOnInteraction: false,
+				watchSlidesProgress: true,
+				watchSlidesVisibility: true,
+				touchRatio: 1
+			});
+		},1000);
+		if(share){
+			$('.wx').fadeIn();
+		}
+	});
+	var loadUser=function(){
+		loadData("user_info",{},function(data){
+			user.name=data.name;
+			user.uid=data.uid;
+			user.profile=data.profile_image_url;
+			$('.point .number').text(data.point);
+			$('.personal .profile img').attr('src',user.profile);
+			$('.main').show();
+			console.log(data);
+		});
+	}
+	if(isTest)$('.main').show();
+
+</script>
+
+</html>

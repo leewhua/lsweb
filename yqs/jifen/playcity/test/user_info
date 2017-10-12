@@ -1,0 +1,24 @@
+{
+"uid": 1404376560,
+"name": "",
+"profile_image_url": "http://res.leasiondata.cn/lstatic/demo/logo.jpg",
+"gender": "m",
+"point": 1000,
+"exchange_count": 47,
+"order_count": 20,
+"favourites_count": 2,
+"cart_count": 0,
+"created_at": "Tue May 24 18:04:53 +0800 2016",
+"status": {
+"created_at": "Tue May 24 18:04:53 +0800 2011"
+},
+"address":{
+"name":"test",
+"mobile":"",
+"province":"",
+"city":"",
+"district":"",
+"detail":"",
+"comments":""
+}
+}
