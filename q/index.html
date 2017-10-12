@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta charset="UTF-8">
+	<title>全聚德</title>
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+	<script src="js/jquery.min.js"></script>
+	  <script src="js/jquery.transform2d.js"></script>
+	<script type="text/javascript" src="js/action.js"></script>
+</head>
+<body>
+
+	<div class="main">
+		<div class="main-wapper">
+			<div class="logo"><img src="images/logo.png"></div>
+		<div class="yan">
+			<div class="yuan-red rotate"></div>
+			<div class="yan-white"></div>
+
+			<div class="yuan-white rotate"></div>
+			<div class="yan-red"></div>
+		</div>
+		<div class="yan-tip"><img src="images/yan-tip.png"></div>
+		<div class="user">
+			<div class="left">
+				<div class="profile"><img src="" id="user-profile"></div>
+			</div>
+			<div class="right">
+				<div class="user-info">
+					<div class="user-name"></div>
+					<div class="user-city"></div>
+				</div>
+			</div>
+		</div>
+		<div class="to-shop but"><a href="shop.html"><img src="images/to-shop.png"/></a></div>
+		<div class="to-weixin but"><img src="images/to-weixin.png"/></div>
+		<div class="to-list but"><a href="list.html"><img src="images/to-list.png"/></a></div>
+		</div>
+		
+	</div>
+	<div class="wx">
+		<div><img src="playcity/images/other/info.png"></div>
+		<div class="qr-close"><img src="playcity/images/other/qr-close.png"></div>
+	</div>
+</body>
+<script>
+	var api="http://coeasion.cn/";
+	var user_ticket;
+	var status_ticket;
+
+//	function getTicket(){
+//	    var url = window.location.href.split("#")[0].split("?")[1];
+//	    if(url){
+//            user_ticket = url;
+//            return true;
+//		}else {
+//	        return false;
+//		}
+//	}
+//    getTicket();
+
+
+	function getTicket(){
+		 var url = window.location.href.split("#")[0].split("?")[1];
+	        if(url && url.length>20){
+	            var ut = url.split(",");
+	            user_ticket = ut[0];
+	            status_ticket = ut[1];
+	            return true;
+	        }else{
+	            return false;
+	        }
+	}
+	getTicket();
+
+	var user={};
+	var loadUser = function(){
+		$.post(api,{ticket:user_ticket},function(result){
+			console.log("result:"+result);
+			var json = eval("("+result+")");
+		});
+	};
+	loadUser();
+	setInterval(loadUser,30000);
+
+	$(".yan").bind('touchstart',function(){
+		$(".yuan-white").fadeIn();
+		$(".yan-red").fadeIn();
+		$(".yuan-red").fadeOut();
+		$(".yan-white").fadeOut();
+		$.post(api,{ticket:user_ticket},function(result){
+			console.log("result:"+result);
+			var json = eval("("+result+")");
+			var new_ticket=json;
+			setTimeout(function(){
+				window.location.href='pop.html?'+new_ticket;
+			},2000);
+		});
+		
+	});
+
+</script>
+</html>

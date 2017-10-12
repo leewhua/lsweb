@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<meta charset="UTF-8">
+	<title>全聚德</title>
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+	<script src="js/jquery.min.js"></script>
+	  <script src="js/jquery.transform2d.js"></script>
+	  <script type="text/javascript" src="js/iscroll.js"></script>
+	<script type="text/javascript" src="js/action.js"></script>
+</head>
+<body>
+
+	<div class="main">
+		<div id="main-scoller" class="scroller">
+			<div class="wapper">
+				<div class="logo"><img src="images/logo.png" width="355" height="163"></div>
+				<div class="list"><img src="images/list.png" width="570" height="1464" /></div>
+			</div>
+			
+		</div>
+		
+	</div>
+
+</body>
+<script>
+	function loaded(){
+          new IScroll("#main-scoller");
+     }
+     window.addEventListener("DOMContentLoaded",loaded,false);
+	
+</script>
+</html>

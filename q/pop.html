@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<meta charset="UTF-8">
+	<title>全聚德</title>
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/action.js"></script>
+</head>
+<body>
+<iframe src="http://www.qjd1864.com/" width="100%" height="100%" scrolling="auto">
+</iframe>
+<div class="pop-bar">
+	<div class="pop-wapper">
+		
+		<div class="logo"><img src="images/logo.png"></div>
+		<div id="code_info" class="code-info">
+			您所扫描的二维码对应的厂家<br>产品系统编码为<span class="code">123123</span>,<br>该编码为第<span class="count">1</span>次查询
+		</div>
+		<div id="code_info1" class="code-info" style="display:none">
+			您所扫描的二维码对应的厂家<br>产品系统编码为<span class="code">123123</span>
+		</div>
+		<div id="tip" class="tip"><img src="images/tip.png"></div>
+		<div id="tip1" class="tip" style="display:none"><img src="images/tip1.png"></div>
+		<div class="pro-info">
+			<div class="name">产品名称:<span></span></div>
+			<div class="size">净含量:<span></span></div>
+			<div class="date">生产日期:<span></span></div>
+		</div>
+		<div class="close"><img src="images/close.png"></div>
+	</div>
+</div>
+<div class="lost-pop">
+		<div class="lost"><img src="images/lost.png"></div>
+	</div>
+<script>
+    //  var status_ticket;
+    //	var api="http://leasiondata.cn/play";
+    var api="http://123.59.156.181:81/";
+    var activedate;
+    var count=0;
+
+    function getValues(){
+        var value = sessionStorage.getItem("values");
+        activedate = sessionStorage.getItem("activedate").split(" ")[0];
+        if(value){
+            var values = decodeURIComponent(value).split(",");
+            console.log("vlaues：" + values);
+
+            $('.code-info .code').text(values[3]);
+			$('.code-info .count').text(sessionStorage.getItem("count"));
+            $('.pro-info .name span').text(values[0]);
+            $('.pro-info .size span').text(values[1]);
+            $('.pop-bar').show();
+            $('.pro-info .date span').text(activedate);
+        }else{
+            $(".lost-pop").show();
+        }
+    }
+
+    getValues();
+
+    //	function getTicket(){
+    //		 var url = window.location.href.split("#")[0].split("?")[1];
+    //	        if(url && url.length>20){
+    //	            var ut = url.split(",");
+    //	            status_ticket = ut[0];
+    //	            return true;
+    //	        }else{
+    //	            return false;
+    //	        }
+    //	}
+    //	var loadInfo=function(){
+    //		$.post(api,{ticket:status_ticket},function(result){
+    //			var json = eval("("+result+")");
+    //			console.log(status_ticket);
+    //			console.log("result:"+result);
+    //			if(json.result=="success"){
+    //				if(json.more.result=="success")
+    //				{
+    //					if(json.more.times == -1)
+    //					{
+    //						$('#code_info').hide();
+    //						$('#code_info1').show();
+    //
+    //						$('#tip').hide();
+    //						$('#tip1').show();
+    //
+    //						$('.pro-info .name span').text("详情请见包装");
+    //						$('.pro-info .size span').text("详情请见包装");
+    //						$('.pro-info .date span').text("详情请见包装");
+    //
+    //						$('.code-info .code').text(json.more.productid);
+    //						$('.pop-bar').show();
+    //					}else
+    //					{
+    //						$('.code-info .code').text(json.more.productid);
+    //						$('.code-info .count').text(json.more.times);
+    //						$('.pro-info .name span').text(decodeURIComponent(json.more.productname));
+    //						$('.pro-info .size span').text(decodeURIComponent(json.more.weight));
+    //						$('.pro-info .date span').text(json.more.date);
+    //						$('.pop-bar').show();
+    //					}
+    //				}else{
+    //					$(".lost-pop").show();
+    //				}
+    //
+    //			}else{
+    //				if(count<3){
+    //					count++;
+    //					setTimeout(function(){loadInfo();},500);
+    //				}else{
+    //					$(".lost-pop").show();
+    //				}
+    //			}
+    //		});
+    //	};
+
+    //	if(sessionStorage.getItem("secondTicket")){
+    //		loadInfo();
+    //	}else{
+    //		//$('.pop-bar').show();
+    //		window.location.href='http://www.qjd1864.com/';
+    //	}
+
+</script>
+</body>
+</html>

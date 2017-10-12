@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<meta charset="UTF-8">
+	<title>全聚德</title>
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/action.js"></script>
+</head>
+<body>
+<iframe src="http://www.qjd1864.com/" width="100%" height="100%" scrolling="auto">
+</iframe>
+<div class="pop-bar">
+	<div class="pop-wapper">
+		
+		<div class="logo"><img src="images/logo.png"></div>
+		<div class="code-info">
+			您所扫描的二维码对应的厂家<br>产品系统编码为<span class="code">123123</span>
+		</div>
+		<div class="tip"><img src="images/tip1.png"></div>
+		<div class="pro-info">
+			<div class="name">产品名称:<span>详情请见包装</span></div>
+			<div class="size">净含量:<span>详情请见包装</span></div>
+			<div class="date">生产日期:<span>详情请见包装</span></div>
+		</div>
+		<div class="close"><img src="images/close.png"></div>
+	</div>
+</div>
+<div class="lost-pop">
+		<div class="lost"><img src="images/lost.png"></div>
+	</div>
+</body>
+<script>
+	var api="http://leasiondata.cn/play";
+	var status_ticket;
+	var count=0;
+	function getTicket(){
+		 var url = window.location.href.split("#")[0].split("?")[1];
+	        if(url && url.length>20){
+	            var ut = url.split(",");
+	            status_ticket = ut[0];
+	            return true;
+	        }else{
+	            return false;
+	        }
+	}
+	var loadInfo=function(){
+		$.post(api,{ticket:status_ticket},function(result){
+			var json = eval("("+result+")");
+			console.log(status_ticket);
+			console.log("result:"+result);
+			if(json.result=="success"){
+				if(json.more.result=="success"){
+					$('.code-info .code').text(json.more.productid);
+					//$('.code-info .count').text(json.more.times);
+					//$('.pro-info .name span').text(decodeURIComponent(json.more.productname));
+					//$('.pro-info .size span').text(decodeURIComponent(json.more.weight));
+					//$('.pro-info .date span').text(json.more.date);
+					$('.pop-bar').show();
+				}else{
+					$(".lost-pop").show();
+				}
+				
+			}else{
+				if(count<3){
+					count++;
+					setTimeout(function(){loadInfo();},500);
+				}else{
+					$(".lost-pop").show();
+				}
+			}
+		});
+	};
+
+	getTicket();
+	if(status_ticket){
+		loadInfo();
+	}else{
+		//$('.pop-bar').show();
+		window.location.href='http://www.qjd1864.com/';
+	}
+</script>
+</html>

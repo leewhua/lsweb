@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<!--<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>-->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<title>猎时 大数据+大创意|一物一码</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+	<meta http-equiv="Cache-Control" content="max-age=604800" />
+	<meta name="description" content="猎时，大数据，大创意，二维码精准营销">
+	<meta name="keywords" content="猎时,一物一码,一品一码,一罐一码,一瓶一码,一盒一码,一袋一码,唯一码,可变二维码,物联网精准营销,大数据精准营销">
+	<meta name="author" content="猎时 大数据+大创意">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" media="(max-width: 768px)" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<style>
+
+	</style>
+	<script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?cbf048bf3c6825b3d930d5876027618f";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+	</script>
+</head>
+<body>
+<div class="container">
+	<!-- nav PC -->
+	<div class="navbox" id="navbox">
+		<div class="nav clearfix" id="nav">
+			<div class="fl"><img src="images/imagesPC/logo.png"></div>
+			<ul class="fr">
+				<li name="product"><a href="javascript:;">猎时产品</a></li>
+				<li name="WeDid"><a href="javascript:;">猎时案例</a></li>
+				<li name="attracts"><a href="javascript:;">猎时优势</a></li>
+				<li name="about"><a href="javascript:;">关于猎时</a></li>
+			</ul>
+			<!-- telephone -->
+			<div class="telephone">
+				<a href="javascript:;" id="telephone"><img src="images/imagesPC/contact.png"></a>
+				<div class="teleNumber" id="teleNumber">
+					<a href="http://wpa.qq.com/msgrd?v=3&uin=2594853032&site=qq&menu=yes" target="_blank"></a>
+					<img src="images/imagesPC/contactdetail1.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- nav Mobile -->
+	<div class="navboxMobile clearfix" ><!-- style="display:none;" -->
+		<div class="navMobile">
+			<div class="logo fl"><img src="images/imagesMobile/logo.png"></div>
+			<div class="contact fr">
+				<span id="btnPhone"><img src="images/imagesMobile/btn_phone1.png"></span>
+				<span id="btnMenu"><img src="images/imagesMobile/btn_menu1.png"></span>
+			</div>
+		</div>
+		<div class="phoneNumber" id="phoneNumber">
+			<span class="num1"><a href="tel:021-64826292"></a></span>
+			<span class="mailto"><a href="mailto:info@geopoe.com"></a></span>
+			<span class="QQ"><a href="http://wpa.qq.com/msgrd?v=3&uin=2594853032&site=qq&menu=yes"><img src="images/imagesMobile/QQ.png" alt=""></a></span>
+			<img src="images/imagesMobile/phone_bg.png">
+		</div>
+		<div class="menuList" id="menuList">
+			<ul>
+				<li name="home"><img src="images/imagesMobile/menu_item1.png"></li>
+				<li name="product"><img src="images/imagesMobile/menu_item2.png"></li>
+				<li name="WeDid"><img src="images/imagesMobile/menu_item3.png"></li>
+				<li name="attracts"><img src="images/imagesMobile/menu_item4.png"></li>
+				<li name="about"><img src="images/imagesMobile/menu_item5.png"></li>
+			</ul>
+		</div>
+	</div>
+	<!-- banner start -->
+	<div class="banner" id="home">
+		<div class="bannerSlider">
+
+			<ul id="list" class="list">
+				<li class="active kv1text"><img src="images/imagesPC/kv1text.png"></li>
+				<li class="kv2text"><img src="images/imagesPC/kv2text.png"></li>
+			</ul>
+			<ul id="item" class="item">
+				<li class="active ar"><a href="javascript:;"></a></li>
+				<li class="al"><a href="javascript:;"></a></li>
+			</ul>
+	
+		</div>
+	</div>
+	<!-- the product -->
+	<div class="product" id="product">
+		<div class="title">
+			<p>The Product</p>
+			<p class="grey">猎时产品</p>
+		</div>
+		<div class="img">
+			<div class="clearfix">
+				<div class="img1 fl" id="img1">
+					<img src="images/imagesPC/icon1.png">
+					<p>一品一码精准营销</p>
+					<p>Precision Marketing</p>
+					<p>through Unique QR Code</p>
+					<p><img src="images/imagesPC/detail1.png"></p>
+				</div>
+				<div class="img2 fr" id="img2">
+					<img src="images/imagesPC/icon2.png">
+					<p>专业产品数据管理</p>
+					<p>Professional Product</p>
+					<p>Data Management</p>
+					<p><img src="images/imagesPC/detail2.png"></p>
+				</div>
+			</div>
+			<div class="more" id="more">
+				<img src="images/imagesPC/more.jpg">
+			</div>
+			<div class="moreM" id="moreM">
+				<img src="images/imagesMobile/open.png">
+			</div>
+		</div>
+		<!-- slideToggle PC -->
+		<div class="slideToggle" id="slideToggle">
+			<p class="closeicon"><img id="close" src="images/imagesPC/close.png"></p>
+			<div class="stepOne">
+				<p class="closeicon1"><img id="close1" src="images/imagesPC/close.png"></p>
+				<div class="title" style="padding-top: 14px;">
+					<p class="stepOneImg"><img src="images/imagesPC/stepOne.png"></p>
+					<p>
+						<span>Precision Marketing</span><br>
+						<span>through Unique QR Code</span>
+					</p>
+					<p class="fontyellow">一品一码精准营销</p>
+				</div>
+				<div class="title1">
+					<p class="stepOneImg"><img src="images/imagesPC/title1.png"></p>
+					<p class="info">借助“可变二维码”一对一的特性进行大数据采集、分析，找到核心消费人群，采用针对性的营销手段、更“智慧”的营销方式，变“广告”为“精告”，实现企业与消费者一对一直接沟通，让产品促销可见可控，让品牌传播更具互动性和创新性。</p>
+					<p class="value"><img src="images/imagesPC/value1.jpg"></p>
+					<ul class="row">
+						<li class="col-xs-12 col-md-4 pad">
+							<div>
+								<span>QR CODE</span><br>
+								<span>唯一码</span><br>
+							</div>
+							<div class="description">用加密的编码程序，自动生成海量唯一码，用激光或喷墨等工艺，在包装物生产过程或产品成型过程中实现一品一码。原本工业化的产品，因为有了唯一的二维码，便成为了具备物联网属性的智能体。</div>
+						</li>
+						<li class="col-xs-12 col-md-4">
+							<div>
+								<span>CONSUMER</span><br>
+								<span>EXPERIENCE</span><br>
+								<span>消费者体验</span>
+							</div>
+							<div class="description">消消费者通过扫码，体验精彩多样的线上互动并获得各种奖励，增加对产品的了解和对品牌的好感度，进而提升产品销量。活动过程的所有数据（如消费时间、地点、频次、消费者信息等）将汇入数据中心用于大数据分析。</div>
+						</li>
+						<li class="col-xs-12 col-md-4">
+							<div>
+								<span>CREATIVE </span><br>
+								<span>SOLUTIONS</span><br>
+								<span>创意方案</span>
+							</div>
+							<div class="description">以创意与数据为方案基础，借助百种时下新兴的互动技术，将创意、设计、体验和数据完美结合，制定符合不同企业需求的创意互动方案，不断吸引消费者扫码，从而实现用户对产品及品牌的深度关注。</div>
+						</li>
+					</ul>
+					<p class="use"><img src="images/imagesPC/use.png"></p>
+				</div>
+			</div>
+			<div class="stepTwo">
+				<div class="title">
+					<p><img src="images/imagesPC/stepTwo.png"></p>
+					<p>
+						<span>Professional Product</span><br>
+						<span>Data Management</span>
+					</p>
+					<p class="fontyellow">专业产品数据管理</p>
+				</div>
+				<div class="title2">
+					<p><img src="images/imagesPC/title2.png"></p>
+					<p class="info">根据不同的包装形式，采用全球领先的“可变二维码”赋码设备和丰富的产线技术经验，高效、低成本实现全品类包装赋码，并将相关数据进行系统、可视化的管理，助力企业实现渠道管理、产品防伪功能。</p>
+					<p class="value"><img src="images/imagesPC/value.png"></p>
+					<p><img src="images/imagesPC/use2.png"></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- slideToggle MObile -->
+		<div class="slideToggleM" id="slideToggleM">
+			<img class="bg1" src="images/imagesMobile/product1_7.png">
+			<img class="bg2" src="images/imagesMobile/product1_6.png">
+			<p class="closeiconM">
+				<img id="closeM" src="images/imagesMobile/close.png">
+			</p>
+			<div class="stepOne">
+				<p>
+					<img src="images/imagesMobile/product1_1.png">
+				</p>
+				<p>
+					<img src="images/imagesMobile/product1_2.png">
+				</p>
+				<p class="pd20">
+					<img src="images/imagesMobile/product1_3.png">
+				</p>
+				<p>
+					<img src="images/imagesMobile/product1_4.png">
+				</p>
+				<p style="padding: 20px 0;">
+					<img src="images/imagesMobile/product1_5.png">
+				</p>
+			</div>
+			<div class="stepTwo">
+				<p>
+					<img src="images/imagesMobile/product2_1.png">
+				</p>
+				<p class="pd20">
+					<img src="images/imagesMobile/product2_2.png">
+				</p>
+				<p>
+					<img src="images/imagesMobile/product2_3.png">
+				</p>
+				<p style="padding: 20px 0;">
+					<img src="images/imagesMobile/product2_4.png">
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- We Did -->
+	<div class="WeDid" id="WeDid">
+		<div class="title">
+			<p>We Did</p>
+			<p>猎时案例</p>
+		</div>
+		<div class="WeListPC">
+		<ul class="row">
+			<li data-large="images/imagesPC/detail1.jpg"><a href="javascript:;"><img src="images/imagesPC/case1.jpg"></a></li>
+			<li data-large="images/imagesPC/detail2.jpg"><a href="javascript:;"><img src="images/imagesPC/case2.jpg"></a></li>
+		</ul>
+
+		<ul class="row">
+			<li data-large="images/imagesPC/detail3.jpg"><a href="javascript:;"><img src="images/imagesPC/case3.jpg"></a></li>
+			<li data-large="images/imagesPC/detail4.jpg"><a href="javascript:;"><img src="images/imagesPC/case4.jpg"></a></li>
+		</ul>
+
+		<ul class="row">
+			<li data-large="images/imagesPC/detail5.jpg"><a href="javascript:;"><img src="images/imagesPC/case5.jpg"></a></li>
+			<li data-large="images/imagesPC/detail6.jpg"><a href="javascript:;"><img src="images/imagesPC/case6.jpg"></a></li>
+		</ul>
+		
+		<ul class="row">
+			<li data-large="images/imagesPC/detail7.jpg"><a href="javascript:;"><img src="images/imagesPC/case7.jpg"></a></li>
+			<li data-large="images/imagesPC/detail8.jpg"><a href="javascript:;"><img src="images/imagesPC/case8.jpg"></a></li>
+		</ul>
+		</div>
+		<!-- Swiper -->
+		<div class="swiperMobile">
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="images/case-M/case_6.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_6-1.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_6-2.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_6-3.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_6-4.jpg" alt=""></div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div>
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="images/case-M/case_2.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_2-1.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_2-2.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_2-3.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_2-4.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_2-5.jpg" alt=""></div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div>
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="images/case-M/case_4.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_4-1.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_4-2.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_4-3.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_4-4.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_4-5.jpg" alt=""></div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div> 
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="images/case-M/case_7.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_7-1.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_7-2.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_7-3.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_7-4.jpg" alt=""></div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div>  
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="images/case-M/case_5.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_5-1.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_5-2.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_5-3.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_5-4.jpg" alt=""></div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div>
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="images/case-M/case_3.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_3-1.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_3-2.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_3-3.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_3-4.jpg" alt=""></div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div> 
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="images/case-M/case_1.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_1-1.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_1-2.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_1-3.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_1-4.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_1-5.jpg" alt=""></div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div>
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="images/case-M/case_8.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_8-1.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_8-2.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_8-3.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="images/case-M/case_8-4.jpg" alt=""></div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div> 
+	    </div>
+	</div>
+	<!-- Attracts You -->
+	<div class="attracts" id="attracts">
+		<div class="title">
+			<p>Attracts You</p>
+			<p class="grey">猎时优势</p>
+		</div>
+		<!-- ul PC -->
+		<ul class="row ulPC">
+			<li class="col-sm-4">
+				<div class="info">独创的自有二维码</div>
+				<div class="info">大数据平台</div>
+				<div class="blue">数据洞悉未来 驾驭无限可能</div>
+				<div><img src="images/imagesPC/adv1.jpg"></div>
+				<div class="desc">“码上星球”一品一码大数据平台，采用全球最先进数据平台架构技术，致力于实现更多样更精准的营销方案，多纬度精准采集相关数据，通过大数据分析为企业营销提供数据支持。</div>
+			</li>
+			<li class="col-sm-4">
+				<div class="info">强大的全品类</div>
+				<div class="info">产品赋码能力</div>
+				<div class="blue">用科技之手承接智能化营销未来</div>
+				<div><img src="images/imagesPC/adv2.jpg"></div>
+				<div class="desc">完善的赋码执行供应链条+成熟的赋码技术+众多实际案例实施经验为各类产品实现“一品一码”。</div>
+			</li>
+			<li class="col-sm-4">
+				<div class="info">15年 300个品牌</div>
+				<div class="info">整合营销经验</div>
+				<div class="blue">大数据+大创意 开启精准营销新模式</div>
+				<div><img src="images/imagesPC/adv3.jpg"></div>
+				<div class="desc">立足市场洞悉营销本质，依托15年300个品牌营销经验，用“大数据+大创意”，为企业开启二维码精准营销新模式。</div>
+			</li>
+		</ul>
+		 <!-- ul Mobile -->
+		 <ul class="row ulMobile" style="padding:0;">
+		 	<li class="col-xs-12">
+		 		<img src="images/imagesMobile/odds_2.png">
+		 	</li>
+		 </ul>
+	</div>
+	<!-- To Know Us -->
+	<div class="lsidsecabout" id="about">
+		<div><img src="images/imagesPC/splitter.png"></div>
+		<div class="title">
+			<p>To Konw Us</p>
+			<p class="grey">关于猎时</p>
+		</div>
+		<div class="aboutPC">上海猎时智能科技有限公司，卓朴旗下品牌。猎时专注为广大客户提供具有竞争力的互联网品牌发展策略，帮助企业扩大品牌影响力与商业价值。我们的业务包括：基于产品包装物开发的大数据精准营销体系，互联网品牌体系打造，互联网品牌整体营销传播，企业线上自媒体后台搭建与开发，平台运营，线上网络媒体等。猎时为客户提供整体线上品牌解决方案，培养品牌在互联网世界的差异化“发声”。猎时作为“唯一二维码”大数据精准营销模式的开创者、红牛二维码数据库营销战略合作伙伴，首创通过“唯一二维码”将生产、渠道、产品、消费者一对一关联，为企业打造基于包装物的“专有数据库精准营销生态圈”。基于多年品牌营销服务经验，猎时推出“互联网品牌打造”、“整合传播”的重点服务，通过互联网整合传播与创意方案，帮助更多企业强化品牌线上优势，转化品牌知名度与产品市场份额。
+		</div>
+		<div class="prizePC">
+			<img src="images/imagesPC/honors.png">
+		</div>
+
+		<!-- Mobile -->
+		<div class="aboutM">
+			<p>
+				<img src="images/imagesMobile/about_1.png">
+			</p>
+			<p style="margin-top: 20px;">
+				<img src="images/imagesMobile/about_2.png">
+			</p>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footer" id="footer">
+		<div class="footerPC">
+			<div class="mt">
+				<img src="images/imagesPC/clients.png">
+			</div>
+			<div class="connect">
+				<ul class="clearfix">
+					<li style="margin-top: 70px;"><img src="images/imagesPC/bottomlogo.png"></li>
+					<li style="margin: 85px 0 0 120px;">
+						<span>电话咨询：021-64826292 邮件沟通：info@geopoe.com</span></li>
+					<!--<li class="codeSize"><img src="images/imagesPC/code.jpg"></li>-->
+					<li class="pcQQ"><a href="http://wpa.qq.com/msgrd?v=3&uin=2594853032&site=qq&menu=yes" target="_blank"><img src="images/imagesMobile/QQ.png"></a></li>
+				</ul>
+				<p>© 2016-2017 Leasion 上海猎时智能科技有限公司 (沪ICP备17029114)</p>
+			</div>
+		</div>
+
+		<!-- MObile -->
+		<div class="footerM">
+			<p><img src="images/imagesMobile/about_3.png"></p>
+			<p style="margin-top: 20px; position: relative;">
+					<img src="images/imagesMobile/about_4_1.png">
+					<!--<span class="fnum1"><a href="tel:800-820-5568"></a></span>-->
+					<span class="fnum1"><a href="tel:021-64826292"></a></span>
+					<span class="mailto"><a href="mailto:info@geopoe.com"></a></span>
+					<span class="footerQQ"><a href="http://wpa.qq.com/msgrd?v=3&uin=2594853032&site=qq&menu=yes"><img src="images/imagesMobile/QQ.png" alt=""></a></span>
+			</p>
+		</div>
+	</div>
+
+	<!-- go to top -->
+	<a class="goToTop" id="goToTop" href="javascript:;"><img src="images/imagesPC/top.jpg"></a>
+	
+</div>
+<div class="mask" id="mask">
+	<span id="bigClose" class="bigClose">×</span>
+	<div class="bigShow" id="bigShow">
+		<ul class="bigList">
+			<!--<li><img src="images/case-pc/tzb/tzb1.JPG"></li>-->
+			<li><img src="images/case-pc/tzb/tzb2.JPG"></li>
+			<li><img src="images/case-pc/tzb/tzb3.JPG"></li>
+			<li><img src="images/case-pc/tzb/tzb4.JPG"></li>
+			<li><img src="images/case-pc/tzb/tzb5.JPG"></li>
+		</ul>
+		<ul class="bigList">
+			<!--<li><img src="images/case-pc/qdbeer/beer1.JPG"></li>-->
+			<li><img src="images/case-pc/qdbeer/beer2.JPG"></li>
+			<li><img src="images/case-pc/qdbeer/beer3.JPG"></li>
+			<li><img src="images/case-pc/qdbeer/beer4.JPG"></li>
+			<li><img src="images/case-pc/qdbeer/beer5.JPG"></li>
+			<li><img src="images/case-pc/qdbeer/beer6.JPG"></li>
+		</ul>
+		<ul class="bigList">
+			<!--<li><img src="images/case-pc/bby/bby1.JPG"></li>-->
+			<li><img src="images/case-pc/bby/bby2.JPG"></li>
+			<li><img src="images/case-pc/bby/bby3.JPG"></li>
+			<li><img src="images/case-pc/bby/bby4.JPG"></li>
+			<li><img src="images/case-pc/bby/bby5.JPG"></li>
+			<li><img src="images/case-pc/bby/bby6.JPG"></li>
+		</ul>
+		<ul class="bigList">
+			<!--<li><img src="images/case-pc/kangzw/kzw1.JPG"></li>-->
+			<li><img src="images/case-pc/kangzw/kzw2.jpg"></li>
+			<li><img src="images/case-pc/kangzw/kzw3.JPG"></li>
+			<li><img src="images/case-pc/kangzw/kzw4.JPG"></li>
+			<li><img src="images/case-pc/kangzw/kzw5.JPG"></li>
+		</ul>
+		<ul class="bigList">
+			<!--<li><img src="images/case-pc/rijiaman/rjm1.JPG"></li>-->
+			<li><img src="images/case-pc/rijiaman/rjm2.JPG"></li>
+			<li><img src="images/case-pc/rijiaman/rjm3.JPG"></li>
+			<li><img src="images/case-pc/rijiaman/rjm4.JPG"></li>
+			<li><img src="images/case-pc/rijiaman/rjm5.JPG"></li>
+		</ul>
+		<ul class="bigList">
+			<!--<li><img src="images/case-pc/quanjude/qjd1.JPG"></li>-->
+			<li><img src="images/case-pc/quanjude/qjd2.JPG"></li>
+			<li><img src="images/case-pc/quanjude/qjd3.JPG"></li>
+			<li><img src="images/case-pc/quanjude/qjd4.JPG"></li>
+			<li><img src="images/case-pc/quanjude/qjd5.JPG"></li>
+		</ul>
+		<ul class="bigList">
+			<!--<li><img src="images/case-pc/redbull/rbull1.JPG"></li>-->
+			<li><img src="images/case-pc/redbull/rbull2.JPG"></li>
+			<li><img src="images/case-pc/redbull/rbull3.JPG"></li>
+			<li><img src="images/case-pc/redbull/rbull4.JPG"></li>
+			<li><img src="images/case-pc/redbull/rbull5.JPG"></li>
+			<li><img src="images/case-pc/redbull/rbull6.JPG"></li>
+		</ul>
+		<ul class="bigList">
+			<!--<li><img src="images/case-pc/huamei/hm1.JPG"></li>-->
+			<li><img src="images/case-pc/huamei/hm2.JPG"></li>
+			<li><img src="images/case-pc/huamei/hm3.JPG"></li>
+			<li><img src="images/case-pc/huamei/hm4.JPG"></li>
+			<li><img src="images/case-pc/huamei/hm5.JPG"></li>
+		</ul>
+		<ul class="num" id="num"></ul>
+		<span class="leftBtn" id="leftBtn">&lt;</span>
+		<span class="rightBtn" id="rightBtn">&gt;</span>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function () {
+//	$(window).resize(function () {
+//		window.location.reload();
+//	});
+})
+</script>
+<script type="text/javascript" src="js/media.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" id="imgSlide" src="js/imgSlide.js"></script>
+<script type="text/javascript" id="imgSlide" src="js/swiper.min.js"></script>
+
+</html>

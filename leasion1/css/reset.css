@@ -1,0 +1,72 @@
+﻿/*
+    2016-11-04
+    wxx add reset css
+*/
+body,p,h1,h2,h3,h4,h5,h6,span,ul,ol,li,dl,dt,dd,table,tr,td{
+    margin: 0px;
+    padding:0px;
+    font-size: 100%;
+    font-family: arial,"微软雅黑";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    color: #040000;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ol{
+    list-style: none;
+}
+img{
+    border:0px;
+    vertical-align: top;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.bk15{
+    height: 15px;
+}
+.bk20{
+    height: 20px;
+}
+.bk25{
+    height: 25px;
+}
+.bk30{
+    height: 30px;
+}
+.bk50{
+    height: 50px;
+}
+.bk80{
+    height: 80px;
+}
+.bk100{
+    height: 100px;
+}
+.mr{
+    margin-right: 0px;
+}
+.mt{
+    margin-top: 0px;
+}
+.mb{margin-bottom: 0px;}.mb10{margin-bottom: 10px;}.mb15{margin-bottom: 15px;}.mb20{margin-bottom: 20px;}.mb30{margin-bottom: 30px;}.mb50{margin-bottom: 50px;}.mb60{margin-bottom: 60px;}.mb120{margin-bottom: 120px;}.mb140{margin-bottom: 140px;}
+.tlc{
+    text-align: center;
+}
+.clearfix:after{
+    content: ".";
+    height:0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+} 
