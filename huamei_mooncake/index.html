@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>华美</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #e6e6e6;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <script egret="lib" src="polyfill/promise.min.js"></script>
+    <script egret="lib" src="libs/jquery.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script egret="lib" src="libs/ls.js"></script>
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/pop/PopView.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/LoginPop.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/SelectListPop.js"></script>
+	<script egret="game" src="bin-debug/comp/CustomTabbar.js"></script>
+	<script egret="game" src="bin-debug/comp/CustomTabButton.js"></script>
+	<script egret="game" src="bin-debug/comp/QRCode.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/pop/PopManager.js"></script>
+	<script egret="game" src="bin-debug/comp/CustomButton.js"></script>
+	<script egret="game" src="bin-debug/UIManager.js"></script>
+	<script egret="game" src="bin-debug/utils/AudioManager.js"></script>
+	<script egret="game" src="bin-debug/utils/CustomImage.js"></script>
+	<script egret="game" src="bin-debug/utils/ErrorCode.js"></script>
+	<script egret="game" src="bin-debug/utils/GameDispatcher.js"></script>
+	<script egret="game" src="bin-debug/utils/Global.js"></script>
+	<script egret="game" src="bin-debug/utils/Message.js"></script>
+	<script egret="game" src="bin-debug/utils/StageUtils.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/ChangeIDPop.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/ChangePWPop.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/confimPay/ConfimPayItem.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/confimPay/ConfimPayPop.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/confimPay/PayDetailItem.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/confimPay/PayDetailPop.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/ListItem.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/ListPop.js"></script>
+	<script egret="game" src="bin-debug/comp/CustomScrollView.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/PayOKPop.js"></script>
+	<script egret="game" src="bin-debug/view/dealer/SelectListItem.js"></script>
+	<script egret="game" src="bin-debug/comp/CustomCheckBox.js"></script>
+	<script egret="game" src="bin-debug/view/ErrorPop.js"></script>
+	<script egret="game" src="bin-debug/view/GameView.js"></script>
+	<script egret="game" src="bin-debug/view/personal/AddressPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/BuySendOKPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/BuySendPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/ConfirmAddress.js"></script>
+	<script egret="game" src="bin-debug/view/personal/GetShareOKPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/HasGetBuyPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/HasGetInfoPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/HasGetPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/InfoPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/IntoSharePop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/item/BuySendItem.js"></script>
+	<script egret="game" src="bin-debug/view/personal/item/InfoCardItem.js"></script>
+	<script egret="game" src="bin-debug/view/personal/item/InfoOrderItem.js"></script>
+	<script egret="game" src="bin-debug/view/personal/item/InfoShareItem.js"></script>
+	<script egret="game" src="bin-debug/view/personal/item/MailItem.js"></script>
+	<script egret="game" src="bin-debug/view/personal/MailSelectPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/OrderOKPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/PersonalPop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/SharePop.js"></script>
+	<script egret="game" src="bin-debug/view/personal/StopJihuoPop.js"></script>
+	<script egret="game" src="bin-debug/view/select/DetailItem.js"></script>
+	<script egret="game" src="bin-debug/view/select/DetailSimpleItem.js"></script>
+	<script egret="game" src="bin-debug/view/select/DetailView.js"></script>
+	<script egret="game" src="bin-debug/view/select/DownView.js"></script>
+	<script egret="game" src="bin-debug/view/select/SelectLoginPop.js"></script>
+	<script egret="game" src="bin-debug/view/select/SelectPop.js"></script>
+	<script egret="game" src="bin-debug/view/TipsPop.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" id="gameDiv"
+         data-entry-class="Main"
+         data-orientation="portrait"
+         data-scale-mode="exactFit"
+         data-frame-rate="60"
+         data-content-width="640"
+         data-content-height="1030"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": 0 //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * "retina": //是否基于devicePixelRatio缩放画布
+         * }
+         **/
+        egret.runEgret({renderMode:"webgl", audioType:0});
+    </script>
+</body>
+</html>

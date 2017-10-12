@@ -1,0 +1,1170 @@
+{
+	"groups": [
+		{
+			"keys": "login_input_bg_png,login_submit_png,list_title_png,btn_continue_png,btn_pay_png,check_no_png,check_ok_png,btn_return_png,btn_complete_png,select_list_title_png,btn_down_png,btn_send_png,email_bg_png,tips_bg_png,select_bg_down_png,btn_detail_png,btn_close_png,btn_duihuan_png,btn_share_png,address_png,btn_submit_png,btn_buy_gift_png,btn_buy_send_png,btn_less_png,btn_add_png,btn_addless_bg_png,btn_duihuan_1_png,btn_share_1_png,btn_get_png,num_bg_png,btn_buy_card_png,btn_wuliu_png,btn_select_info_png,btn_help_png,btn_logout_png,btn_pay_1_png,down_bg_png,confim_order_title_png,detail_title_png,tips_error_png,btn_info_png,change_id_png,change_no_png,change_ok_png,change_pd_png,btn_change_id_png,btn_change_pw_png,btn_change_submit_png,btn_change_close_png,personal_tips_png,btn_duihuan_2_png,btn_share_2_png,p_line_1_png,select_sale_6.0_png,select_sale_6.5_png,select_sale_7.0_png,mail_item_2_png,mail_item_3_png,mail_item_4_png,mail_item_1_png,mail_close_png,btn_share_3_png,btn_share_4_png,personal_tips_bg1_png,btn_tips_1_png,personal_tips_bg2_png,card_type_get_png,card_type_out_png,card_type_buy_png,btn_get1_png,p_line_2_png,list_line2_png,btn_select_png,address_bg_png,buy_send_bg_png,error_code_png,error_guama_png,error_huobao_png,error_no_open_png,error_no_pay_png,error_pay_png,error_web_png,error_yijihuo_png,error_yilingqu_png,get_share_ok_png,has_get_buy_bg_png,has_get_info_bg_png,info_bg_png,info_order_item_bg_png,loading_bg_jpg,login_bg_png,1_png,2_png,3_png,4_png,12_png,22_png,32_png,42_png,13_png,23_png,33_png,43_png,14_png,24_png,34_png,44_png,15_png,25_png,35_png,45_png,16_png,26_png,36_png,46_png,17_png,27_png,37_png,47_png,18_png,28_png,38_png,48_png,order_bg_png,pay_complete_bg_png,pay_send_ok_bg_png,pay_send_ok_code_png,pop_bg_png,share_bg_png,share_end_png,tips_bg2_png,btn_change_close2_png,btn_change_id2_png,btn_change_pw2_png,btn_change_submit2_png,change_id2_png,change_no2_png,change_ok2_png,change_pd2_png,btn_close2_png,btn_complete2_png,btn_continue2_png,btn_detail2_png,btn_down2_png,btn_help2_png,btn_logout2_png,btn_pay2_png,btn_pay_12_png,btn_return2_png,btn_select2_png,btn_send2_png,check_no2_png,check_ok2_png,confim_order_title2_png,detail_title2_png,down_bg2_png,email_bg2_png,list_line1_png,list_line22_png,list_title2_png,login_input_bg2_png,login_submit2_png,address2_png,btn_add2_png,btn_addless_bg2_png,btn_buy_card2_png,btn_buy_gift2_png,btn_buy_send2_png,btn_duihuan2_png,btn_duihuan_12_png,btn_duihuan_22_png,btn_get2_png,btn_get12_png,btn_info2_png,btn_less2_png,btn_select_info2_png,btn_share2_png,btn_share_12_png,btn_share_22_png,btn_share_32_png,btn_share_42_png,btn_submit2_png,btn_tips_12_png,btn_wuliu2_png,card_type_buy2_png,card_type_get2_png,card_type_out2_png,mail_close2_png,mail_item_12_png,mail_item_22_png,mail_item_32_png,mail_item_42_png,num_bg2_png,personal_tips2_png,personal_tips_bg12_png,personal_tips_bg22_png,p_line_12_png,p_line_22_png,btn_select_phone2_png,btn_select_sendmail2_png,line_12_png,line_22_png,line_32_png,select_down2_png,select_down_bg2_png,select_sale_6.02_png,select_sale_6.52_png,select_sale_7.02_png,select_tips12_png,select_title2_png,select_bg_down2_png,select_list_title2_png,tips_bg3_png,tips_error2_png,815_jpg,btn_OK_png,btn_back_png,confirm_address_png,816_jpg,stop_activate_jpg,btnToInfo_png,stop_jihuo_jpg",
+			"name": "preload"
+		},
+		{
+			"keys": "line_2_png,line_1_png,select_down_bg_png,select_tips1_png,btn_select_phone_png,btn_select_sendmail_png,select_title_png,select_down_png,line_3_png",
+			"name": "select"
+		}
+	],
+	"resources": [
+		{
+			"name": "login_input_bg_png",
+			"type": "image",
+			"url": "assets/login/login_input_bg.png"
+		},
+		{
+			"name": "login_submit_png",
+			"type": "image",
+			"url": "assets/login/login_submit.png"
+		},
+		{
+			"name": "list_title_png",
+			"type": "image",
+			"url": "assets/login/list_title.png"
+		},
+		{
+			"name": "btn_continue_png",
+			"type": "image",
+			"url": "assets/login/btn_continue.png"
+		},
+		{
+			"name": "btn_pay_png",
+			"type": "image",
+			"url": "assets/login/btn_pay.png"
+		},
+		{
+			"name": "check_no_png",
+			"type": "image",
+			"url": "assets/login/check_no.png"
+		},
+		{
+			"name": "check_ok_png",
+			"type": "image",
+			"url": "assets/login/check_ok.png"
+		},
+		{
+			"name": "btn_return_png",
+			"type": "image",
+			"url": "assets/login/btn_return.png"
+		},
+		{
+			"name": "btn_complete_png",
+			"type": "image",
+			"url": "assets/login/btn_complete.png"
+		},
+		{
+			"name": "select_list_title_png",
+			"type": "image",
+			"url": "assets/login/select_list_title.png"
+		},
+		{
+			"name": "btn_down_png",
+			"type": "image",
+			"url": "assets/login/btn_down.png"
+		},
+		{
+			"name": "btn_send_png",
+			"type": "image",
+			"url": "assets/login/btn_send.png"
+		},
+		{
+			"name": "email_bg_png",
+			"type": "image",
+			"url": "assets/login/email_bg.png"
+		},
+		{
+			"name": "tips_bg_png",
+			"type": "image",
+			"url": "assets/login/tips_bg.png"
+		},
+		{
+			"name": "select_bg_down_png",
+			"type": "image",
+			"url": "assets/login/select_bg_down.png"
+		},
+		{
+			"name": "btn_detail_png",
+			"type": "image",
+			"url": "assets/login/btn_detail.png"
+		},
+		{
+			"name": "btn_close_png",
+			"type": "image",
+			"url": "assets/login/btn_close.png"
+		},
+		{
+			"name": "btn_duihuan_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_duihuan.png"
+		},
+		{
+			"name": "btn_share_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_share.png"
+		},
+		{
+			"name": "btn_submit_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_submit.png"
+		},
+		{
+			"name": "address_png",
+			"type": "image",
+			"url": "assets/login/personal/address.png"
+		},
+		{
+			"name": "btn_buy_gift_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_buy_gift.png"
+		},
+		{
+			"name": "btn_buy_send_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_buy_send.png"
+		},
+		{
+			"name": "btn_less_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_less.png"
+		},
+		{
+			"name": "btn_add_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_add.png"
+		},
+		{
+			"name": "btn_addless_bg_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_addless_bg.png"
+		},
+		{
+			"name": "btn_duihuan_1_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_duihuan_1.png"
+		},
+		{
+			"name": "btn_share_1_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_share_1.png"
+		},
+		{
+			"name": "btn_get_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_get.png"
+		},
+		{
+			"name": "num_bg_png",
+			"type": "image",
+			"url": "assets/login/personal/num_bg.png"
+		},
+		{
+			"name": "btn_buy_card_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_buy_card.png"
+		},
+		{
+			"name": "btn_wuliu_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_wuliu.png"
+		},
+		{
+			"name": "btn_select_info_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_select_info.png"
+		},
+		{
+			"name": "btn_help_png",
+			"type": "image",
+			"url": "assets/login/btn_help.png"
+		},
+		{
+			"name": "btn_logout_png",
+			"type": "image",
+			"url": "assets/login/btn_logout.png"
+		},
+		{
+			"name": "btn_pay_1_png",
+			"type": "image",
+			"url": "assets/login/btn_pay_1.png"
+		},
+		{
+			"name": "down_bg_png",
+			"type": "image",
+			"url": "assets/login/down_bg.png"
+		},
+		{
+			"name": "confim_order_title_png",
+			"type": "image",
+			"url": "assets/login/confim_order_title.png"
+		},
+		{
+			"name": "detail_title_png",
+			"type": "image",
+			"url": "assets/login/detail_title.png"
+		},
+		{
+			"name": "tips_error_png",
+			"type": "image",
+			"url": "assets/login/tips_error.png"
+		},
+		{
+			"name": "btn_info_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_info.png"
+		},
+		{
+			"name": "change_id_png",
+			"type": "image",
+			"url": "assets/login/account/change_id.png"
+		},
+		{
+			"name": "change_no_png",
+			"type": "image",
+			"url": "assets/login/account/change_no.png"
+		},
+		{
+			"name": "change_ok_png",
+			"type": "image",
+			"url": "assets/login/account/change_ok.png"
+		},
+		{
+			"name": "change_pd_png",
+			"type": "image",
+			"url": "assets/login/account/change_pd.png"
+		},
+		{
+			"name": "btn_change_id_png",
+			"type": "image",
+			"url": "assets/login/account/btn_change_id.png"
+		},
+		{
+			"name": "btn_change_pw_png",
+			"type": "image",
+			"url": "assets/login/account/btn_change_pw.png"
+		},
+		{
+			"name": "btn_change_submit_png",
+			"type": "image",
+			"url": "assets/login/account/btn_change_submit.png"
+		},
+		{
+			"name": "btn_change_close_png",
+			"type": "image",
+			"url": "assets/login/account/btn_change_close.png"
+		},
+		{
+			"name": "line_2_png",
+			"type": "image",
+			"url": "assets/login/select/line_2.png"
+		},
+		{
+			"name": "line_1_png",
+			"type": "image",
+			"url": "assets/login/select/line_1.png"
+		},
+		{
+			"name": "select_down_bg_png",
+			"type": "image",
+			"url": "assets/login/select/select_down_bg.png"
+		},
+		{
+			"name": "select_tips1_png",
+			"type": "image",
+			"url": "assets/login/select/select_tips1.png"
+		},
+		{
+			"name": "btn_select_phone_png",
+			"type": "image",
+			"url": "assets/login/select/btn_select_phone.png"
+		},
+		{
+			"name": "btn_select_sendmail_png",
+			"type": "image",
+			"url": "assets/login/select/btn_select_sendmail.png"
+		},
+		{
+			"name": "select_title_png",
+			"type": "image",
+			"url": "assets/login/select/select_title.png"
+		},
+		{
+			"name": "select_down_png",
+			"type": "image",
+			"url": "assets/login/select/select_down.png"
+		},
+		{
+			"name": "line_3_png",
+			"type": "image",
+			"url": "assets/login/select/line_3.png"
+		},
+		{
+			"name": "personal_tips_png",
+			"type": "image",
+			"url": "assets/login/personal/personal_tips.png"
+		},
+		{
+			"name": "btn_duihuan_2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_duihuan_2.png"
+		},
+		{
+			"name": "btn_share_2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_share_2.png"
+		},
+		{
+			"name": "p_line_1_png",
+			"type": "image",
+			"url": "assets/login/personal/p_line_1.png"
+		},
+		{
+			"name": "select_sale_6.0_png",
+			"type": "image",
+			"url": "assets/login/select/select_sale_6.0.png"
+		},
+		{
+			"name": "select_sale_6.5_png",
+			"type": "image",
+			"url": "assets/login/select/select_sale_6.5.png"
+		},
+		{
+			"name": "select_sale_7.0_png",
+			"type": "image",
+			"url": "assets/login/select/select_sale_7.0.png"
+		},
+		{
+			"name": "mail_item_2_png",
+			"type": "image",
+			"url": "assets/login/personal/mail_item_2.png"
+		},
+		{
+			"name": "mail_item_3_png",
+			"type": "image",
+			"url": "assets/login/personal/mail_item_3.png"
+		},
+		{
+			"name": "mail_item_4_png",
+			"scale9grid": "1,45,10,274",
+			"type": "image",
+			"url": "assets/login/personal/mail_item_4.png"
+		},
+		{
+			"name": "mail_item_1_png",
+			"type": "image",
+			"url": "assets/login/personal/mail_item_1.png"
+		},
+		{
+			"name": "mail_close_png",
+			"type": "image",
+			"url": "assets/login/personal/mail_close.png"
+		},
+		{
+			"name": "btn_share_3_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_share_3.png"
+		},
+		{
+			"name": "btn_share_4_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_share_4.png"
+		},
+		{
+			"name": "personal_tips_bg1_png",
+			"type": "image",
+			"url": "assets/login/personal/personal_tips_bg1.png"
+		},
+		{
+			"name": "btn_tips_1_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_tips_1.png"
+		},
+		{
+			"name": "personal_tips_bg2_png",
+			"type": "image",
+			"url": "assets/login/personal/personal_tips_bg2.png"
+		},
+		{
+			"name": "card_type_get_png",
+			"type": "image",
+			"url": "assets/login/personal/card_type_get.png"
+		},
+		{
+			"name": "card_type_out_png",
+			"type": "image",
+			"url": "assets/login/personal/card_type_out.png"
+		},
+		{
+			"name": "card_type_buy_png",
+			"type": "image",
+			"url": "assets/login/personal/card_type_buy.png"
+		},
+		{
+			"name": "btn_get1_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_get1.png"
+		},
+		{
+			"name": "p_line_2_png",
+			"type": "image",
+			"url": "assets/login/personal/p_line_2.png"
+		},
+		{
+			"name": "list_line2_png",
+			"type": "image",
+			"url": "assets/login/list_line2.png"
+		},
+		{
+			"name": "btn_select_png",
+			"type": "image",
+			"url": "assets/login/btn_select.png"
+		},
+		{
+			"name": "address_bg_png",
+			"type": "image",
+			"url": "assets/asyn/address_bg.png"
+		},
+		{
+			"name": "buy_send_bg_png",
+			"type": "image",
+			"url": "assets/asyn/buy_send_bg.png"
+		},
+		{
+			"name": "error_code_png",
+			"type": "image",
+			"url": "assets/asyn/error/error_code.png"
+		},
+		{
+			"name": "error_guama_png",
+			"type": "image",
+			"url": "assets/asyn/error/error_guama.png"
+		},
+		{
+			"name": "error_huobao_png",
+			"type": "image",
+			"url": "assets/asyn/error/error_huobao.png"
+		},
+		{
+			"name": "error_no_open_png",
+			"type": "image",
+			"url": "assets/asyn/error/error_no_open.png"
+		},
+		{
+			"name": "error_no_pay_png",
+			"type": "image",
+			"url": "assets/asyn/error/error_no_pay.png"
+		},
+		{
+			"name": "error_pay_png",
+			"type": "image",
+			"url": "assets/asyn/error/error_pay.png"
+		},
+		{
+			"name": "error_web_png",
+			"type": "image",
+			"url": "assets/asyn/error/error_web.png"
+		},
+		{
+			"name": "error_yijihuo_png",
+			"type": "image",
+			"url": "assets/asyn/error/error_yijihuo.png"
+		},
+		{
+			"name": "error_yilingqu_png",
+			"type": "image",
+			"url": "assets/asyn/error/error_yilingqu.png"
+		},
+		{
+			"name": "get_share_ok_png",
+			"type": "image",
+			"url": "assets/asyn/get_share_ok.png"
+		},
+		{
+			"name": "has_get_buy_bg_png",
+			"type": "image",
+			"url": "assets/asyn/has_get_buy_bg.png"
+		},
+		{
+			"name": "has_get_info_bg_png",
+			"type": "image",
+			"url": "assets/asyn/has_get_info_bg.png"
+		},
+		{
+			"name": "info_bg_png",
+			"type": "image",
+			"url": "assets/asyn/info_bg.png"
+		},
+		{
+			"name": "info_order_item_bg_png",
+			"type": "image",
+			"url": "assets/asyn/info_order_item_bg.png"
+		},
+		{
+			"name": "loading_bg_jpg",
+			"type": "image",
+			"url": "assets/asyn/loading_bg.jpg"
+		},
+		{
+			"name": "login_bg_png",
+			"type": "image",
+			"url": "assets/asyn/login_bg.png"
+		},
+		{
+			"name": "1_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/1/1.png"
+		},
+		{
+			"name": "2_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/1/2.png"
+		},
+		{
+			"name": "3_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/1/3.png"
+		},
+		{
+			"name": "4_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/1/4.png"
+		},
+		{
+			"name": "12_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/2/1.png"
+		},
+		{
+			"name": "22_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/2/2.png"
+		},
+		{
+			"name": "32_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/2/3.png"
+		},
+		{
+			"name": "42_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/2/4.png"
+		},
+		{
+			"name": "13_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/3/1.png"
+		},
+		{
+			"name": "23_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/3/2.png"
+		},
+		{
+			"name": "33_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/3/3.png"
+		},
+		{
+			"name": "43_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/3/4.png"
+		},
+		{
+			"name": "14_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/4/1.png"
+		},
+		{
+			"name": "24_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/4/2.png"
+		},
+		{
+			"name": "34_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/4/3.png"
+		},
+		{
+			"name": "44_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/4/4.png"
+		},
+		{
+			"name": "15_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/5/1.png"
+		},
+		{
+			"name": "25_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/5/2.png"
+		},
+		{
+			"name": "35_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/5/3.png"
+		},
+		{
+			"name": "45_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/5/4.png"
+		},
+		{
+			"name": "16_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/6/1.png"
+		},
+		{
+			"name": "26_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/6/2.png"
+		},
+		{
+			"name": "36_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/6/3.png"
+		},
+		{
+			"name": "46_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/6/4.png"
+		},
+		{
+			"name": "17_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/7/1.png"
+		},
+		{
+			"name": "27_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/7/2.png"
+		},
+		{
+			"name": "37_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/7/3.png"
+		},
+		{
+			"name": "47_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/7/4.png"
+		},
+		{
+			"name": "18_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/8/1.png"
+		},
+		{
+			"name": "28_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/8/2.png"
+		},
+		{
+			"name": "38_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/8/3.png"
+		},
+		{
+			"name": "48_png",
+			"type": "image",
+			"url": "assets/asyn/moontype/8/4.png"
+		},
+		{
+			"name": "order_bg_png",
+			"type": "image",
+			"url": "assets/asyn/order_bg.png"
+		},
+		{
+			"name": "pay_complete_bg_png",
+			"type": "image",
+			"url": "assets/asyn/pay_complete_bg.png"
+		},
+		{
+			"name": "pay_send_ok_bg_png",
+			"type": "image",
+			"url": "assets/asyn/pay_send_ok_bg.png"
+		},
+		{
+			"name": "pay_send_ok_code_png",
+			"type": "image",
+			"url": "assets/asyn/pay_send_ok_code.png"
+		},
+		{
+			"name": "pop_bg_png",
+			"type": "image",
+			"url": "assets/asyn/pop_bg.png"
+		},
+		{
+			"name": "share_bg_png",
+			"type": "image",
+			"url": "assets/asyn/share_bg.png"
+		},
+		{
+			"name": "share_end_png",
+			"type": "image",
+			"url": "assets/asyn/share_end.png"
+		},
+		{
+			"name": "tips_bg2_png",
+			"type": "image",
+			"url": "assets/asyn/tips_bg.png"
+		},
+		{
+			"name": "btn_change_close2_png",
+			"type": "image",
+			"url": "assets/login/account/btn_change_close.png"
+		},
+		{
+			"name": "btn_change_id2_png",
+			"type": "image",
+			"url": "assets/login/account/btn_change_id.png"
+		},
+		{
+			"name": "btn_change_pw2_png",
+			"type": "image",
+			"url": "assets/login/account/btn_change_pw.png"
+		},
+		{
+			"name": "btn_change_submit2_png",
+			"type": "image",
+			"url": "assets/login/account/btn_change_submit.png"
+		},
+		{
+			"name": "change_id2_png",
+			"type": "image",
+			"url": "assets/login/account/change_id.png"
+		},
+		{
+			"name": "change_no2_png",
+			"type": "image",
+			"url": "assets/login/account/change_no.png"
+		},
+		{
+			"name": "change_ok2_png",
+			"type": "image",
+			"url": "assets/login/account/change_ok.png"
+		},
+		{
+			"name": "change_pd2_png",
+			"type": "image",
+			"url": "assets/login/account/change_pd.png"
+		},
+		{
+			"name": "btn_close2_png",
+			"type": "image",
+			"url": "assets/login/btn_close.png"
+		},
+		{
+			"name": "btn_complete2_png",
+			"type": "image",
+			"url": "assets/login/btn_complete.png"
+		},
+		{
+			"name": "btn_continue2_png",
+			"type": "image",
+			"url": "assets/login/btn_continue.png"
+		},
+		{
+			"name": "btn_detail2_png",
+			"type": "image",
+			"url": "assets/login/btn_detail.png"
+		},
+		{
+			"name": "btn_down2_png",
+			"type": "image",
+			"url": "assets/login/btn_down.png"
+		},
+		{
+			"name": "btn_help2_png",
+			"type": "image",
+			"url": "assets/login/btn_help.png"
+		},
+		{
+			"name": "btn_logout2_png",
+			"type": "image",
+			"url": "assets/login/btn_logout.png"
+		},
+		{
+			"name": "btn_pay2_png",
+			"type": "image",
+			"url": "assets/login/btn_pay.png"
+		},
+		{
+			"name": "btn_pay_12_png",
+			"type": "image",
+			"url": "assets/login/btn_pay_1.png"
+		},
+		{
+			"name": "btn_return2_png",
+			"type": "image",
+			"url": "assets/login/btn_return.png"
+		},
+		{
+			"name": "btn_select2_png",
+			"type": "image",
+			"url": "assets/login/btn_select.png"
+		},
+		{
+			"name": "btn_send2_png",
+			"type": "image",
+			"url": "assets/login/btn_send.png"
+		},
+		{
+			"name": "check_no2_png",
+			"type": "image",
+			"url": "assets/login/check_no.png"
+		},
+		{
+			"name": "check_ok2_png",
+			"type": "image",
+			"url": "assets/login/check_ok.png"
+		},
+		{
+			"name": "confim_order_title2_png",
+			"type": "image",
+			"url": "assets/login/confim_order_title.png"
+		},
+		{
+			"name": "detail_title2_png",
+			"type": "image",
+			"url": "assets/login/detail_title.png"
+		},
+		{
+			"name": "down_bg2_png",
+			"type": "image",
+			"url": "assets/login/down_bg.png"
+		},
+		{
+			"name": "email_bg2_png",
+			"type": "image",
+			"url": "assets/login/email_bg.png"
+		},
+		{
+			"name": "list_line1_png",
+			"type": "image",
+			"url": "assets/login/list_line1.png"
+		},
+		{
+			"name": "list_line22_png",
+			"type": "image",
+			"url": "assets/login/list_line2.png"
+		},
+		{
+			"name": "list_title2_png",
+			"type": "image",
+			"url": "assets/login/list_title.png"
+		},
+		{
+			"name": "login_input_bg2_png",
+			"type": "image",
+			"url": "assets/login/login_input_bg.png"
+		},
+		{
+			"name": "login_submit2_png",
+			"type": "image",
+			"url": "assets/login/login_submit.png"
+		},
+		{
+			"name": "address2_png",
+			"type": "image",
+			"url": "assets/login/personal/address.png"
+		},
+		{
+			"name": "btn_add2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_add.png"
+		},
+		{
+			"name": "btn_addless_bg2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_addless_bg.png"
+		},
+		{
+			"name": "btn_buy_card2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_buy_card.png"
+		},
+		{
+			"name": "btn_buy_gift2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_buy_gift.png"
+		},
+		{
+			"name": "btn_buy_send2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_buy_send.png"
+		},
+		{
+			"name": "btn_duihuan2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_duihuan.png"
+		},
+		{
+			"name": "btn_duihuan_12_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_duihuan_1.png"
+		},
+		{
+			"name": "btn_duihuan_22_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_duihuan_2.png"
+		},
+		{
+			"name": "btn_get2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_get.png"
+		},
+		{
+			"name": "btn_get12_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_get1.png"
+		},
+		{
+			"name": "btn_info2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_info.png"
+		},
+		{
+			"name": "btn_less2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_less.png"
+		},
+		{
+			"name": "btn_select_info2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_select_info.png"
+		},
+		{
+			"name": "btn_share2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_share.png"
+		},
+		{
+			"name": "btn_share_12_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_share_1.png"
+		},
+		{
+			"name": "btn_share_22_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_share_2.png"
+		},
+		{
+			"name": "btn_share_32_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_share_3.png"
+		},
+		{
+			"name": "btn_share_42_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_share_4.png"
+		},
+		{
+			"name": "btn_submit2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_submit.png"
+		},
+		{
+			"name": "btn_tips_12_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_tips_1.png"
+		},
+		{
+			"name": "btn_wuliu2_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_wuliu.png"
+		},
+		{
+			"name": "card_type_buy2_png",
+			"type": "image",
+			"url": "assets/login/personal/card_type_buy.png"
+		},
+		{
+			"name": "card_type_get2_png",
+			"type": "image",
+			"url": "assets/login/personal/card_type_get.png"
+		},
+		{
+			"name": "card_type_out2_png",
+			"type": "image",
+			"url": "assets/login/personal/card_type_out.png"
+		},
+		{
+			"name": "mail_close2_png",
+			"type": "image",
+			"url": "assets/login/personal/mail_close.png"
+		},
+		{
+			"name": "mail_item_12_png",
+			"type": "image",
+			"url": "assets/login/personal/mail_item_1.png"
+		},
+		{
+			"name": "mail_item_22_png",
+			"type": "image",
+			"url": "assets/login/personal/mail_item_2.png"
+		},
+		{
+			"name": "mail_item_32_png",
+			"type": "image",
+			"url": "assets/login/personal/mail_item_3.png"
+		},
+		{
+			"name": "mail_item_42_png",
+			"type": "image",
+			"url": "assets/login/personal/mail_item_4.png"
+		},
+		{
+			"name": "num_bg2_png",
+			"type": "image",
+			"url": "assets/login/personal/num_bg.png"
+		},
+		{
+			"name": "personal_tips2_png",
+			"type": "image",
+			"url": "assets/login/personal/personal_tips.png"
+		},
+		{
+			"name": "personal_tips_bg12_png",
+			"type": "image",
+			"url": "assets/login/personal/personal_tips_bg1.png"
+		},
+		{
+			"name": "personal_tips_bg22_png",
+			"type": "image",
+			"url": "assets/login/personal/personal_tips_bg2.png"
+		},
+		{
+			"name": "p_line_12_png",
+			"type": "image",
+			"url": "assets/login/personal/p_line_1.png"
+		},
+		{
+			"name": "p_line_22_png",
+			"type": "image",
+			"url": "assets/login/personal/p_line_2.png"
+		},
+		{
+			"name": "btn_select_phone2_png",
+			"type": "image",
+			"url": "assets/login/select/btn_select_phone.png"
+		},
+		{
+			"name": "btn_select_sendmail2_png",
+			"type": "image",
+			"url": "assets/login/select/btn_select_sendmail.png"
+		},
+		{
+			"name": "line_12_png",
+			"type": "image",
+			"url": "assets/login/select/line_1.png"
+		},
+		{
+			"name": "line_22_png",
+			"type": "image",
+			"url": "assets/login/select/line_2.png"
+		},
+		{
+			"name": "line_32_png",
+			"type": "image",
+			"url": "assets/login/select/line_3.png"
+		},
+		{
+			"name": "select_down2_png",
+			"type": "image",
+			"url": "assets/login/select/select_down.png"
+		},
+		{
+			"name": "select_down_bg2_png",
+			"type": "image",
+			"url": "assets/login/select/select_down_bg.png"
+		},
+		{
+			"name": "select_sale_6.02_png",
+			"type": "image",
+			"url": "assets/login/select/select_sale_6.0.png"
+		},
+		{
+			"name": "select_sale_6.52_png",
+			"type": "image",
+			"url": "assets/login/select/select_sale_6.5.png"
+		},
+		{
+			"name": "select_sale_7.02_png",
+			"type": "image",
+			"url": "assets/login/select/select_sale_7.0.png"
+		},
+		{
+			"name": "select_tips12_png",
+			"type": "image",
+			"url": "assets/login/select/select_tips1.png"
+		},
+		{
+			"name": "select_title2_png",
+			"type": "image",
+			"url": "assets/login/select/select_title.png"
+		},
+		{
+			"name": "select_bg_down2_png",
+			"type": "image",
+			"url": "assets/login/select_bg_down.png"
+		},
+		{
+			"name": "select_list_title2_png",
+			"type": "image",
+			"url": "assets/login/select_list_title.png"
+		},
+		{
+			"name": "tips_bg3_png",
+			"type": "image",
+			"url": "assets/login/tips_bg.png"
+		},
+		{
+			"name": "tips_error2_png",
+			"type": "image",
+			"url": "assets/login/tips_error.png"
+		},
+		{
+			"name": "815_jpg",
+			"type": "image",
+			"url": "assets/asyn/error/815.jpg"
+		},
+		{
+			"name": "btn_OK_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_OK.png"
+		},
+		{
+			"name": "btn_back_png",
+			"type": "image",
+			"url": "assets/login/personal/btn_back.png"
+		},
+		{
+			"name": "confirm_address_png",
+			"type": "image",
+			"url": "assets/login/personal/confirm_address.png"
+		},
+		{
+			"name": "816_jpg",
+			"type": "image",
+			"url": "assets/asyn/error/816.jpg"
+		},
+		{
+			"name": "stop_activate_jpg",
+			"type": "image",
+			"url": "assets/asyn/error/stop_activate.jpg"
+		},
+		{
+			"name": "btnToInfo_png",
+			"type": "image",
+			"url": "assets/login/personal/btnToInfo.png"
+		},
+		{
+			"name": "stop_jihuo_jpg",
+			"type": "image",
+			"url": "assets/asyn/error/stop_jihuo.jpg"
+		}
+	]
+}
