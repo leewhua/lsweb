@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>猎时激活</title>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+	$.post("http://leasiondata.cn/info",
+			{"ticket":window.location.hash.substring(1, window.location.hash.indexOf(","))
+			},
+		function(result){
+			var json = eval("("+result+")");
+			$("#nickname").html(decodeURIComponent(json.nickname));
+		});	
+	$("#activebtn").click(function(){
+		$("#activebtn").html("激活中");
+		$("#activebtn").attr("disabled",true);
+		$.post("http://123.59.156.230/newactive/ac",
+				{"ticket":window.location.hash.substring(1, window.location.hash.indexOf(",")),
+				"password":$("#password").val(),
+				"delayhours":$("#delayhours").val()},
+			function(result){
+				var json = eval("("+result+")");
+				if (json.result=="success"){
+					$("#activebtn").html("将在"+$("#delayhours").val()+"小时后激活");
+				} else {
+					if (json.reason=="actived"){
+						$("#activebtn").html("已激活");
+					} else if (json.reason=="boxcodenotexist"){
+						$("#activebtn").html("未知箱码");
+					} else if (json.reason=="invalidpassword"){
+						alert("口令错误");
+						$("#activebtn").html("激活");
+						$("#activebtn").attr("disabled",false);
+					} else if (json.reason=="invalidticket"){
+						$("#activebtn").html("请重新扫码");
+					} else {
+						alert("系统繁忙，请稍后再试");
+						$("#activebtn").html("激活");
+						$("#activebtn").attr("disabled",false);
+					}
+				}
+			});	
+	});
+		
+});
+</script>
+
+</head>
+
+<body>
+<div class="ui-field-contain" style="text-align:center;">
+</div>
+<div class="ui-field-contain" style="text-align:center;">
+    您好，<font id="nickname"></font>，您即将进行激活操作，请慎重！
+</div>
+
+<div class="ui-field-contain">
+    <input style="text-align:center" id="password" placeholder="激活口令" value="" type="password">
+</div>
+<div class="ui-field-contain">
+    <select id="delayhours">
+        <option value="0">即刻激活</option>
+        <option value="1" selected>1小时后激活</option>
+        <option value="2">2小时后激活</option>
+        <option value="3">3小时后激活</option>
+        <option value="4">4小时后激活</option>
+        <option value="5">5小时后激活</option>
+        <option value="6">6小时后激活</option>
+    </select>
+</div>
+<div class="ui-field-contain">
+<button id="activebtn" class="ui-btn">激活</button>
+</div>
+</body>
+</html>

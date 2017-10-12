@@ -1,0 +1,40 @@
+/*body{ background: #e1e1e1;}*/
+.main{max-width: 500px; height: 100%; margin: 0 auto;}
+.field{position: fixed; top: 0; left: 0; background: #fff; z-index: 99;}
+img{ width: 100%; }
+.field a{position: absolute; left: 2%; top: 40%; width: 70px;}
+.list_item{ width: 100%; position: absolute;left:0; bottom: 137px;overflow: auto;}
+ul{width: 100%; height: 56px; background: #fff; border-bottom: 1px solid #a6a6a8;}
+li{float: left; height: 56px; line-height: 56px; font-size: 14px; width: 29%; text-align: center; }
+li.tips{ font-size: 12px; line-height: 14px; color: #10263d;}
+li.tips span:first-child{display: inline-block;margin-top: 14px;}
+li.discount{color: #e25c2c;}
+li.discount em{ font-style: normal; font-size: 12px; }
+li.code,li.price,li.tips{ width: 14%; }
+li.alignR{ text-align: right; }
+li.code{color: #5b6376;}
+li.price{color: #303758;}
+.checkbox input[type="checkbox"],.checkedAll input[type="checkbox"]{ margin: 0; opacity: 0; }
+.checkbox label{position: relative; top: 0; left: 0; height: 20px;}
+.checkbox input[type="checkbox"],.checkbox i,.checkedAll input[type="checkbox"],.checkedAll i{width: 14px; height: 14px; position: absolute; top: 3px; left: 0;}
+.checkbox i,.checkedAll i{ display: inline-block; background: url(../images/login/check_no.png) no-repeat 0 0; background-size: cover; }
+input[type="checkbox"]:checked+i{ background: url(../images/login/check_ok.png) no-repeat 0 0; background-size: cover; }
+.checkbox span{display: inline-block; margin-left: 18px; vertical-align: top; padding-top: 2px; }
+
+li.stock{display: none; color: #eb1f20;}
+
+.bottom{height: 137px;}
+.checkedAll{height: 50px; position: relative; left: 0; top: 0;}
+.checkedAll label{ display: inline-block; position: absolute; top: 15px; left: 10%;}
+.checkedAll span{ margin-left: 20px; font-size: 14px; vertical-align: middle;}
+.bottom{ width: 100%; padding: 0 6%; position: fixed; left: 0; bottom: 0;z-index: 99; background: #e1e1e1; box-sizing: border-box; }
+.btngroup a{display: inline-block; width: 140px;}
+p{text-align: center; line-height: 34px;}
+p a{text-decoration: underline; font-size: 14px; color: #303758;}
+
+/*.scroller{height: 400px;}*/
+/*mask*/
+.mask{ position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 9999; display: none; }
+.mask .popup{  position: relative; top: 50%; left: 50%; width: 260px; height: 300px; margin-top: -150px; margin-left: -130px;}
+.mask a{position: absolute; top: -30px; right: 0; width: 26px; height: 26px;}
+.mask img{ width: 100%; }

@@ -1,0 +1,8 @@
+.main{ height: 100%; background: url(../images/asyn/pay_complete_bg.png) 50% top no-repeat; background-size: cover; max-width: 500px; margin: 0 auto;}
+p{width: 100%; text-align: center; font-size: 20px; color: #fff;}
+p.money{position: absolute; top: 17%; left: 0;}
+p.btnOK{position: absolute; top: 27%; left: 0;}
+p span{display: inline-block; width: 150px;}
+.main img{width: 100%;}
+.erCode{display: inline-block; position: absolute;
+    top:42.5%; left: 12%; width: 100px;}

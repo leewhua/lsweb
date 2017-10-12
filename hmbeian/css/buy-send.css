@@ -1,0 +1,12 @@
+#wrapper{position: absolute; top: 0.4rem; left: 0; bottom: 1.2rem; padding: 0 0.4rem; overflow: auto;}
+.main{height: 100%; background: url(../images/asyn/buy_send_bg.png) 50% top no-repeat; background-size: cover; max-width: 500px; margin: 0 auto; }
+.main img{ width: 100%;}
+.main ul li{position: relative; margin-bottom: 0.2rem;}
+.main li span{position: absolute;}
+/*.main .mt15{margin-top: -15px; padding-bottom: 90px;}*/
+.myBought span.money{color: #020201; font-size: 0.32rem; left: 49%; top: 7%;}
+.myBought .number{right: 12px; top: 6%;}
+.myBought input{width: 35px; height: 20px; line-height: 22px; text-align: center; border: 0; background: #e4ac79; padding: 0; font-size: 18px;}
+.myBought .number i{ display: inline-block; width: 20px; height: 20px; line-height: 20px; text-align: center; font-style: normal; font-size: 18px; vertical-align: bottom; background: #b07e56;}
+.main .button{position: fixed; height: 1.2rem; bottom: 0; left: 0; width: 100%; text-align: center; padding-top: 0.3rem; box-sizing: border-box; z-index: 99;}
+.main .button a{display: inline-block; width: 3rem;}

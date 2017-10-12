@@ -1,0 +1,32 @@
+.main{padding: 0 15px; margin-bottom: 70px;}
+.main img{ width: 100%;}
+.title{ text-align: center; height: 60px; line-height: 60px; font-size: 18px; color: #163653;}
+.payList{background: #d9d9d9; padding: 10px 15px 6px 15px; margin-bottom: 10px;}
+.payList p{font-size: 14px;}
+.payList p.mooncake{margin-bottom: 8px; font-weight: bold;}
+.payList .mooncake{ font-size: 16px; color: #163653; }
+.payList em{ font-style: normal; color: #fb602e;}
+.payList .details{ width: 84px; height: 50px; padding-top: 12px; box-sizing: border-box;}
+
+.bottom{ position: fixed; bottom: 0; left: 0; background: #e1e1e1; width: 100%; height: 50px; border-top: 1px solid #8a929e;}
+.bottom ul{width: 100%; height: 100%; display: table; table-layout: fixed;}
+.bottom li{height: 50px; line-height: 50px; display: table-cell; text-align: center; font-size: 14px;}
+.bottom li.pay{margin-left: 8px; background: #ff7323; color: #fff; font-size: 16px;}
+.bottom li em{ font-style: normal; color:#fb602e; font-size: 16px; margin-right: 10px;}
+
+/*mask*/
+.mask{ position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 9999; display: none; }
+.mask .popup{  position: relative; top: 50%; left: 50%; width: 260px; height: 380px; margin-top: -190px; margin-left: -130px; background: #e1e1e1; border-radius: 8px;}
+.mask a{position: absolute; top: -30px; right: 0; width: 26px; height: 26px;}
+.mask img{ width: 100%; }
+.details-list{padding-top: 20px;}
+.mask .field,.mask .scroller ul{width: 100%; height: 36px; display: table; table-layout: fixed; }
+.mask .field{ background: #c2c2c2;}
+.mask .field li{ line-height: 36px; display: table-cell; text-align: center; color: #1b2d3c;}
+
+.mask .scroller ul{height: 50px;}
+.mask .scroller li{line-height: 50px; display: table-cell; text-align: center; border-bottom: 1px solid #bdbcc0; }
+.mask .scroller .code{color: #5b6376;}
+.mask .scroller .price{color: #e75e32;}
+.mask #myScroll{ position: relative; height: 308px; }
+.mask .scroller{width: 100%; position: absolute; left: 0; top: 0; bottom: 0; overflow: auto;}

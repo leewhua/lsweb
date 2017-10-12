@@ -1,0 +1,7 @@
+.main{height: 100%; background: url(../images/asyn/order_bg.png) 50% top no-repeat; background-size: cover; max-width: 500px; margin: 0 auto;}
+p.number,p.button{ width: 100%; position: absolute;text-align: center;left: 0;}
+p.number{ top: 20%; }
+p.number span{font-size: 0.32rem; color: #0b0203;}
+p.button{bottom: 3%;}
+p.button a{ display: inline-block; width: 4rem;}
+p.button img{width: 100%;}

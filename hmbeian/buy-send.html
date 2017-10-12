@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>华美</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/buy-send.css">
+    <!--<script type="text/javascript" src="js/iscroll.js"></script>-->
+    <!--<script type="text/javascript">-->
+        <!--var myScroll;-->
+        <!--function loaded() {-->
+            <!--setTimeout(function(){-->
+                <!--myScroll = new IScroll('#wrapper');-->
+            <!--},100);-->
+        <!--}-->
+        <!--window.addEventListener("DOMContentLoaded", loaded, false);-->
+    <!--</script>-->
+</head>
+<html>
+<body>
+    <div class="main">
+        <div class="myBought" id="wrapper">
+            <ul class="scroller">
+                <li>
+                    <img src="images/asyn/moontype/3/1.png" alt="">
+                    <span class="money" value="228">¥228</span>
+                    <span class="number">
+                        <i class="reduce">-</i><input type="number" value="0" readonly><i class="add">+</i>
+                    </span>
+                </li>
+                <li>
+                    <img src="images/asyn/moontype/3/4.png" alt="">
+                    <span class="money" value="188">¥188</span>
+                    <span class="number">
+                        <i class="reduce">-</i><input type="number" value="0" readonly><i class="add">+</i>
+                    </span>
+                </li>
+                <li>
+                    <img src="images/asyn/moontype/3/3.png" alt="">
+                    <span class="money" value="288">¥288</span>
+                    <span class="number">
+                        <i class="reduce">-</i><input type="number" value="0" readonly><i class="add">+</i>
+                    </span>
+                </li>
+                <li>
+                    <img src="images/asyn/moontype/3/2.png" alt="">
+                    <span class="money" value="88">¥88</span>
+                    <span class="number">
+                        <i class="reduce">-</i><input type="number" value="0" readonly><i class="add">+</i>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <p class="button"><a href="personal.html"><img src="images/login/personal/btn_buy_send.png" alt=""></a></p>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/resize.js"></script>
+
+<script>
+    //        reduce
+    var moneyChange;
+    var money;
+    $('.reduce').click(function () {
+        var val = $(this).siblings('input').val();
+        money = parseInt($(this).parent().siblings('span').attr('value'));
+//        console.log("money: " + money);
+
+        if(val > 1){
+            val --;
+            moneyChange = val * money;
+            $(this).siblings('input').val(val);
+            $(this).parent().siblings('span').text("¥" + moneyChange);
+        }else if(val == 1){
+            moneyChange = val * money;
+            $(this).parent().siblings('span').text("¥" + moneyChange);
+            val --;
+            $(this).siblings('input').val(val);
+        } else{
+            $(this).siblings('input').val("0");
+            $(this).parent().siblings('span').text("¥" + money);
+        }
+    });
+    //        add
+    $('.add').click(function () {
+        var val = $(this).siblings('input').val();
+        money = parseInt($(this).parent().siblings('span').attr('value'));
+        val ++;
+        moneyChange = val * money;
+        $(this).siblings('input').val(val);
+        $(this).parent().siblings('span').text("¥" + moneyChange);
+//        console.log("money: " + money);
+    });
+
+    $('#btnTips').click(function () {
+        $('#mask').show();
+        $('#close').click(function () {
+            $('#mask').hide();
+        })
+    });
+</script>
+</html>
