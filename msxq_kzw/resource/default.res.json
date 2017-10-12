@@ -1,0 +1,194 @@
+{
+	"groups": [
+		{
+			"keys": "head_png,head_bg_png,self_png,btn_zhuan_png,icon2_png,btn_submit_png,close_png,dai6_png,dai1_png,dai2_png,dai3_png,dai4_png,dai5_png,people_2_png,people_3_png,people_1_png,people_4_png,btn_add_png,btn_into_2_png,btn_into_3_png,head_tip_png,btn_ok_png,message_bg_png,pop_bg_png,btn_reward_png,btn_reward_1_png,icon3_png",
+			"name": "main"
+		},
+		{
+			"name": "preload",
+			"keys": "1yuanhongbao_png,2yuanhongbao_png,3yuanhongbao_png,99yuanhongbao_png,reward_100_png,reward_101_png,reward_103_png,reward_105_png,thankyou_png"
+		}
+	],
+	"resources": [
+		{
+			"name": "head_png",
+			"type": "image",
+			"url": "assets/main/head.png"
+		},
+		{
+			"name": "head_bg_png",
+			"type": "image",
+			"url": "assets/main/head_bg.png"
+		},
+		{
+			"name": "self_png",
+			"type": "image",
+			"url": "assets/main/self.png"
+		},
+		{
+			"name": "btn_zhuan_png",
+			"type": "image",
+			"url": "assets/main/btn_zhuan.png"
+		},
+		{
+			"name": "icon2_png",
+			"type": "image",
+			"url": "assets/main/icon/icon2.png"
+		},
+		{
+			"name": "btn_submit_png",
+			"type": "image",
+			"url": "assets/main/btn_submit.png"
+		},
+		{
+			"name": "close_png",
+			"type": "image",
+			"url": "assets/main/close.png"
+		},
+		{
+			"name": "dai6_png",
+			"type": "image",
+			"url": "assets/main/dai6.png"
+		},
+		{
+			"name": "dai1_png",
+			"type": "image",
+			"url": "assets/main/dai1.png"
+		},
+		{
+			"name": "dai2_png",
+			"type": "image",
+			"url": "assets/main/dai2.png"
+		},
+		{
+			"name": "dai3_png",
+			"type": "image",
+			"url": "assets/main/dai3.png"
+		},
+		{
+			"name": "dai4_png",
+			"type": "image",
+			"url": "assets/main/dai4.png"
+		},
+		{
+			"name": "dai5_png",
+			"type": "image",
+			"url": "assets/main/dai5.png"
+		},
+		{
+			"name": "people_2_png",
+			"type": "image",
+			"url": "assets/main/people_2.png"
+		},
+		{
+			"name": "people_3_png",
+			"type": "image",
+			"url": "assets/main/people_3.png"
+		},
+		{
+			"name": "people_1_png",
+			"type": "image",
+			"url": "assets/main/people_1.png"
+		},
+		{
+			"name": "people_4_png",
+			"type": "image",
+			"url": "assets/main/people_4.png"
+		},
+		{
+			"name": "btn_add_png",
+			"type": "image",
+			"url": "assets/main/btn_add.png"
+		},
+		{
+			"name": "btn_into_2_png",
+			"type": "image",
+			"url": "assets/main/btn_into_2.png"
+		},
+		{
+			"name": "btn_into_3_png",
+			"type": "image",
+			"url": "assets/main/btn_into_3.png"
+		},
+		{
+			"name": "head_tip_png",
+			"type": "image",
+			"url": "assets/main/head_tip.png"
+		},
+		{
+			"name": "btn_ok_png",
+			"type": "image",
+			"url": "assets/main/btn_ok.png"
+		},
+		{
+			"name": "message_bg_png",
+			"type": "image",
+			"url": "assets/main/message_bg.png"
+		},
+		{
+			"name": "pop_bg_png",
+			"type": "image",
+			"url": "assets/main/pop_bg.png"
+		},
+		{
+			"name": "btn_reward_png",
+			"type": "image",
+			"url": "assets/main/btn_reward.png"
+		},
+		{
+			"name": "btn_reward_1_png",
+			"type": "image",
+			"url": "assets/main/btn_reward_1.png"
+		},
+		{
+			"name": "icon3_png",
+			"type": "image",
+			"url": "assets/main/icon/icon3.png"
+		},
+		{
+			"name": "1yuanhongbao_png",
+			"type": "image",
+			"url": "assets/reward/1yuanhongbao.png"
+		},
+		{
+			"name": "2yuanhongbao_png",
+			"type": "image",
+			"url": "assets/reward/2yuanhongbao.png"
+		},
+		{
+			"name": "3yuanhongbao_png",
+			"type": "image",
+			"url": "assets/reward/3yuanhongbao.png"
+		},
+		{
+			"name": "99yuanhongbao_png",
+			"type": "image",
+			"url": "assets/reward/99yuanhongbao.png"
+		},
+		{
+			"name": "reward_100_png",
+			"type": "image",
+			"url": "assets/reward/reward_100.png"
+		},
+		{
+			"name": "reward_101_png",
+			"type": "image",
+			"url": "assets/reward/reward_101.png"
+		},
+		{
+			"name": "reward_103_png",
+			"type": "image",
+			"url": "assets/reward/reward_103.png"
+		},
+		{
+			"name": "reward_105_png",
+			"type": "image",
+			"url": "assets/reward/reward_105.png"
+		},
+		{
+			"name": "thankyou_png",
+			"type": "image",
+			"url": "assets/reward/thankyou.png"
+		}
+	]
+}

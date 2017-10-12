@@ -1,0 +1,189 @@
+{
+	"groups": [
+		{
+			"keys": "head_png,head_bg_png,self_png,icon2_png,close_png,btn_add_png,message_bg_png,pop_bg_png,icon3_png,out_bg_png,icon4_png,hb_light_png,bg_btn_png,btn_get_card_png,btn_get_hb_png,btn_get_ok_png,btn_guanzhu_png,btn_get_zhidao_png,btn_into_shop_png,shop_bg_png,shop_icon_png,guanzhu_bg_png,tips_bg_png,pingzi_json,pingzi_png,received_bg_png,icon1_png,btn_share_png,btn_submit_png,btn_return_png,btn_active_png,btn_up_png",
+			"name": "main"
+		},
+		{
+			"name": "preload",
+			"keys": "1yuanhongbao_png,2yuanhongbao_png,3yuanhongbao_png"
+		}
+	],
+	"resources": [
+		{
+			"name": "head_png",
+			"type": "image",
+			"url": "assets/main/head.png"
+		},
+		{
+			"name": "head_bg_png",
+			"type": "image",
+			"url": "assets/main/head_bg.png"
+		},
+		{
+			"name": "self_png",
+			"type": "image",
+			"url": "assets/main/self.png"
+		},
+		{
+			"name": "icon2_png",
+			"type": "image",
+			"url": "assets/main/icon/icon2.png"
+		},
+		{
+			"name": "close_png",
+			"type": "image",
+			"url": "assets/main/close.png"
+		},
+		{
+			"name": "btn_add_png",
+			"type": "image",
+			"url": "assets/main/btn_add.png"
+		},
+		{
+			"name": "message_bg_png",
+			"type": "image",
+			"url": "assets/main/message_bg.png"
+		},
+		{
+			"name": "pop_bg_png",
+			"type": "image",
+			"url": "assets/main/pop_bg.png"
+		},
+		{
+			"name": "icon3_png",
+			"type": "image",
+			"url": "assets/main/icon/icon3.png"
+		},
+		{
+			"name": "out_bg_png",
+			"type": "image",
+			"url": "assets/main/out_bg.png"
+		},
+		{
+			"name": "icon4_png",
+			"type": "image",
+			"url": "assets/main/icon/icon4.png"
+		},
+		{
+			"name": "hb_light_png",
+			"type": "image",
+			"url": "assets/main/hbpop/hb_light.png"
+		},
+		{
+			"name": "bg_btn_png",
+			"type": "image",
+			"url": "assets/main/hbpop/bg_btn.png"
+		},
+		{
+			"name": "btn_get_card_png",
+			"type": "image",
+			"url": "assets/main/btn_get_card.png"
+		},
+		{
+			"name": "btn_get_hb_png",
+			"type": "image",
+			"url": "assets/main/btn_get_hb.png"
+		},
+		{
+			"name": "btn_get_ok_png",
+			"type": "image",
+			"url": "assets/main/btn_get_ok.png"
+		},
+		{
+			"name": "btn_guanzhu_png",
+			"type": "image",
+			"url": "assets/main/btn_guanzhu.png"
+		},
+		{
+			"name": "btn_get_zhidao_png",
+			"type": "image",
+			"url": "assets/main/btn_get_zhidao.png"
+		},
+		{
+			"name": "btn_into_shop_png",
+			"type": "image",
+			"url": "assets/main/btn_into_shop.png"
+		},
+		{
+			"name": "shop_bg_png",
+			"type": "image",
+			"url": "assets/main/shop_bg.png"
+		},
+		{
+			"name": "shop_icon_png",
+			"type": "image",
+			"url": "assets/main/shop_icon.png"
+		},
+		{
+			"name": "guanzhu_bg_png",
+			"type": "image",
+			"url": "assets/main/guanzhu_bg.png"
+		},
+		{
+			"name": "tips_bg_png",
+			"type": "image",
+			"url": "assets/main/tips_bg.png"
+		},
+		{
+			"name": "pingzi_json",
+			"type": "json",
+			"url": "assets/pingzi.json"
+		},
+		{
+			"name": "pingzi_png",
+			"type": "image",
+			"url": "assets/pingzi.png"
+		},
+		{
+			"name": "received_bg_png",
+			"type": "image",
+			"url": "assets/main/received_bg.png"
+		},
+		{
+			"name": "icon1_png",
+			"type": "image",
+			"url": "assets/main/icon/icon1.png"
+		},
+		{
+			"name": "btn_share_png",
+			"type": "image",
+			"url": "assets/main/btn_share.png"
+		},
+		{
+			"name": "btn_submit_png",
+			"type": "image",
+			"url": "assets/main/btn_submit.png"
+		},
+		{
+			"name": "btn_return_png",
+			"type": "image",
+			"url": "assets/main/btn_return.png"
+		},
+		{
+			"name": "btn_active_png",
+			"type": "image",
+			"url": "assets/main/btn_active.png"
+		},
+		{
+			"name": "btn_up_png",
+			"type": "image",
+			"url": "assets/main/btn_up.png"
+		},
+		{
+			"name": "1yuanhongbao_png",
+			"type": "image",
+			"url": "assets/reward/1yuanhongbao.png"
+		},
+		{
+			"name": "2yuanhongbao_png",
+			"type": "image",
+			"url": "assets/reward/2yuanhongbao.png"
+		},
+		{
+			"name": "3yuanhongbao_png",
+			"type": "image",
+			"url": "assets/reward/3yuanhongbao.png"
+		}
+	]
+}
