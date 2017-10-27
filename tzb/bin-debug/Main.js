@@ -44,7 +44,11 @@ var Main = (function (_super) {
     Main.prototype.getData = function () {
         // var url = window.location.href.split("?")[1];
         var url = window.location.href.split("#")[0].split("?")[1];
-        if (url.indexOf("$share") != -1) {
+        // if(Main.isTest) 
+        // {
+        //     return true;  
+        // } 
+        if (url && url.indexOf("$share") != -1) {
             Main.IS_SHARE = true;
             Main.type = parseInt(url.substr(url.indexOf("$share") + 6));
             Main.username = decodeURI(url.substr(0, url.indexOf("$share")));
@@ -435,7 +439,7 @@ var Main = (function (_super) {
     };
     return Main;
 }(egret.DisplayObjectContainer));
-Main.isTest = false;
+Main.isTest = true;
 Main.type = 2;
 Main.isGet = false;
 Main.step = "";

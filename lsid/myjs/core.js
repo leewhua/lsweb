@@ -1,6 +1,7 @@
 var isprocessing = false;
 // var interfacehost = "http://localhost:8080/17console";
-var interfacehost = "http://123.59.89.56:84/17console";
+// var interfacehost = "http://123.59.89.56:84/17console";
+var interfacehost = "http://106.75.71.181/17console";
 function post(context, postdata, callback){
 	if (context!="/sp"&&context!="/rt"&&isprocessing){
 		alert("系统正在处理您的上一次操作，请稍候继续！");
@@ -66,13 +67,13 @@ function post(context, postdata, callback){
                             }
 						}
 					}
-				}	
+				}
 			}catch(e){
 				console.log(e);
 				alert("系统繁忙，请稍后再试");
 			}
 		}
-	);	
+	);
 }
 
 function aesencrypt(raw){

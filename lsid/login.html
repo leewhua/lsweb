@@ -91,14 +91,14 @@
                             <p class="new-data" style="font-family: Gotham-MediumRegular;"></p>
                         </div>
                     </div>
-                    <div class="canyu-number fl">
-                        <img src="images/05.png" alt="">
-                        <div class="num">
-                            <p>活动参与总人次</p>
-                            <p class="fontSize wxtotalprizetimes" style="font-family: Gotham-MediumRegular;" id="WXtotalprizetimes">0</p>
-                            <p class="new-data" style="font-family: Gotham-MediumRegular;"></p>
-                        </div>
-                    </div>
+                    <!--<div class="canyu-number fl">-->
+                        <!--<img src="images/05.png" alt="">-->
+                        <!--<div class="num">-->
+                            <!--<p>活动参与总人次</p>-->
+                            <!--<p class="fontSize wxtotalprizetimes" style="font-family: Gotham-MediumRegular;" id="WXtotalprizetimes">0</p>-->
+                            <!--<p class="new-data" style="font-family: Gotham-MediumRegular;"></p>-->
+                        <!--</div>-->
+                    <!--</div>-->
                 </div>
                 <!--<div class="map-box">-->
                     <!--<p>活动数据全国分布</p>-->
@@ -154,24 +154,43 @@
                             </div>
                         </div>
                     </div>
-                    <div class="canyu-number fl" id="canyu-number">
+                    <div class="prizes-number fl">
                         <div class="front-back">
                             <div class="front">
-                                <img src="images/03.png" alt="">
+                                <img src="images/04.png" alt="">
                                 <div class="num">
-                                    <p>活动参与总人次</p>
-                                    <p class="fontSize wxtotalprizetimes" style="font-family: Gotham-MediumRegular;" id="totalprizetimes">0</p>
+                                    <p>活动参与总人数</p>
+                                    <p class="fontSize wxtotalprizeusers" style="font-family: Gotham-MediumRegular;" id="wxtotalprizeusers">0</p>
                                     <p class="new-data" style="font-family: Gotham-MediumRegular;"></p>
                                 </div>
                             </div>
                             <div class="back">
-                                <img src="images/back2.png" alt="">
-                                <p>完整参与过活动的次数<br>
-                                    包含重复参与的
+                                <img src="images/back3.png" alt="">
+                                <p>完整参与过活动的微信ID<br>
+                                    (一个微信ID对应一个人数)<br>
+                                    不包含重复扫码的
                                 </p>
                             </div>
                         </div>
                     </div>
+                    <!--<div class="canyu-number fl" id="canyu-number">-->
+                        <!--<div class="front-back">-->
+                            <!--<div class="front">-->
+                                <!--<img src="images/03.png" alt="">-->
+                                <!--<div class="num">-->
+                                    <!--<p>活动参与总人次</p>-->
+                                    <!--<p class="fontSize wxtotalprizetimes" style="font-family: Gotham-MediumRegular;" id="totalprizetimes">0</p>-->
+                                    <!--<p class="new-data" style="font-family: Gotham-MediumRegular;"></p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="back">-->
+                                <!--<img src="images/back2.png" alt="">-->
+                                <!--<p>完整参与过活动的次数<br>-->
+                                    <!--包含重复参与的-->
+                                <!--</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
                 </div>
                 <div class="map-box">
                     <p>活动数据全国分布</p>
@@ -179,26 +198,26 @@
                 </div>
             </div>
             <div class="fl sidebarR" id="PCsidebar">
-                <div class="prizes-number">
-                    <div class="front-back">
-                        <div class="front">
-                            <img src="images/04.png" alt="">
-                            <div class="num">
-                                <p>活动参与总人数</p>
-                                 <p class="fontSize wxtotalprizeusers" style="font-family: Gotham-MediumRegular;" id="wxtotalprizeusers">0</p>
-                                <p class="new-data" style="font-family: Gotham-MediumRegular;"></p>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <img src="images/back3.png" alt="">
-                            <p>完整参与过活动的微信ID<br>
-                               (一个微信ID对应一个人数)<br>
-                                不包含重复扫码的
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="join-number">
+                <!--<div class="prizes-number">-->
+                    <!--<div class="front-back">-->
+                        <!--<div class="front">-->
+                            <!--<img src="images/04.png" alt="">-->
+                            <!--<div class="num">-->
+                                <!--<p>活动参与总人数</p>-->
+                                 <!--<p class="fontSize wxtotalprizeusers" style="font-family: Gotham-MediumRegular;" id="wxtotalprizeusers">0</p>-->
+                                <!--<p class="new-data" style="font-family: Gotham-MediumRegular;"></p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="back">-->
+                            <!--<img src="images/back3.png" alt="">-->
+                            <!--<p>完整参与过活动的微信ID<br>-->
+                               <!--(一个微信ID对应一个人数)<br>-->
+                                <!--不包含重复扫码的-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <div class="join-number" id="dataList">
                     <div class="front-back">
                         <div class="front">
                             <img src="images/05.png" alt="">
@@ -210,7 +229,20 @@
                         </div>
                         <div class="back">
                             <img src="images/back4.png" alt="">
-                            <p>成功领奖的次数</p>
+                            <!--<p>成功领奖的次数</p>-->
+                            <ul style="position: absolute; top: 5px; left: 0px; width: 100%; height: auto; font-size: 10px; color: #fff;padding: 10px 0 10px 20px;box-sizing: border-box; background: #0054ff; z-index: 99; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+                                <!--<li>京东：<span>220</span></li>-->
+                                <!--<li>百度外卖：<span>220</span></li>-->
+                                <!--<li>滴滴：<span>220</span></li>-->
+                                <!--<li>公众号：<span>220</span></li>-->
+                                <!--<li>谢谢参与：<span>220</span></li>-->
+                                <!--<li>1元：<span>220</span></li>-->
+                                <!--<li>3元：<span>220</span></li>-->
+                                <!--<li>ofo：<span>220</span></li>-->
+                                <!--<li>2元：<span>220</span></li>-->
+                                <!--<li>微店：<span>220</span></li>-->
+                                <!--<li>罗志祥纪念水杯：<span>220</span></li>-->
+                            </ul>
                         </div>
                     </div>
                 </div>

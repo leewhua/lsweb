@@ -10,7 +10,7 @@ var game_file_list = [
 	"libs/modules/tween/tween.js",
 	"libs/jquery.js",
 	"bin-debug/utils/PopUp.js",
-	"bin-debug/SubmitView.js",
+	"bin-debug/game/GameTipView.js",
 	"bin-debug/game/LastTimeView.js",
 	"bin-debug/game/ManView.js",
 	"bin-debug/game/PropItemView.js",
@@ -22,7 +22,7 @@ var game_file_list = [
 	"bin-debug/LoginView.js",
 	"bin-debug/Main.js",
 	"bin-debug/Scanned.js",
-	"bin-debug/game/GameTipView.js",
+	"bin-debug/utils/StageUtils.js",
 	"bin-debug/TipsView.js",
 	"bin-debug/utils/AssetsUtils.js",
 	"bin-debug/utils/CustomImage.js",
@@ -35,7 +35,7 @@ var game_file_list = [
 	"bin-debug/utils/Middle.js",
 	"bin-debug/EndView.js",
 	"bin-debug/utils/SoundManager.js",
-	"bin-debug/utils/StageUtils.js",
+	"bin-debug/SubmitView.js",
 	//----auto game_file_list end----
 ];
 

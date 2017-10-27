@@ -7,7 +7,7 @@ $(document).ready(function () {
     myChart2.resize();
     myChart3.resize();
     $('#total-number').height($('#today-number').height());
-    $('.prizes-number').height($('.prizes-number').find('.front').height());
+    $('.prizes-number').height($('#today-number').height());
     $('.join-number').height($('.join-number').find('.front').height());
     $(window).resize(function () {
         if(thechart != null){
@@ -17,11 +17,12 @@ $(document).ready(function () {
         myChart2.resize();
         myChart3.resize();
         $('#total-number').height($('#today-number').height());
-        $('.prizes-number').height($('.prizes-number').find('.front').height());
+        $('.prizes-number').height($('#today-number').height());
         $('.join-number').height($('.join-number').find('.front').height());
     });
 
     checkScreen();
+    //header 日期
     setInterval(function () {
         var dateNow = new Date();
         var dateYear = dateNow.getFullYear();
@@ -60,7 +61,43 @@ function checkScreen(){
                     firstUpdataData(".wxtotalprizetimes", res.wxtotalprizetimes);
 
                     setTimeout(function () {
-                        refresh(params);
+                        //设置日期 一年之内
+                        var myDate = new Date(); //获取今天日期
+                        myDate.setDate(myDate.getDate() - 365);
+                        var time1 = myDate.getFullYear() + "-" + (myDate.getMonth() + 1) + "-" + myDate.getDate();//time1表示当前时间
+                        post("/tr", {
+                            "begin": time1,
+                            "from": "wx",
+                            "pc": "p",
+                            "province": "all",
+                            "city": "all",
+                            "end": "",
+                            "gender": "all",
+                            "activity": "all",
+                            "product": "all"
+                        }, function (res) {
+                             // console.log(res);
+                            // console.log(res.data.罗志祥签名照片);
+                            for(x in res.data){
+                                var sum = 0;
+                                var arr = res.data[x];
+                                // console.log(arr.length);
+                                if(x != "legend" && x != "xaxis"){
+                                    for (var i=0; i<arr.length; i++){
+                                        sum += arr[i];
+                                    }
+                                    // console.log(x + ": " +sum);
+                                    var numLi = "<li>"+ x + ": " + sum;
+                                    $('#dataList ul').append(numLi);
+                                }
+
+                            }
+
+                            setTimeout(function () {
+                                refresh(params);
+                            },310);
+                        });
+
                     },310);
 
                     timer1 = setInterval(function () {
@@ -989,6 +1026,46 @@ function FunOption3() {
         // myChartpopup3.setOption(option3);
     });
 }
+
+//鼠标移入显示数据列表
+// $('#dataList').mouseenter(function () {
+//     console.log("mouseenter");
+//     setTimeout(function () {
+//         //设置日期 一年之内
+//         var myDate = new Date(); //获取今天日期
+//         myDate.setDate(myDate.getDate() - 365);
+//         var time1 = myDate.getFullYear() + "-" + (myDate.getMonth() + 1) + "-" + myDate.getDate();//time1表示当前时间
+//         // function FunOption2() {
+//         post("/tr", {
+//             "begin": time1,
+//             "from": "wx",
+//             "pc": "p",
+//             "province": "all",
+//             "city": "all",
+//             "end": "",
+//             "gender": "all",
+//             "activity": "all",
+//             "product": "all"
+//         }, function (res) {
+//             // console.log(res);
+//             var arrayObj = new Array();
+//             var len =res.data.legend.length;
+//             for(var i=0;i<len;i++){
+//                 var name =res.data.legend[i];
+//                 // console.log(name);
+//                 if(name!=""){
+//                     arrayObj.push(name);
+//                 }
+//
+//             }
+//             console.log(arrayObj);
+//
+//         });
+//
+//         // }
+//     },310);
+// });
+
 window.onresize = function () {
     myChart1.resize();
     myChart2.resize();
